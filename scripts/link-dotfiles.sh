@@ -25,6 +25,7 @@ done
 
 link_dir ~/boot/dotfiles/.$RUBYMINE/glassfrogRunConfigurations ~/workspace/glassfrog/.idea/runConfigurations
 
+
 # do autokey while we're at it
 for DIR in data
 do
@@ -33,4 +34,11 @@ do
 	link_dir $BOOT_DIR $ORIG_DIR
 done
 
+# do and xfce4 while we're at it
+for DIR in xfce4 xfconf xfwm4 panel desktop
+do
+	ORIG_DIR=~/.config/xfce4/$DIR
+	BOOT_DIR=~/boot/dotfiles/.config/xfce4/$DIR
+	link_dir $BOOT_DIR $ORIG_DIR
+done
 
