@@ -1,20 +1,24 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[8a6d191e-987b-4f5a-8e7b-cc182a4fb56f]
-row=4
-col=0
-
-[ROOT-A]
+[/home/lewis/Desktop/conflict_message.hbs]
 row=1
 col=0
 
-[0eb6ea83-d723-4741-a343-6983b2ff957a]
+[/home/lewis/Desktop/xfce4-session-logout.desktop]
+row=4
+col=0
+
+[B42ADB282ADAE680]
 row=2
 col=0
 
-[7733-3E9F]
-row=3
+[0B28CE275E5139A8]
+row=8
+col=0
+
+[56c00984-e4a8-4e29-9a46-9fd4a1b6ae57]
+row=0
 col=0
 
 [Trash]

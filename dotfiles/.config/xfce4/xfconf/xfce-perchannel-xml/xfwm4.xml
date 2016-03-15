@@ -7,7 +7,7 @@
     <property name="show_popup_shadow" type="bool" value="false"/>
     <property name="theme" type="string" value="Numix"/>
     <property name="use_compositing" type="bool" value="false"/>
-    <property name="workspace_count" type="int" value="1"/>
+    <property name="workspace_count" type="int" value="2"/>
     <property name="workspace_names" type="array">
       <value type="string" value="Communications / Context"/>
       <value type="string" value="Project Space 1"/>

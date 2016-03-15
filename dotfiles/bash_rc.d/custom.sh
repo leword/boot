@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 # Add RVM to PATH for scripting
+
 export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="$PATH:$HOME/boot/scripts"
 
 
 # add sphinx path for glassfrog

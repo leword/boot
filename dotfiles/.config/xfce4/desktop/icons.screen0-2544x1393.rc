@@ -1,11 +1,23 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/lewis/Desktop/conflict_message.hbs]
+row=2
+col=0
+
 [/home/lewis/Desktop/xfce4-session-logout.desktop]
 row=4
 col=0
 
-[Ubuntu-Server 14.04.3 LTS amd64]
+[B42ADB282ADAE680]
+row=1
+col=0
+
+[0B28CE275E5139A8]
+row=8
+col=0
+
+[56c00984-e4a8-4e29-9a46-9fd4a1b6ae57]
 row=0
 col=0
 

@@ -6,18 +6,18 @@
     <property name="RubyMine.full.reindex.required" value="1" />
     <property name="installation.uid" value="b2a2c4b2-5ae5-48e3-b145-07455654bcfb" />
     <property name="Ruby.initialConfigurationShown" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/boot&#10;/home/lewis/workspace/glassfrog" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/workspace/webpack-test&#10;/home/lewis/workspace/glassfrog2&#10;/home/lewis/workspace/game-of-life&#10;/home/lewis/workspace/glassfrog/app/assets/javascripts/components&#10;/home/lewis/workspace/glassfrog/app/assets/javascripts/third_party/underscore&#10;/home/lewis/boot&#10;/home/lewis/workspace/glassfrog" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="file.colors.enable.non.project" value="494539" />
     <property name="file.colors.enable.tests" value="2a3b2c" />
     <property name="Non-Project Files" value="494539" />
     <property name="Tests" value="2a3b2c" />
-    <property name="KEYMAP" value="move tab&#10;editor tabs&#10;move split&#10;split&#10;refactor" />
+    <property name="KEYMAP" value="save all&#10;move tab&#10;editor tabs&#10;move split&#10;split" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.62700963" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
     <property name="FindSplitterProportion" value="0.25" />
-    <property name="MoveFile.OpenInEditor" value="true" />
+    <property name="MoveFile.OpenInEditor" value="false" />
     <property name="favorites.view.settings.show.members" value="false" />
     <property name="favorites.view.settings.flatten.packages" value="false" />
     <property name="favorites.view.settings.autoscroll.to.source" value="true" />
@@ -33,17 +33,61 @@
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p481/bin/ruby:IDE" value="0.4.32" />
     <property name="debug.configuration.alternate.action.ad" value="true" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="RunConfigurable.dividerProportion" value="0.3" />
-    <property name="rake.run.task.popup.search.mask" value="jasmin" />
+    <property name="RunConfigurable.dividerProportion" value="0.53780717" />
+    <property name="rake.run.task.popup.search.mask" value="jas" />
     <property name="Copy.OpenInEditor" value="true" />
-    <property name="RubyTestUnit.Splitter.Proportion" value="0.47106954" />
-    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="RubyTestUnit.Splitter.Proportion" value="0.25013477" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="100" />
     <property name="sm_test_statistics_table_columnsOrder0" value="0" />
-    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="101" />
     <property name="sm_test_statistics_table_columnsOrder1" value="1" />
-    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="100" />
     <property name="sm_test_statistics_table_columnsOrder2" value="2" />
     <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
     <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.3" />
+    <property name="RubyTestUnitSupport.hidePassedTests" value="true" />
+    <property name="RSpec.Splitter.Proportion" value="0.2915348" />
+    <property name="RSpecSupport.hidePassedTests" value="false" />
+    <property name="RubyTestUnitSupport.showStatistics" value="true" />
+    <property name="RubyTestUnit.Splitter.Proportion_Statistics" value="0.7848576" />
+    <property name="Rake.Splitter.Proportion" value="0.27342257" />
+    <property name="RakeSupport.hidePassedTests" value="true" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="FileTemplates.SelectedTemplate" value="TestUnit Test Template" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.2" />
+    <property name="PLUGIN_FILTER" value="lines sor&#10;sort&#10;ruby&#10;minitest&#10;intention" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="SplitFileEditor.Proportion" value="0.66748315" />
+    <property name="ruby.sdk.configurable.top.splitter" value="0.5" />
+    <property name="ruby.sdk.configurable.main.splitter" value="0.5" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Spaces" />
+    <property name="HbAutoCollapseBlocks" value="disabled" />
+    <property name="rails.run.generators.popup.search.mask" value="migration" />
+    <property name="TEMPLATES_FILTER_HISTORY" value="" />
+    <property name="null.splitter" value="0.3" />
+    <property name="delete.locally.added.files" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
   </component>
 </application>

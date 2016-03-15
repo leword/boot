@@ -2,6 +2,7 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="jade.mixin" />
         <option value="Stylus.mixins" />
         <option value="Stylus.variables" />
         <option value="Scss.mixin" />
@@ -23,6 +24,13 @@
         <option value="js.element.qualifiedName" />
         <option value="js.members.shortName" />
         <option value="js.qualified.shortName" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.fullname" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="puppet.text.search.index" />
         <option value="puppet.resource" />
         <option value="puppet.class" />
@@ -32,12 +40,6 @@
         <option value="sql.table.shortName" />
         <option value="Css.id" />
         <option value="Css.class" />
-        <option value="bash.vardef" />
-        <option value="bash.includers" />
-        <option value="bash.included" />
-        <option value="bash.script.fullname" />
-        <option value="bash.script.name" />
-        <option value="bash.function.name" />
         <option value="Ruby.require.load.shortName" />
         <option value="Ruby.inheritance.shortName" />
         <option value="Ruby.method.name" />

@@ -404,7 +404,10 @@
     <keyboard-shortcut first-keystroke="INSERT" />
     <keyboard-shortcut first-keystroke="SUBTRACT" />
   </action>
-  <action id="SaveAll" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="alt T" />
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
   <action id="SendEOF" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt COMMA" />
@@ -449,6 +452,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="control M" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="context.save" />
   <action id="editRunConfigurations">

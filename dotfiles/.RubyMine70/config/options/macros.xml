@@ -1,11 +1,37 @@
 <application>
   <component name="ActionMacroManager">
     <macro name="&lt;noname&gt;">
-      <action id="EditorCodeBlockEnd" />
-      <action id="EditorDeleteLine" />
-      <action id="Back" />
-      <action id="EditorDeleteLine" />
-      <action id="EditorSelectWord" />
+      <action id="EditorCut" />
+      <action id="EditorEnter" />
+      <action id="EditorUp" />
+      <action id="EditorTab" />
+      <typing text-keycode="68:0;69:0;83:0;67:0;82:0;73:0;66:0;69:0;32:0;222:0;83:0;67:0;69:0;78:0;65:0;82:0;73:0;79:0;83:0">describe&amp;#x20;'scenarios</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;68:0;79:0">&amp;#x20;do</typing>
+      <action id="EditorEnter" />
+      <action id="EditorPaste" />
+      <action id="EditorDeleteToLineEnd" />
+      <action id="ReformatCode" />
+    </macro>
+    <macro name="wrap in describe block">
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="68:0;69:0;83:0;67:0;82:0;73:0;66:0;69:0;32:0;222:0;83:0;67:0;69:0;78:0;65:0;82:0;73:0;79:0;83:0">describe&amp;#x20;'scenarios</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;68:0;79:0">&amp;#x20;do</typing>
+      <action id="EditorTextEnd" />
+      <typing text-keycode="69:0;78:0;68:0">end</typing>
+      <action id="ReformatCode" />
+    </macro>
+    <macro name="wrap in describe scenarios">
+      <action id="EditorCut" />
+      <action id="EditorTab" />
+      <typing text-keycode="68:0;69:0;83:0;67:0;82:0;73:0;66:0;69:0;32:0;222:0;83:0;67:0;69:0;78:0;65:0;82:0;73:0;79:0;83:0">describe&amp;#x20;'scenarios</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;68:0;79:0">&amp;#x20;do</typing>
+      <action id="EditorEnter" />
+      <action id="EditorPaste" />
+      <action id="EditorDeleteToLineEnd" />
       <action id="ReformatCode" />
     </macro>
   </component>

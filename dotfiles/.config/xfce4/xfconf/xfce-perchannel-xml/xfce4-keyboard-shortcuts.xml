@@ -140,20 +140,14 @@
       <property name="Up" type="string" value="up_key"/>
       <property name="Left" type="string" value="left_key"/>
       <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
-      <property name="&lt;Alt&gt;&lt;Shift&gt;Tab" type="string" value="cycle_reverse_windows_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
-      <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
       <property name="Escape" type="string" value="cancel_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="Right" type="string" value="right_key"/>
       <property name="Down" type="string" value="down_key"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;h" type="string" value="hide_window_key"/>
-      <property name="&lt;Super&gt;F1" type="string" value="workspace_1_key"/>
-      <property name="&lt;Super&gt;F2" type="string" value="workspace_2_key"/>
-      <property name="&lt;Super&gt;F3" type="string" value="workspace_3_key"/>
-      <property name="&lt;Super&gt;F4" type="string" value="workspace_4_key"/>
       <property name="&lt;Super&gt;f" type="string" value="fullscreen_key"/>
       <property name="&lt;Super&gt;i" type="string" value="tile_up_key"/>
       <property name="&lt;Super&gt;j" type="string" value="tile_left_key"/>
@@ -168,7 +162,13 @@
       <property name="&lt;Super&gt;d" type="string" value="move_window_key"/>
       <property name="&lt;Super&gt;s" type="string" value="resize_window_key"/>
       <property name="&lt;Super&gt;k" type="string" value="tile_down_key"/>
-      <property name="&lt;Alt&gt;grave" type="string" value="close_window_key"/>
+      <property name="&lt;Super&gt;grave" type="string" value="close_window_key"/>
+      <property name="&lt;Super&gt;minus" type="string" value="del_active_workspace_key"/>
+      <property name="&lt;Super&gt;equal" type="string" value="add_workspace_key"/>
+      <property name="&lt;Super&gt;1" type="string" value="workspace_1_key"/>
+      <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
+      <property name="&lt;Super&gt;3" type="string" value="workspace_3_key"/>
+      <property name="&lt;Super&gt;4" type="string" value="workspace_4_key"/>
     </property>
   </property>
   <property name="providers" type="array">
