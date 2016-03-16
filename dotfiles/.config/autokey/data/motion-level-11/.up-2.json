@@ -1,5 +1,5 @@
 {
-    "usageCount": 5, 
+    "usageCount": 60, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "up-2", 
@@ -14,7 +14,7 @@
     "hotkey": {
         "hotKey": "k", 
         "modifiers": [
-            "<ctrl>"
+            "<alt>"
         ]
     }, 
     "modes": [

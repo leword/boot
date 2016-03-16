@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 143, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "delete-word-left", 
@@ -12,14 +12,13 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "'", 
+        "hotKey": "h", 
         "modifiers": [
-            "<alt>"
+            "<alt>", 
+            "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "filter": {
         "regex": null, 

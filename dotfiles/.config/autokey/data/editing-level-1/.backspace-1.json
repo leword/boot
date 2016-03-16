@@ -1,5 +1,5 @@
 {
-    "usageCount": 1, 
+    "usageCount": 841, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "backspace-1", 
@@ -12,9 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "'", 
+        "hotKey": "f", 
         "modifiers": [
-            "<ctrl>"
+            "<ctrl>", 
+            "<shift>"
         ]
     }, 
     "modes": [

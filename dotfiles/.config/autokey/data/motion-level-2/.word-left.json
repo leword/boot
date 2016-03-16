@@ -1,5 +1,5 @@
 {
-    "usageCount": 21, 
+    "usageCount": 28, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "word-left", 
@@ -12,14 +12,12 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "h", 
+        "hotKey": "k", 
         "modifiers": [
             "<alt>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

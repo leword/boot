@@ -13,7 +13,7 @@
     <property name="file.colors.enable.tests" value="2a3b2c" />
     <property name="Non-Project Files" value="494539" />
     <property name="Tests" value="2a3b2c" />
-    <property name="KEYMAP" value="save all&#10;move tab&#10;editor tabs&#10;move split&#10;split" />
+    <property name="KEYMAP" value="Live&#10;wrap&#10;start new&#10;start&#10;recent" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.62700963" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
     <property name="FindSplitterProportion" value="0.25" />
@@ -53,7 +53,7 @@
     <property name="Rake.Splitter.Proportion" value="0.27342257" />
     <property name="RakeSupport.hidePassedTests" value="true" />
     <property name="FileTemplates.CurrentTab" value="Templates" />
-    <property name="FileTemplates.SelectedTemplate" value="TestUnit Test Template" />
+    <property name="FileTemplates.SelectedTemplate" value="Html" />
     <property name="ProjectStructure.SecondLevelElements" value="0.2" />
     <property name="PLUGIN_FILTER" value="lines sor&#10;sort&#10;ruby&#10;minitest&#10;intention" />
     <property name="js.rename.search.in.comments" value="true" />
@@ -89,5 +89,9 @@
     <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
     <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
     <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="HbDisableAutoGenerateCloseTag" value="enabled" />
+    <property name="HbAutocompleteMustaches" value="enabled" />
+    <property name="HbFormatter" value="enabled" />
+    <property name="HbCommenterLanguageId" value="HTML" />
   </component>
 </application>

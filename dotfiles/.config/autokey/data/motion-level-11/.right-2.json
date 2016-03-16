@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 165, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "right-2", 
@@ -12,14 +12,12 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "l", 
+        "hotKey": "f", 
         "modifiers": [
             "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

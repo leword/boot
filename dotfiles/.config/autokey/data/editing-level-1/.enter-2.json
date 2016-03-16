@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 175, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "enter-2", 
@@ -12,14 +12,12 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": ";", 
+        "hotKey": "n", 
         "modifiers": [
-            "<alt>"
+            "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {
