@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-RUBYMINE="RubyMine70"
 
 function link_dir {
     BOOT_DIR=$1
@@ -16,6 +15,9 @@ function link_dir {
     fi
 }
 
+## RUBYMINE
+
+RUBYMINE="RubyMine70"
 for DIR in codestyles colors keymaps options inspection quicklists tasks
 do
     ORIG_DIR=~/.$RUBYMINE/config/$DIR
@@ -26,7 +28,7 @@ done
 link_dir ~/boot/dotfiles/.$RUBYMINE/glassfrogRunConfigurations ~/workspace/glassfrog/.idea/runConfigurations
 
 
-# do autokey while we're at it
+## AUTOKEY
 for DIR in data
 do
 	ORIG_DIR=~/.config/autokey/$DIR
@@ -34,11 +36,12 @@ do
 	link_dir $BOOT_DIR $ORIG_DIR
 done
 
-# do and xfce4 while we're at it
-for DIR in xfce4 xfconf xfwm4 panel desktop
+
+## TOPLEVEL
+for DIR in xfce4 
 do
-	ORIG_DIR=~/.config/xfce4/$DIR
-	BOOT_DIR=~/boot/dotfiles/.config/xfce4/$DIR
+	ORIG_DIR=~/.config/$DIR
+	BOOT_DIR=~/boot/dotfiles/.config/$DIR
 	link_dir $BOOT_DIR $ORIG_DIR
 done
 
