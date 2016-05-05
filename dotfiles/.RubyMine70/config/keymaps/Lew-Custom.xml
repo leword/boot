@@ -434,6 +434,10 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="F11" />
+  </action>
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
