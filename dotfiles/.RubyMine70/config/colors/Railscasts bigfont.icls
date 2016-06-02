@@ -710,27 +710,6 @@
         <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
-    <option name="HAML_CLASS">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="HAML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="bc9458" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="HAML_ID">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="HAML_RUBY_CODE">
-      <value>
-        <option name="BACKGROUND" value="232323" />
-      </value>
-    </option>
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="a5c261" />
@@ -906,11 +885,6 @@
     <option name="LESS_JS_CODE_DELIM">
       <value>
         <option name="BACKGROUND" value="232323" />
-      </value>
-    </option>
-    <option name="LESS_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="d0d0ff" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -1228,12 +1202,6 @@
         <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
-    <option name="RHTML_COMMENT_ID">
-      <value>
-        <option name="FOREGROUND" value="bc9458" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="RHTML_SCRIPTING_BACKGROUND_ID">
       <value>
         <option name="BACKGROUND" value="232323" />
@@ -1245,12 +1213,6 @@
         <option name="BACKGROUND" value="990000" />
       </value>
     </option>
-    <option name="RUBY_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="bc9458" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="RUBY_CONSTANT">
       <value>
         <option name="FOREGROUND" value="6d9cbe" />
@@ -1259,16 +1221,6 @@
     <option name="RUBY_CONSTANT_DECLARATION">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-      </value>
-    </option>
-    <option name="RUBY_CVAR">
-      <value>
-        <option name="FOREGROUND" value="d0d0ff" />
-      </value>
-    </option>
-    <option name="RUBY_ESCAPE_SEQUENCE">
-      <value>
-        <option name="FOREGROUND" value="519f50" />
       </value>
     </option>
     <option name="RUBY_EXPR_IN_STRING">
@@ -1305,11 +1257,6 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="990000" />
-      </value>
-    </option>
-    <option name="RUBY_IVAR">
-      <value>
-        <option name="FOREGROUND" value="d0d0ff" />
       </value>
     </option>
     <option name="RUBY_KEYWORD">
@@ -1418,11 +1365,6 @@
         <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
-    <option name="SASS_STRING">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
     <option name="SASS_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
@@ -1447,12 +1389,6 @@
     <option name="SLIM_CLASS">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="SLIM_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="bc9458" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="SLIM_DOCTYPE_KWD">
@@ -1607,37 +1543,6 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="YAML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="bc9458" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_DSTRING">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_LIST">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_STRING">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_VALUE">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
     <option name="YAML_SIGN">
