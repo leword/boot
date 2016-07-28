@@ -1,0 +1,48 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="RubyMine.full.reindex.required" value="1" />
+    <property name="installation.uid" value="b2a2c4b2-5ae5-48e3-b145-07455654bcfb" />
+    <property name="Ruby.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/boot&#10;/home/lewis/workspace/glassfrog" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="KEYMAP" value="move tab&#10;editor tabs&#10;move split&#10;split&#10;refactor" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.62700963" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
+    <property name="FindSplitterProportion" value="0.25" />
+    <property name="MoveFile.OpenInEditor" value="true" />
+    <property name="favorites.view.settings.show.members" value="false" />
+    <property name="favorites.view.settings.flatten.packages" value="false" />
+    <property name="favorites.view.settings.autoscroll.to.source" value="true" />
+    <property name="favorites.view.settings.autoscroll.from.source" value="true" />
+    <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
+    <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="run.configuration.alternate.action.ad" value="true" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p481/bin/ruby:BASE_20" value="0.1.4" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p481/bin/ruby:IDE" value="0.4.32" />
+    <property name="debug.configuration.alternate.action.ad" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
+    <property name="rake.run.task.popup.search.mask" value="db:fix" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="RubyTestUnit.Splitter.Proportion" value="0.47106954" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder0" value="0" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder1" value="1" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder2" value="2" />
+    <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
+    <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.3" />
+    <property name="HbAutoCollapseBlocks" value="disabled" />
+    <property name="evlsprt3.162" value="19" />
+    <property name="RubyMine.dumbRunEnabled" value="true" />
+  </component>
+</application>
