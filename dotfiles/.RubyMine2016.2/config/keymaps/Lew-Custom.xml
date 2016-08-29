@@ -25,6 +25,10 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
@@ -59,6 +63,7 @@
   <action id="Console.Jdbc.Close">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
   </action>
+  <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
@@ -175,8 +180,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl right" />
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
-  <action id="EditorPageDown" />
-  <action id="EditorPageUp" />
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="alt b" />
@@ -192,9 +195,6 @@
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
     <keyboard-shortcut first-keystroke="shift ctrl f" />
-  </action>
-  <action id="EditorSelectLine">
-    <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -272,7 +272,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
-    <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="Git.Add" />
   <action id="GotoAction">
@@ -435,9 +434,13 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
+  <action id="UML.ShowChanges" />
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
