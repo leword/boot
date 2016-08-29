@@ -6,7 +6,7 @@
     <property name="RubyMine.full.reindex.required" value="1" />
     <property name="installation.uid" value="b2a2c4b2-5ae5-48e3-b145-07455654bcfb" />
     <property name="Ruby.initialConfigurationShown" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/boot&#10;/home/lewis/workspace/glassfrog" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/workspace/branch-cleanup.txt&#10;/home/lewis/workspace/glassfrog&#10;/home/lewis/workspace/game-of-life&#10;/home/lewis/boot" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="file.colors.enable.non.project" value="494539" />
@@ -26,7 +26,7 @@
     <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
     <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
-    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="OpenOrAttachDialog.OpenMode" value="replace" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="run.configuration.alternate.action.ad" value="true" />
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p481/bin/ruby:BASE_20" value="0.1.4" />
@@ -34,9 +34,9 @@
     <property name="debug.configuration.alternate.action.ad" value="true" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="RunConfigurable.dividerProportion" value="0.3" />
-    <property name="rake.run.task.popup.search.mask" value="jasmin" />
+    <property name="rake.run.task.popup.search.mask" value="db:fi" />
     <property name="Copy.OpenInEditor" value="true" />
-    <property name="RubyTestUnit.Splitter.Proportion" value="0.47106954" />
+    <property name="RubyTestUnit.Splitter.Proportion" value="0.3122659" />
     <property name="sm_test_statistics_table_columnsWidth0" value="75" />
     <property name="sm_test_statistics_table_columnsOrder0" value="0" />
     <property name="sm_test_statistics_table_columnsWidth1" value="75" />
@@ -45,5 +45,21 @@
     <property name="sm_test_statistics_table_columnsOrder2" value="2" />
     <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
     <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.3" />
+    <property name="ruby.sdk.configurable.top.splitter" value="0.5" />
+    <property name="ruby.sdk.configurable.main.splitter" value="0.5" />
+    <property name="HbAutoCollapseBlocks" value="disabled" />
+    <property name="SplitFileEditor.Proportion" value="0.5" />
+    <property name="disable.forced.soft.wraps.notification" value="true" />
+    <property name="HbFormatter" value="enabled" />
+    <property name="HbAutocompleteMustaches" value="enabled" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-2.2.5/bin/ruby:BASE_20" value="0.1.4" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-2.2.5/bin/ruby:IDE" value="0.4.32" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="HbDisableAutoGenerateCloseTag" value="enabled" />
+    <property name="HbCommenterLanguageId" value="HTML" />
+    <property name="settings.code.style.selected.tab.ruby" value="Tabs and Indents" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Spaces" />
+    <property name="RubyTestUnitSupport.hidePassedTests" value="true" />
   </component>
 </application>

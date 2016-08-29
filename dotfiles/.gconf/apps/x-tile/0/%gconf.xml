@@ -1,5 +1,17 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="undo" mtime="1471557129" type="string">
+		<stringvalue>71303263,0,0,0,1280,2160 14680071,0,1280,0,1273,2153 54525989,0,2560,0,1280,2160</stringvalue>
+	</entry>
+	<entry name="win_position_y" mtime="1471557003" type="int" value="1194"/>
+	<entry name="win_position_x" mtime="1471557003" type="int" value="1102"/>
+	<entry name="win_size_h" mtime="1471557003" type="int" value="441"/>
+	<entry name="win_size_w" mtime="1471557003" type="int" value="670"/>
+	<entry name="latest_tiling" mtime="1471557129" type="string">
+		<stringvalue>g</stringvalue>
+	</entry>
+	<entry name="grid_cols" mtime="1471556709" type="int" value="3"/>
+	<entry name="grid_rows" mtime="1471556709" type="int" value="2"/>
 	<entry name="custom" mtime="1450106819" type="string">
 		<stringvalue></stringvalue>
 	</entry>
@@ -22,7 +34,7 @@
 	<entry name="not_minimized" mtime="1450106773" type="string">
 		<stringvalue>False</stringvalue>
 	</entry>
-	<entry name="exit_after_tile" mtime="1450106773" type="string">
+	<entry name="exit_after_tile" mtime="1471557002" type="string">
 		<stringvalue>True</stringvalue>
 	</entry>
 </gconf>

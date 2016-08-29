@@ -1,5 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -11,6 +15,9 @@
       <mask>*.mxml</mask>
       <mask>*.rb</mask>
       <mask>*.js</mask>
+      <mask>*.jsx</mask>
+      <mask>*.js*.jsx</mask>
+      <mask>*.js,*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>

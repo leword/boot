@@ -22,11 +22,22 @@
         <entry key="$USER_HOME$/workspace/glassfrog">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="RM-162.1236.17" />
+              <option name="build" value="RM-162.1628.45" />
               <option name="productionCode" value="RM" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1469728372531" />
-              <option name="buildTimestamp" value="1468908000000" />
+              <option name="projectOpenTimestamp" value="1472489390146" />
+              <option name="buildTimestamp" value="1471932000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/glassfrog2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-162.1447.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1472149879866" />
+              <option name="buildTimestamp" value="1470204000000" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

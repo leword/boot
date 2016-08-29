@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="temperature_unit" mtime="1472487717" type="int" value="0"/>
+	<entry name="window_divider_pos" mtime="1472487717" type="int" value="482"/>
+	<entry name="window_h" mtime="1472487717" type="int" value="200"/>
+	<entry name="window_w" mtime="1472487717" type="int" value="800"/>
+	<entry name="window_y" mtime="1472487717" type="int" value="966"/>
+	<entry name="window_x" mtime="1472487717" type="int" value="1519"/>
+	<entry name="window_restore_enabled" mtime="1472487717" type="bool" value="false"/>
+	<entry name="hide_on_startup" mtime="1472487717" type="bool" value="false"/>
+	<entry name="unity_launcher_count_disabled" mtime="1472487717" type="bool" value="false"/>
+	<entry name="menu_bar_disabled" mtime="1472487717" type="bool" value="false"/>
+	<entry name="window_keep_below_enabled" mtime="1472487717" type="bool" value="false"/>
+	<entry name="window_decoration_disabled" mtime="1472487717" type="bool" value="false"/>
+	<entry name="sensorlist_position" mtime="1472487717" type="int" value="0"/>
+</gconf>
