@@ -2,6 +2,7 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="puppet.text.search.index" />
         <option value="puppet.resource" />
         <option value="puppet.class" />
         <option value="puppet.symbol" />
@@ -17,7 +18,6 @@
         <option value="sql.names" />
         <option value="sql.column.name" />
         <option value="sql.table.shortName" />
-        <option value="jade.mixin" />
         <option value="amd.requirePaths.index" />
         <option value="amd.baseUrl.index" />
         <option value="js.symbol.qualified.names.index" />
@@ -60,7 +60,6 @@
         <option value="bash.included" />
         <option value="bash.script.name" />
         <option value="bash.vardef" />
-        <option value="puppet.text.search.index" />
       </list>
     </option>
   </component>
