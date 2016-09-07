@@ -1,3 +1,4 @@
+#keyboard.send_keys(window.get_active_class())
 if re.match('.*Proxy.*',window.get_active_class()):
     keyboard.send_keys("<ctrl>+e")
 else:

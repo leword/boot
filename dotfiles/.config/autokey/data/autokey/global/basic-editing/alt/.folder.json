@@ -1,8 +1,5 @@
 {
-    "usageCount": 18, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "right", 
+    "usageCount": 0, 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -11,21 +8,16 @@
         "backspace": true, 
         "triggerInside": false
     }, 
+    "modes": [], 
+    "title": "alt", 
     "hotkey": {
-        "hotKey": "f", 
-        "modifiers": [
-            "<ctrl>"
-        ]
+        "hotKey": null, 
+        "modifiers": []
     }, 
-    "modes": [
-        3
-    ], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "folder", 
+    "showInTrayMenu": false
 }

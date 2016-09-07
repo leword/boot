@@ -1,8 +1,8 @@
 {
-    "usageCount": 41, 
+    "usageCount": 48, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "undo", 
+    "description": "up", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "z", 
+        "hotKey": "p", 
         "modifiers": [
-            "<alt>"
+            "<ctrl>"
         ]
     }, 
     "modes": [
