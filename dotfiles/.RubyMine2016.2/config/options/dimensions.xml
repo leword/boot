@@ -121,6 +121,9 @@
     <location key="findTextDialog.0.744.2560.1440" x="459" y="1161" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.744.2560.1440" x="404" y="1073" />
     <location key="SettingsEditor.0.0.2560.1440@144dpi" x="514" y="213" />
+    <location key="RollbackChangesDialog.0.0.2560.1440@144dpi" x="887" y="288" />
+    <location key="replaceTextDialog.0.0.2560.1440@144dpi" x="1022" y="303" />
+    <location key="ReplaceDuplicatesPrompt.0.0.2560.1440@144dpi" x="563" y="635" />
     <size key="FileChooserDialogImpl.0.0.2560.1440" width="426" height="490" />
     <size key="SettingsEditor.0.0.2560.1440" width="1514" height="1415" />
     <size key="CommitChangelistDialog2.0.0.2560.1440" width="2283" height="1415" />
@@ -262,14 +265,14 @@
     <size key="#Browse_JetBrains_Plugins_.0.0.3840.2160@144dpi" width="826" height="709" />
     <size key="SettingsEditor.0.0.3840.2160@144dpi" width="2063" height="1489" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3840.2160@144dpi" width="1721" height="1084" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.1.left.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.1.center.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.1.right.0.0.2560.1440@144dpi" width="1379" height="550" />
-    <size key="GridCell.Tab.1.bottom.0.0.2560.1440@144dpi" width="1379" height="550" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440@144dpi" width="2560" height="539" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440@144dpi" width="2560" height="539" />
     <size key="findTextDialog.0.0.2560.1440@144dpi" width="477" height="755" />
     <size key="DiffContextDialog.0.0.2560.1440@144dpi" width="2374" height="1179" />
     <size key="CommitChangelistDialog2.0.0.2560.1440@144dpi" width="1334" height="910" />
@@ -372,6 +375,9 @@
     <size key="GridCell.Tab.1.right.2560.0.2160.3840" width="2160" height="376" />
     <size key="GridCell.Tab.1.bottom.2560.0.2160.3840" width="2160" height="376" />
     <size key="SettingsEditor.0.0.2560.1440@144dpi" width="1523" height="1012" />
+    <size key="RollbackChangesDialog.0.0.2560.1440@144dpi" width="777" height="836" />
+    <size key="replaceTextDialog.0.0.2560.1440@144dpi" width="508" height="831" />
+    <size key="ReplaceDuplicatesPrompt.0.0.2560.1440@144dpi" width="1425" height="167" />
     <extendedState key="dock-window-1" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
     <extendedState key="DiffContextDialog" state="0" />

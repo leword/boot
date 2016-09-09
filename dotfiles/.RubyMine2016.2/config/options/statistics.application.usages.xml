@@ -3,53 +3,54 @@
     <group name="JavaScript versions">
       <project id="boot" values="DEFAULT" collectionTime="1453998622249" />
       <project id="postbin" values="DEFAULT" collectionTime="1454711512299" />
-      <project id="glassfrog" values="React JSX" collectionTime="1473261436181" />
+      <project id="glassfrog" values="React JSX" collectionTime="1473374618066" />
       <project id="glassfrog2" values="JSX Harmony" collectionTime="1467406184418" />
     </group>
     <group name="module type">
       <project id="boot" values="RUBY_MODULE" collectionTime="1453998622066" />
       <project id="postbin" values="RUBY_MODULE" collectionTime="1454711512235" />
-      <project id="glassfrog" values="RUBY_MODULE" collectionTime="1473261436064" />
+      <project id="glassfrog" values="RUBY_MODULE" collectionTime="1473374617973" />
       <project id="glassfrog2" values="RUBY_MODULE" collectionTime="1467406184412" />
     </group>
     <group name="vcs">
       <project id="boot" values="Git" collectionTime="1453998622065" />
-      <project id="glassfrog" values="Git" collectionTime="1473261436064" />
+      <project id="glassfrog" values="Git" collectionTime="1473374617972" />
       <project id="glassfrog2" values="Git" collectionTime="1467406184412" />
     </group>
     <group name="VCS Log 2">
-      <project id="glassfrog" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1473261436093" />
+      <project id="glassfrog" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1473374617991" />
     </group>
     <group name="run-configuration-type">
-      <project id="glassfrog" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="1473261436065" />
+      <project id="glassfrog" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="1473374617975" />
       <project id="glassfrog2" values="RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="1467406184412" />
     </group>
     <group name="run-configuration-type-temp">
+      <project id="glassfrog" values="TestUnitRunConfigurationType,RakeRunConfigurationType" collectionTime="1473374617975" />
       <project id="postbin" values="RubyRunConfigurationType" collectionTime="1454711512235" />
       <project id="glassfrog2" values="RakeRunConfigurationType" collectionTime="1467406184412" />
     </group>
     <group name="file-type">
       <project id="boot" values="Bash,UNKNOWN,JSON,PLAIN_TEXT,ARCHIVE,XML" collectionTime="1453998622136" />
       <project id="postbin" values="PLAIN_TEXT,UNKNOWN,XML,Ruby" collectionTime="1454711512238" />
-      <project id="glassfrog" values="RXML,HAML,HTML,XML,Markdown,Ruby,YAML,JSX Harmony,Images,UNKNOWN,JSON Schema,JavaScript,Handlebars/Mustache,SCSS,Native,Bash,RHTML,PLAIN_TEXT,RbenvGemsets,CSS" collectionTime="1473261436087" />
+      <project id="glassfrog" values="CSS,RbenvGemsets,HAML,Bash,HTML,UNKNOWN,JSON Schema,Native,Handlebars/Mustache,Markdown,Images,RXML,JSX Harmony,XML,SCSS,JavaScript,Ruby,RHTML,PLAIN_TEXT,YAML" collectionTime="1473374617984" />
       <project id="glassfrog2" values="Ruby,Bash,RXML,YAML,HTML,XML,PLAIN_TEXT,Handlebars/Mustache,UNKNOWN,CSS,HAML,RHTML,Images,SCSS,JavaScript,JSON" collectionTime="1467406184415" />
     </group>
     <group name="ruby-sdk-gemsets">
-      <project id="glassfrog" values="rvmNotEmptyGemsets=2,rbenvNotEmptyGemsets=2" collectionTime="1473261436099" />
+      <project id="glassfrog" values="rbenvNotEmptyGemsets,rvmNotEmptyGemsets" collectionTime="1473374617996" />
     </group>
     <group name="ruby-gems-names">
-      <project id="glassfrog" values="parallel,orm_adapter,stripe-ruby-mock,raindrops,gettext,locale,stripe,unicorn,simplecov-html,pundit,rack-cache,multi_xml,journey,ffi,acts_as_list,engineyard-serverside-adapter,connection_pool,pusher-signature,jquery-validation-rails,handlebars_assets,engineyard-cloud-client,warden,execjs,rinku,devise,builder,minitest,railties,hashdiff,actionmailer,unf_ext,secure_headers,valuable,httpclient,codeclimate-test-reporter,coffee-script-source,delayed_job,rails,sanitize,babel-transpiler,escape,jsonapi-serializers,dynamic_form,browser,useragent,mocha,xpath,nokogiri,foundation-rails,safe_yaml,rdoc,pg,kgio,jsondiff,acts_as_archival,bcrypt,simplecov,cells,translation,react-rails,coderay,sass-rails,thread_safe,minitest-reporters,sprockets,htmldiff,pusher-client,ansi,jquery-rails,tilt,hike,activesupport,domain_name,mini_portile2,delayed_job_active_record,method_source,capybara,faraday,htmlentities,activerecord,ey_config,polyamorous,rabl,multi_json,nokogumbo,dalli,jwt,devise-i18n,net-ssh,childprocess,newrelic_rpm,bcrypt-ruby,i18n,docile,hoe,eventmachine,activemodel,haml,engineyard,polyglot,multipart-post,parallel_tests,slop,css_parser,better_errors,schema_plus,minitest-spec-rails,binding_of_caller,premailer-rails,treetop,crass,auto_complete,pry-remote,spreadsheet,gravtastic,json,mail,pry-rails,devise-encryptable,quiet_assets,squeel,omniauth,unf,text,bundler,minitest-spec,webmock,pivotal_git_scripts,oauth2,rest-client,ts-delayed-delta,responders,uglifier,websocket,phantomjs,hashie,erubis,debug_inspector,json-patch,thor,pusher,rubyzip,dotenv-rails,aasm,rack,thinking-sphinx,crack,rack-ssl,premailer,rack-attack,http-cookie,uber,powerbar,metaclass,dante,omniauth-oauth2,tzinfo,addressable,mime-types,launchy,flying-sphinx,strong_parameters,sass,jasmine-core,omniauth-google-oauth2,axlsx,riddle,arel,lograge,actionpack,innertube,activeresource,selenium-webdriver,highline,rack-test,rake,i18n-js,ruby-ole,cdnjs-rails,jasmine,active_model_serializers,pry,dotenv,babel-source,netrc" collectionTime="1473261436095" />
+      <project id="glassfrog" values="binding_of_caller,http-cookie,mini_portile2,engineyard,devise-encryptable,parallel,rack-attack,locale,faraday,addressable,journey,dotenv,tzinfo,omniauth-google-oauth2,hoe,nokogumbo,rest-client,debug_inspector,warden,oauth2,devise-i18n,json-patch,jasmine-core,phantomjs,crack,lograge,axlsx,activesupport,connection_pool,htmlentities,pry-remote,docile,useragent,execjs,acts_as_archival,launchy,nokogiri,delayed_job,jasmine,multipart-post,minitest,squeel,hashdiff,babel-transpiler,arel,pundit,i18n,rails,autoprefixer-rails,cdnjs-rails,kgio,delayed_job_active_record,metaclass,simplecov-html,ffi,multi_json,cells,sass,hashie,active_model_serializers,secure_headers,aasm,flying-sphinx,domain_name,bundler,webmock,omniauth,rack-ssl,babel-source,erubis,strong_parameters,unicorn,treetop,htmldiff,dynamic_form,newrelic_rpm,mail,premailer-rails,jwt,coderay,omniauth-oauth2,powerbar,quiet_assets,rack-cache,gravtastic,orm_adapter,css_parser,react-rails,httpclient,rubyzip,devise,pusher-client,coffee-script-source,responders,engineyard-cloud-client,activeresource,foundation-rails,parallel_tests,jquery-rails,text,xpath,ruby-ole,premailer,thinking-sphinx,unf,sass-rails,safe_yaml,minitest-spec,mocha,valuable,uber,thread_safe,actionpack,pusher-signature,eventmachine,rack-test,rdoc,dante,net-ssh,ts-delayed-delta,childprocess,raindrops,activemodel,minitest-spec-rails,innertube,builder,stripe,handlebars_assets,acts_as_list,spreadsheet,rinku,unf_ext,polyamorous,polyglot,rake,tilt,auto_complete,method_source,stripe-ruby-mock,sprockets,schema_plus,jsondiff,dalli,rabl,pusher,capybara,engineyard-serverside-adapter,activerecord,browser,pivotal_git_scripts,pg,i18n-js,hike,railties,sanitize,minitest-reporters,thor,actionmailer,better_errors,selenium-webdriver,json,crass,haml,rack,highline,simplecov,jquery-validation-rails,jsonapi-serializers,slop,gettext,uglifier,websocket,escape,netrc,multi_xml,codeclimate-test-reporter,bcrypt-ruby,mime-types,pry-rails,translation,ansi,bcrypt,dotenv-rails,riddle,pry,ey_config" collectionTime="1473374617992" />
       <project id="postbin" values="power_assert,test-unit,tilt,rack,rack-protection,sinatra" collectionTime="1454711512240" />
       <project id="glassfrog2" values="builder,json,method_source,pivotal_git_scripts,jasmine,escape,translation,ffi,webmock,minitest-spec-rails,selenium-webdriver,blankslate,oauth2,dotenv-rails,unicorn,jsondiff,erubis,browser,valuable,react-rails,handlebars_assets,better_errors,hashie,eventmachine,treetop,http-cookie,parallel,websocket,coderay,jwt,engineyard-cloud-client,tzinfo,netrc,mime-types,multipart-post,minitest-spec,thread_safe,haml,quiet_assets,tilt,riddle,powerbar,hashdiff,dotenv,secure_headers,metaclass,unf_ext,stripe-ruby-mock,gettext,i18n,babel-transpiler,omniauth,mail,actionmailer,rack-attack,crack,engineyard,flying-sphinx,sass-rails,thinking-sphinx,useragent,simplecov,rest-client,devise-i18n,locale,squeel,acts_as_list,arel,faraday,delayed_job_active_record,rails,pusher,pundit,minitest-reporters,innertube,pusher-signature,docile,binding_of_caller,jasmine-core,ey_config,engineyard-serverside-adapter,ts-delayed-delta,jquery-rails,dante,mini_portile2,activesupport,acts_as_archival,polyglot,addressable,rack,bcrypt-ruby,newrelic_rpm,premailer,bundler,ruby-ole,active_model_serializers,rabl,sass,codeclimate-test-reporter,cells,ansi,pg,mocha,safe_yaml,phantomjs,i18n-js,rack-test,actionpack,delayed_job,auto_complete,hike,cdnjs-rails,connection_pool,axlsx,rinku,foundation-rails,domain_name,pry-rails,activemodel,raindrops,thor,jimson-temp,kgio,xpath,rubyzip,httpclient,multi_xml,capybara,uglifier,omniauth-oauth2,pry,url_field,babel-source,slop,minitest,css_parser,nokogiri,activerecord,devise,rack-ssl,rack-cache,stripe,childprocess,aasm,gravtastic,polyamorous,net-ssh,devise-encryptable,strong_parameters,htmlentities,pry-remote,launchy,simplecov-html,pusher-client,sprockets,dynamic_form,spreadsheet,railties,rdoc,debug_inspector,uber,activeresource,orm_adapter,unf,responders,premailer-rails,highline,text,warden,json-patch,dalli,parallel_tests,journey,multi_json,coffee-script-source,execjs,schema_plus,omniauth-google-oauth2,bcrypt,htmldiff,jquery-validation-rails,rake" collectionTime="1467406184416" />
     </group>
     <group name="ruby-project-type">
       <project id="boot" values="plain ruby" collectionTime="1453998622142" />
       <project id="postbin" values="plain ruby" collectionTime="1454711512240" />
-      <project id="glassfrog" values="rails 3.2" collectionTime="1473261436094" />
+      <project id="glassfrog" values="rails 3.2" collectionTime="1473374617992" />
       <project id="glassfrog2" values="rails 3.2" collectionTime="1467406184416" />
     </group>
     <group name="ruby-sdk-version">
-      <project id="glassfrog" values="ruby-2.0.0-p481" collectionTime="1473261436094" />
+      <project id="glassfrog" values="ruby-2.0.0-p481" collectionTime="1473374617991" />
       <project id="postbin" values="ruby-2.0.0-p481" collectionTime="1454711512240" />
       <project id="boot" values="ruby-2.0.0-p481" collectionTime="1453998622141" />
       <project id="glassfrog2" values="ruby-2.0.0-p481" collectionTime="1467406184416" />
@@ -57,17 +58,17 @@
     <group name="javaScript Scope Usages">
       <project id="boot" values="Project,Project" collectionTime="1453998622249" />
       <project id="postbin" values="Project,Project" collectionTime="1454711512299" />
-      <project id="glassfrog" values="Project,Project,Project" collectionTime="1473261436181" />
+      <project id="glassfrog" values="Project,Project,Project" collectionTime="1473374618066" />
       <project id="glassfrog2" values="Project,Project,Project" collectionTime="1467406184418" />
     </group>
     <group name="Git">
-      <project id="glassfrog" values="data.remotes.in.project.1,config.ssh.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.100+,data.local.branches.count.50+,config.push.autoupdate.disabled,config.warn.about.crlf.enabled" collectionTime="1473261436099" />
+      <project id="glassfrog" values="config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.100+,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.force.push.enabled,data.local.branches.count.50+,data.remotes.in.project.1,config.warn.about.detached.enabled" collectionTime="1473374617997" />
     </group>
     <group name="images.ide.background">
-      <project id="glassfrog" values="frame 0,editor 0" collectionTime="1473261436099" />
+      <project id="glassfrog" values="frame=0,editor=0" collectionTime="1473374617996" />
     </group>
     <group name="frameworks">
-      <project id="glassfrog" values="RailsFacetType" collectionTime="1473261436064" />
+      <project id="glassfrog" values="RailsFacetType" collectionTime="1473374617973" />
       <project id="glassfrog2" values="RailsFacetType" collectionTime="1467406184412" />
     </group>
   </component>
@@ -77,11 +78,11 @@
       <entry feature="JSDebugConfig.Run.browser-default.preferredEngine-null.no_mappings" count="1" />
       <entry feature="execute.JavascriptDebugType.Run" count="1" />
       <entry feature="execute.RailsRunConfigurationType.Debug" count="8" />
-      <entry feature="execute.RailsRunConfigurationType.Run" count="135" />
-      <entry feature="execute.RakeRunConfigurationType.Run" count="103" />
+      <entry feature="execute.RailsRunConfigurationType.Run" count="136" />
+      <entry feature="execute.RakeRunConfigurationType.Run" count="104" />
       <entry feature="execute.RubyRunConfigurationType.Run" count="32" />
       <entry feature="execute.TestUnitRunConfigurationType.Debug" count="28" />
-      <entry feature="execute.TestUnitRunConfigurationType.Run" count="548" />
+      <entry feature="execute.TestUnitRunConfigurationType.Run" count="554" />
       <entry feature="ide.help.top" count="1" />
       <entry feature="ide.settings.Appearance" count="13" />
       <entry feature="ide.settings.Code_Style" count="3" />
@@ -90,7 +91,7 @@
       <entry feature="ide.settings.Font" count="26" />
       <entry feature="ide.settings.General" count="4" />
       <entry feature="ide.settings.JavaScript" count="2" />
-      <entry feature="ide.settings.Keymap" count="41" />
+      <entry feature="ide.settings.Keymap" count="42" />
       <entry feature="ide.settings.Project_Structure" count="1" />
       <entry feature="ide.settings.Ruby" count="6" />
       <entry feature="ideaapp.started" count="154" />
