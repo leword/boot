@@ -34,15 +34,15 @@
           <additional_info authors="Christoph Olszowka" email="christoph at olszowka de" homepage="http://github.com/colszowka/simplecov">
             <summary>Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites</summary>
           </additional_info>
+          <dependency name="docile" git="false" path="false" doRequire="true">
+            <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="json" git="false" path="false" doRequire="true">
             <bound version="1.8" bound="GREATER_OR_EQUAL" />
             <bound version="3" bound="LESS" />
           </dependency>
           <dependency name="simplecov-html" git="false" path="false" doRequire="true">
             <bound version="0.10.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="docile" git="false" path="false" doRequire="true">
-            <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/sass-3.4.22" name="sass" version="3.4.22" timestamp="1469805812464" parser_version="15" git="false">
@@ -75,6 +75,15 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Tools for creating, working with, and running Rails applications.</summary>
           </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="rdoc" git="false" path="false" doRequire="true">
+            <bound version="3.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
+          </dependency>
           <dependency name="rake" git="false" path="false" doRequire="true">
             <bound version="0.8.7" bound="GREATER_OR_EQUAL" />
           </dependency>
@@ -84,39 +93,30 @@
           <dependency name="thor" git="false" path="false" doRequire="true">
             <bound version="0.14.6" bound="GREATER_OR_EQUAL" />
             <bound version="2.0" bound="LESS" />
-          </dependency>
-          <dependency name="rdoc" git="false" path="false" doRequire="true">
-            <bound version="3.4" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
-          <dependency name="actionpack" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/railties-3.2.22.1" name="railties" version="3.2.22.1" timestamp="1457931182968" parser_version="15" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Tools for creating, working with, and running Rails applications.</summary>
           </additional_info>
+          <dependency name="rdoc" git="false" path="false" doRequire="true">
+            <bound version="3.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="rake" git="false" path="false" doRequire="true">
             <bound version="0.8.7" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="rack-ssl" git="false" path="false" doRequire="true">
             <bound version="1.3.2" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="thor" git="false" path="false" doRequire="true">
-            <bound version="0.14.6" bound="GREATER_OR_EQUAL" />
-            <bound version="2.0" bound="LESS" />
-          </dependency>
-          <dependency name="rdoc" git="false" path="false" doRequire="true">
-            <bound version="3.4" bound="LATEST_IN_BRANCH" />
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
           <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
-          <dependency name="actionpack" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.1" bound="EQUAL" />
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14.6" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rubyzip-1.0.0" name="rubyzip" version="1.0.0" timestamp="1457931232633" parser_version="15" git="false">
@@ -148,11 +148,11 @@
           <dependency name="rest-client" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="multi_json" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="1.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rack-attack-5.0.0" name="rack-attack" version="5.0.0" timestamp="1471474522194" parser_version="15" git="false">
@@ -167,14 +167,14 @@
           <additional_info authors="Charlie Somerville" email="charlie@charliesomerville.com" homepage="https://github.com/charliesome/better_errors">
             <summary>Better error page for Rails and other Rack apps</summary>
           </additional_info>
-          <dependency name="erubis" git="false" path="false" doRequire="true">
-            <bound version="2.6.6" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="coderay" git="false" path="false" doRequire="true">
             <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="0.9.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.6.6" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/spreadsheet-1.1.2" name="spreadsheet" version="1.1.2" timestamp="1469805826568" parser_version="15" git="false">
@@ -211,11 +211,11 @@
           <additional_info authors="Gilbert" email="gilbertbgarza@gmail.com" homepage="https://github.com/rebelidealist/stripe-ruby-mock">
             <summary>TDD with stripe</summary>
           </additional_info>
-          <dependency name="stripe" git="false" path="false" doRequire="true">
-            <bound version="1.31.0" bound="EQUAL" />
-          </dependency>
           <dependency name="jimson-temp" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="stripe" git="false" path="false" doRequire="true">
+            <bound version="1.31.0" bound="EQUAL" />
           </dependency>
           <dependency name="dante" git="false" path="false" doRequire="true">
             <bound version="0.2.0" bound="GREATER_OR_EQUAL" />
@@ -264,7 +264,7 @@
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/orm_adapter-0.5.0" name="orm_adapter" version="0.5.0" timestamp="1467401860176" parser_version="15" git="false">
           <additional_info authors="Ian White, Jose Valim" email="ian.w.white@gmail.com" homepage="http://github.com/ianwhite/orm_adapter">
-            <summary>orm_adapter provides a single point of entry for using basic features of popular ruby ORMs.  Its target audience is gem authors who want to support many ruby ORMs.</summary>
+            <summary>orm_adapter provides a single point of entry for using basic features of popular ruby ORMs. Its target audience is gem authors who want to support many ruby ORMs.</summary>
           </additional_info>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/secure_headers-3.0.0" name="secure_headers" version="3.0.0" timestamp="1457931302616" parser_version="15" git="false">
@@ -279,36 +279,36 @@
           <additional_info authors="EY Cloud Team" email="cloud@engineyard.com" homepage="http://github.com/engineyard/engineyard-cloud-client">
             <summary>EY Cloud API Client</summary>
           </additional_info>
-          <dependency name="rest-client" git="false" path="false" doRequire="true">
-            <bound version="1.7" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rest-client" git="false" path="false" doRequire="true">
+            <bound version="1.7" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/gettext-3.2.2" name="gettext" version="3.2.2" timestamp="1469805813316" parser_version="15" git="false">
           <additional_info authors="Kouhei Sutou, Masao Mutoh" email="kou@clear-code.com, mutomasa at gmail.com" homepage="http://ruby-gettext.github.com/">
             <summary>Gettext is a pure Ruby libary and tools to localize messages.</summary>
           </additional_info>
-          <dependency name="locale" git="false" path="false" doRequire="true">
-            <bound version="2.0.5" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="text" git="false" path="false" doRequire="true">
             <bound version="1.3.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="locale" git="false" path="false" doRequire="true">
+            <bound version="2.0.5" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/squeel-1.2.3" name="squeel" version="1.2.3" timestamp="1457931307898" parser_version="15" git="false">
           <additional_info authors="Ernie Miller, Xiang Li" email="ernie@erniemiller.org, bigxiang@gmail.com" homepage="https://github.com/ernie/squeel">
             <summary>Active Record, improved.</summary>
           </additional_info>
+          <dependency name="polyamorous" git="false" path="false" doRequire="true">
+            <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="activerecord" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="polyamorous" git="false" path="false" doRequire="true">
-            <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/cdnjs-rails-1.0.1" name="cdnjs-rails" version="1.0.1" timestamp="1453930687783" parser_version="15" git="false">
@@ -325,11 +325,11 @@
           <additional_info authors="Jari Bakken" email="jari.bakken@gmail.com" homepage="https://github.com/seleniumhq/selenium">
             <summary>The next generation developer focused tool for automated testing of webapps</summary>
           </additional_info>
-          <dependency name="rubyzip" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="childprocess" git="false" path="false" doRequire="true">
             <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="websocket" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
@@ -406,15 +406,15 @@
           <additional_info authors="Gilbert" email="gilbertbgarza@gmail.com" homepage="https://github.com/rebelidealist/stripe-ruby-mock">
             <summary>TDD with stripe</summary>
           </additional_info>
-          <dependency name="stripe" git="false" path="false" doRequire="true">
-            <bound version="1.31.0" bound="GREATER_OR_EQUAL" />
-            <bound version="1.43" bound="LESS_OR_EQUAL" />
+          <dependency name="dante" git="false" path="false" doRequire="true">
+            <bound version="0.2.0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="dante" git="false" path="false" doRequire="true">
-            <bound version="0.2.0" bound="GREATER_OR_EQUAL" />
+          <dependency name="stripe" git="false" path="false" doRequire="true">
+            <bound version="1.31.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.43" bound="LESS_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/debase-ruby_core_source-0.9.0" name="debase-ruby_core_source" version="0.9.0" timestamp="1464644312809" parser_version="15" git="false">
@@ -435,14 +435,14 @@
           <additional_info authors="wycats, chriseppstein" email="wycats@gmail.com, chris@eppsteins.net" homepage="">
             <summary>Sass adapter for the Rails asset pipeline.</summary>
           </additional_info>
-          <dependency name="sass" git="false" path="false" doRequire="true">
-            <bound version="3.1.10" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.2.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="tilt" git="false" path="false" doRequire="true">
             <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.1.10" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/i18n-js-3.0.0.rc12" name="i18n-js" version="3.0.0.rc12" timestamp="1455156861331" parser_version="15" git="false">
@@ -463,8 +463,8 @@
           <additional_info authors="Engine Yard Cloud Team" email="cloud@engineyard.com" homepage="http://github.com/engineyard/engineyard">
             <summary>Command-line deployment for the Engine Yard cloud</summary>
           </additional_info>
-          <dependency name="highline" git="false" path="false" doRequire="true">
-            <bound version="1.6.1" bound="LATEST_IN_BRANCH" />
+          <dependency name="engineyard-cloud-client" git="false" path="false" doRequire="true">
+            <bound version="2.1" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="escape" git="false" path="false" doRequire="true">
             <bound version="0.0.4" bound="LATEST_IN_BRANCH" />
@@ -472,14 +472,14 @@
           <dependency name="engineyard-serverside-adapter" git="false" path="false" doRequire="true">
             <bound version="2.2" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="engineyard-cloud-client" git="false" path="false" doRequire="true">
-            <bound version="2.1" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="net-ssh" git="false" path="false" doRequire="true">
             <bound version="2.7" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="launchy" git="false" path="false" doRequire="true">
             <bound version="2.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.6.1" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/blankslate-3.1.3" name="blankslate" version="3.1.3" timestamp="1453930687031" parser_version="15" git="false">
@@ -491,14 +491,14 @@
           <additional_info authors="Josh Ellithorpe, Yury Korolev" email="quest@mac.com" homepage="https://github.com/zquestz/omniauth-google-oauth2">
             <summary>A Google OAuth2 strategy for OmniAuth 1.x</summary>
           </additional_info>
+          <dependency name="jwt" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="omniauth" git="false" path="false" doRequire="true">
             <bound version="1.1.1" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="omniauth-oauth2" git="false" path="false" doRequire="true">
             <bound version="1.3.1" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="jwt" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.3" bound="LATEST_IN_BRANCH" />
@@ -542,32 +542,32 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.1" bound="EQUAL" />
-          </dependency>
           <dependency name="activemodel" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
-          </dependency>
-          <dependency name="rack-cache" git="false" path="false" doRequire="true">
-            <bound version="1.2" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="builder" git="false" path="false" doRequire="true">
-            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
           </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack-cache" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="rack-test" git="false" path="false" doRequire="true">
             <bound version="0.6.1" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="journey" git="false" path="false" doRequire="true">
-            <bound version="1.0.4" bound="LATEST_IN_BRANCH" />
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
           <dependency name="sprockets" git="false" path="false" doRequire="true">
             <bound version="2.2.1" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="erubis" git="false" path="false" doRequire="true">
-            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          <dependency name="journey" git="false" path="false" doRequire="true">
+            <bound version="1.0.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/execjs-2.7.0" name="execjs" version="2.7.0" timestamp="1469805796560" parser_version="15" git="false">
@@ -584,45 +584,45 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
           <dependency name="activemodel" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
-          <dependency name="rack-cache" git="false" path="false" doRequire="true">
-            <bound version="1.2" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="builder" git="false" path="false" doRequire="true">
-            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
           </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack-cache" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="rack-test" git="false" path="false" doRequire="true">
             <bound version="0.6.1" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="journey" git="false" path="false" doRequire="true">
-            <bound version="1.0.4" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="sprockets" git="false" path="false" doRequire="true">
             <bound version="2.2.1" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="erubis" git="false" path="false" doRequire="true">
-            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          <dependency name="journey" git="false" path="false" doRequire="true">
+            <bound version="1.0.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/premailer-rails-1.9.0" name="premailer-rails" version="1.9.0" timestamp="1457931291206" parser_version="15" git="false">
           <additional_info authors="Philipe Fatio" email="philipe.fatio@gmail.com" homepage="https://github.com/fphilipe/premailer-rails">
             <summary>Easily create styled HTML emails in Rails.</summary>
           </additional_info>
-          <dependency name="premailer" git="false" path="false" doRequire="true">
-            <bound version="1.7" bound="LATEST_IN_BRANCH" />
-            <bound version="1.7.9" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="actionmailer" git="false" path="false" doRequire="true">
             <bound version="3" bound="GREATER_OR_EQUAL" />
             <bound version="5" bound="LESS" />
+          </dependency>
+          <dependency name="premailer" git="false" path="false" doRequire="true">
+            <bound version="1.7" bound="LATEST_IN_BRANCH" />
+            <bound version="1.7.9" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/useragent-0.16.4" name="useragent" version="0.16.4" timestamp="1457931302075" parser_version="15" git="false">
@@ -647,13 +647,13 @@
           <additional_info authors="Philipe Fatio" email="philipe.fatio@gmail.com" homepage="https://github.com/fphilipe/premailer-rails">
             <summary>Easily create styled HTML emails in Rails.</summary>
           </additional_info>
-          <dependency name="premailer" git="false" path="false" doRequire="true">
-            <bound version="1.7" bound="LATEST_IN_BRANCH" />
-            <bound version="1.7.9" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="actionmailer" git="false" path="false" doRequire="true">
             <bound version="3" bound="GREATER_OR_EQUAL" />
             <bound version="6" bound="LESS" />
+          </dependency>
+          <dependency name="premailer" git="false" path="false" doRequire="true">
+            <bound version="1.7" bound="LATEST_IN_BRANCH" />
+            <bound version="1.7.9" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pusher-signature-0.1.8" name="pusher-signature" version="0.1.8" timestamp="1457931292659" parser_version="15" git="false">
@@ -688,11 +688,11 @@
           <additional_info authors="Bartosz Blimke" email="bartosz.blimke@gmail.com" homepage="http://github.com/bblimke/webmock">
             <summary>Library for stubbing HTTP requests in Ruby.</summary>
           </additional_info>
-          <dependency name="addressable" git="false" path="false" doRequire="true">
-            <bound version="2.3.6" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="crack" git="false" path="false" doRequire="true">
             <bound version="0.3.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3.6" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="hashdiff" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
@@ -715,6 +715,11 @@
           <dependency name="parallel" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/slack-notifier-1.5.1" name="slack-notifier" version="1.5.1" timestamp="1475097378735" parser_version="15" git="false">
+          <additional_info authors="Steven Sloan" email="stevenosloan@gmail.com" homepage="http://github.com/stevenosloan/slack-notifier">
+            <summary>A slim ruby wrapper for posting to slack webhooks</summary>
+          </additional_info>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/devise-i18n-1.0.1" name="devise-i18n" version="1.0.1" timestamp="1467401863016" parser_version="15" git="false">
           <additional_info authors="Christopher Dell, mcasimir, Jason Barnabe" email="chris@tigrish.com" homepage="http://github.com/tigrish/devise-i18n">
@@ -768,10 +773,10 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>REST modeling framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
-          <dependency name="activemodel" git="false" path="false" doRequire="true">
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
         </gem>
@@ -784,30 +789,30 @@
           <additional_info authors="Pat Allan" email="pat@freelancing-gods.com" homepage="https://flying-sphinx.com">
             <summary>Sphinx in the Cloud</summary>
           </additional_info>
+          <dependency name="pusher-client" git="false" path="false" doRequire="true">
+            <bound version="0.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="thinking-sphinx" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="riddle" git="false" path="false" doRequire="true">
-            <bound version="1.5.6" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.3.0" bound="GREATER_OR_EQUAL" />
           </dependency>
+          <dependency name="riddle" git="false" path="false" doRequire="true">
+            <bound version="1.5.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
           <dependency name="faraday" git="false" path="false" doRequire="true">
             <bound version="0.9" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="pusher-client" git="false" path="false" doRequire="true">
-            <bound version="0.3" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/activeresource-3.2.22.2" name="activeresource" version="3.2.22.2" timestamp="1469805753560" parser_version="15" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>REST modeling framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
-          <dependency name="activemodel" git="false" path="false" doRequire="true">
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
         </gem>
@@ -815,12 +820,12 @@
           <additional_info authors="Samuel Cochran" email="sj26@sj26.com" homepage="http://github.com/sj26/skinny">
             <summary>Thin WebSockets</summary>
           </additional_info>
-          <dependency name="eventmachine" git="false" path="false" doRequire="true">
-            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="thin" git="false" path="false" doRequire="true">
             <bound version="1.5" bound="GREATER_OR_EQUAL" />
             <bound version="1.7" bound="LESS" />
+          </dependency>
+          <dependency name="eventmachine" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rabl-0.12.0" name="rabl" version="0.12.0" timestamp="1457931293939" parser_version="15" git="false">
@@ -840,22 +845,22 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="actionpack" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.1" bound="EQUAL" />
-          </dependency>
           <dependency name="mail" git="false" path="false" doRequire="true">
             <bound version="2.5.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/actionmailer-3.2.22.2" name="actionmailer" version="3.2.22.2" timestamp="1469805752068" parser_version="15" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="actionpack" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
           <dependency name="mail" git="false" path="false" doRequire="true">
             <bound version="2.5.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/htmlentities-4.3.4" name="htmlentities" version="4.3.4" timestamp="1457931183868" parser_version="15" git="false">
@@ -867,14 +872,14 @@
           <additional_info authors="Josh Ellithorpe, Yury Korolev" email="quest@mac.com" homepage="https://github.com/zquestz/omniauth-google-oauth2">
             <summary>A Google OAuth2 strategy for OmniAuth 1.x</summary>
           </additional_info>
+          <dependency name="jwt" git="false" path="false" doRequire="true">
+            <bound version="1.5.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="omniauth" git="false" path="false" doRequire="true">
             <bound version="1.1.1" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="omniauth-oauth2" git="false" path="false" doRequire="true">
             <bound version="1.3.1" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="jwt" git="false" path="false" doRequire="true">
-            <bound version="1.5.2" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.3" bound="LATEST_IN_BRANCH" />
@@ -950,11 +955,11 @@
           <additional_info authors="Pusher, Logan Koester" email="support@pusher.com" homepage="http://github.com/pusher/pusher-ruby-client">
             <summary>Client for consuming WebSockets from http://pusher.com</summary>
           </additional_info>
-          <dependency name="websocket" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="json" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="websocket" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/innertube-1.0.2" name="innertube" version="1.0.2" timestamp="1457931269403" parser_version="15" git="false">
@@ -989,25 +994,25 @@
           <dependency name="nokogiri" git="false" path="false" doRequire="true">
             <bound version="1.4.1" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="rubyzip" git="false" path="false" doRequire="true">
-            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="htmlentities" git="false" path="false" doRequire="true">
             <bound version="4.3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/sprockets-2.2.3" name="sprockets" version="2.2.3" timestamp="1457931172863" parser_version="15" git="false">
           <additional_info authors="Sam Stephenson, Joshua Peek" email="sstephenson@gmail.com, josh@joshpeek.com" homepage="http://getsprockets.org/">
             <summary>Rack-based asset packaging system</summary>
           </additional_info>
-          <dependency name="hike" git="false" path="false" doRequire="true">
-            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="rack" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          <dependency name="hike" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="tilt" git="false" path="false" doRequire="true">
             <bound version="1.1" bound="LATEST_IN_BRANCH" />
@@ -1034,11 +1039,11 @@
           <additional_info authors="Ville Lautanala" email="lautis@gmail.com" homepage="http://github.com/lautis/uglifier">
             <summary>Ruby wrapper for UglifyJS JavaScript compressor</summary>
           </additional_info>
-          <dependency name="execjs" git="false" path="false" doRequire="true">
-            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="json" git="false" path="false" doRequire="true">
             <bound version="1.8.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-patch-1.0.0" name="json-patch" version="1.0.0" timestamp="1454913581648" parser_version="15" git="false">
@@ -1050,23 +1055,23 @@
           <additional_info authors="Michael Bleigh, Erik Michaels-Ober" email="michael@intridea.com, sferik@gmail.com" homepage="http://github.com/intridea/oauth2">
             <summary>A Ruby wrapper for the OAuth 2.0 protocol.</summary>
           </additional_info>
-          <dependency name="faraday" git="false" path="false" doRequire="true">
-            <bound version="0.10" bound="LESS" />
-            <bound version="0.8" bound="GREATER_OR_EQUAL" />
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
           </dependency>
           <dependency name="jwt" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
             <bound version="1.5.2" bound="LESS" />
           </dependency>
-          <dependency name="multi_json" git="false" path="false" doRequire="true">
-            <bound version="1.3" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="multi_xml" git="false" path="false" doRequire="true">
             <bound version="0.5" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="rack" git="false" path="false" doRequire="true">
-            <bound version="1.2" bound="GREATER_OR_EQUAL" />
-            <bound version="3" bound="LESS" />
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.10" bound="LESS" />
+            <bound version="0.8" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/css_parser-1.4.5" name="css_parser" version="1.4.5" timestamp="1469805804984" parser_version="15" git="false">
@@ -1145,7 +1150,7 @@
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/orm_adapter-0.0.7" name="orm_adapter" version="0.0.7" timestamp="1442953773133" parser_version="15" git="false">
           <additional_info authors="Ian White, Jose Valim" email="ian.w.white@gmail.com" homepage="http://github.com/ianwhite/orm_adapter">
-            <summary>orm_adapter provides a single point of entry for using basic features of popular ruby ORMs.  Its target audience is gem authors who want to support many ruby ORMs.</summary>
+            <summary>orm_adapter provides a single point of entry for using basic features of popular ruby ORMs. Its target audience is gem authors who want to support many ruby ORMs.</summary>
           </additional_info>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/httpclient-2.7.1" name="httpclient" version="2.7.1" timestamp="1457931268911" parser_version="15" git="false">
@@ -1166,18 +1171,8 @@
           <additional_info authors="Samuel Cochran" email="sj26@sj26.com" homepage="http://mailcatcher.me">
             <summary>Runs an SMTP server, catches and displays email in a web interface.</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
-            <bound version="3.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="eventmachine" git="false" path="false" doRequire="true">
-            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="haml" git="false" path="false" doRequire="true">
-            <bound version="3.1" bound="GREATER_OR_EQUAL" />
-            <bound version="5" bound="LESS" />
-          </dependency>
-          <dependency name="mail" git="false" path="false" doRequire="true">
-            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          <dependency name="thin" git="false" path="false" doRequire="true">
+            <bound version="1.5.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="sinatra" git="false" path="false" doRequire="true">
             <bound version="1.2" bound="LATEST_IN_BRANCH" />
@@ -1185,11 +1180,21 @@
           <dependency name="sqlite3" git="false" path="false" doRequire="true">
             <bound version="1.3" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="thin" git="false" path="false" doRequire="true">
-            <bound version="1.5.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="skinny" git="false" path="false" doRequire="true">
             <bound version="0.2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="mail" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="eventmachine" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="haml" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="GREATER_OR_EQUAL" />
+            <bound version="5" bound="LESS" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/active_model_serializers-0.8.3" name="active_model_serializers" version="0.8.3" timestamp="1457931174820" parser_version="15" git="false">
@@ -1217,14 +1222,14 @@
           <additional_info authors="Jari Bakken" email="jari.bakken@gmail.com" homepage="https://github.com/seleniumhq/selenium">
             <summary>The next generation developer focused tool for automated testing of webapps</summary>
           </additional_info>
+          <dependency name="childprocess" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="rubyzip" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="childprocess" git="false" path="false" doRequire="true">
-            <bound version="0.5" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="websocket" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
@@ -1234,13 +1239,13 @@
           <additional_info authors="Brian Ryckbost, Matt Griffin, Erik Michaels-Ober" email="bryckbost@gmail.com, matt@griffinonline.org, sferik@gmail.com" homepage="http://github.com/collectiveidea/delayed_job_active_record">
             <summary>ActiveRecord backend for DelayedJob</summary>
           </additional_info>
-          <dependency name="activerecord" git="false" path="false" doRequire="true">
-            <bound version="3.0" bound="GREATER_OR_EQUAL" />
-            <bound version="5.1" bound="LESS" />
-          </dependency>
           <dependency name="delayed_job" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="GREATER_OR_EQUAL" />
             <bound version="5" bound="LESS" />
+          </dependency>
+          <dependency name="activerecord" git="false" path="false" doRequire="true">
+            <bound version="3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.1" bound="LESS" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/delayed_job_active_record-4.1.0" name="delayed_job_active_record" version="4.1.0" timestamp="1457931249925" parser_version="15" git="false">
@@ -1286,10 +1291,10 @@
           <additional_info authors="Mathias Meyer, Ben Lovell" email="meyer@paperplanes.de, benjamin.lovell@gmail.com" homepage="https://github.com/roidrage/lograge">
             <summary>Tame Rails' multi-line logging into a single line per request</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
             <bound version="3" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="actionpack" git="false" path="false" doRequire="true">
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="railties" git="false" path="false" doRequire="true">
@@ -1340,22 +1345,22 @@
           <additional_info authors="Michael Bleigh, Erik Michaels-Ober" email="michael@intridea.com, sferik@gmail.com" homepage="http://github.com/intridea/oauth2">
             <summary>A Ruby wrapper for the OAuth 2.0 protocol.</summary>
           </additional_info>
-          <dependency name="faraday" git="false" path="false" doRequire="true">
-            <bound version="0.10" bound="LESS" />
-            <bound version="0.8" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="jwt" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="multi_json" git="false" path="false" doRequire="true">
-            <bound version="1.3" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="multi_xml" git="false" path="false" doRequire="true">
-            <bound version="0.5" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="1.2" bound="GREATER_OR_EQUAL" />
             <bound version="3" bound="LESS" />
+          </dependency>
+          <dependency name="multi_xml" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.10" bound="LESS" />
+            <bound version="0.8" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/url_field-0.0.2" name="url_field" version="0.0.2" timestamp="1442953841301" parser_version="15" git="false">
@@ -1417,11 +1422,11 @@
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="pusher-signature" git="false" path="false" doRequire="true">
-            <bound version="0.1.8" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="httpclient" git="false" path="false" doRequire="true">
             <bound version="2.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="pusher-signature" git="false" path="false" doRequire="true">
+            <bound version="0.1.8" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/parallel-1.6.2" name="parallel" version="1.6.2" timestamp="1457931282698" parser_version="15" git="false">
@@ -1443,12 +1448,12 @@
           <additional_info authors="ZURB" email="foundation@zurb.com" homepage="http://foundation.zurb.com">
             <summary>ZURB Foundation on Sass/Compass</summary>
           </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
           <dependency name="sass" git="false" path="false" doRequire="true">
             <bound version="3.3.0" bound="GREATER_OR_EQUAL" />
             <bound version="3.5" bound="LESS" />
-          </dependency>
-          <dependency name="railties" git="false" path="false" doRequire="true">
-            <bound version="3.1.0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/omniauth-1.3.1" name="omniauth" version="1.3.1" timestamp="1453930697206" parser_version="15" git="false">
@@ -1469,6 +1474,17 @@
             <summary>Ruby/EventMachine library</summary>
           </additional_info>
         </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/gibbon-2.2.4" name="gibbon" version="2.2.4" timestamp="1475097379487" parser_version="15" git="false">
+          <additional_info authors="Amro Mousa" email="amromousa@gmail.com" homepage="http://github.com/amro/gibbon">
+            <summary>A wrapper for MailChimp API 3.0</summary>
+          </additional_info>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.11.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.16.0" name="raindrops" version="0.16.0" timestamp="1469805821008" parser_version="15" git="false">
           <additional_info authors="raindrops hackers" email="raindrops@bogomips.org" homepage="http://raindrops.bogomips.org/">
             <summary>real-time stats for preforking Rack servers</summary>
@@ -1478,12 +1494,6 @@
           <additional_info authors="Jos\u{e9} Valim, Carlos Ant\u{f4}nio" email="contact@plataformatec.com.br" homepage="https://github.com/plataformatec/devise">
             <summary>Flexible authentication solution for Rails with Warden</summary>
           </additional_info>
-          <dependency name="warden" git="false" path="false" doRequire="true">
-            <bound version="1.2.3" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="orm_adapter" git="false" path="false" doRequire="true">
-            <bound version="0.1" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="bcrypt" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="LATEST_IN_BRANCH" />
           </dependency>
@@ -1493,6 +1503,12 @@
           <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.2.6" bound="GREATER_OR_EQUAL" />
             <bound version="5" bound="LESS" />
+          </dependency>
+          <dependency name="warden" git="false" path="false" doRequire="true">
+            <bound version="1.2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="orm_adapter" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="responders" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
@@ -1561,14 +1577,14 @@
           <additional_info authors="Rajan Agaskar, Christian Williams, Davis Frank" email="jasmine-js@googlegroups.com" homepage="http://jasmine.github.io/">
             <summary>JavaScript BDD framework</summary>
           </additional_info>
-          <dependency name="jasmine-core" git="false" path="false" doRequire="true">
-            <bound version="2.4" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="1.2.1" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="rake" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="jasmine-core" git="false" path="false" doRequire="true">
+            <bound version="2.4" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="phantomjs" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
@@ -1639,34 +1655,40 @@
           <additional_info authors="Paul O\u{2019}Shannessy" email="paul@oshannessy.com" homepage="https://github.com/reactjs/react-rails">
             <summary>React/JSX adapter for the Ruby on Rails asset pipeline.</summary>
           </additional_info>
-          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
-            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          <dependency name="babel-transpiler" git="false" path="false" doRequire="true">
+            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="connection_pool" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="execjs" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.2" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="tilt" git="false" path="false" doRequire="true">
-            <bound version="0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="babel-transpiler" git="false" path="false" doRequire="true">
-            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/react-rails-1.8.1" name="react-rails" version="1.8.1" timestamp="1469805822108" parser_version="15" git="false">
           <additional_info authors="Paul O\u{2019}Shannessy" email="paul@oshannessy.com" homepage="https://github.com/reactjs/react-rails">
             <summary>React/JSX adapter for the Ruby on Rails asset pipeline.</summary>
           </additional_info>
-          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
-            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          <dependency name="babel-transpiler" git="false" path="false" doRequire="true">
+            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="connection_pool" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="execjs" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
@@ -1674,25 +1696,19 @@
           <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.2" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="tilt" git="false" path="false" doRequire="true">
-            <bound version="0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="babel-transpiler" git="false" path="false" doRequire="true">
-            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
-          </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.0.1" name="unicorn" version="5.0.1" timestamp="1457931314290" parser_version="15" git="false">
           <additional_info authors="unicorn hackers" email="unicorn-public@bogomips.org" homepage="http://unicorn.bogomips.org/">
             <summary>Rack HTTP server for fast clients and Unix</summary>
           </additional_info>
+          <dependency name="raindrops" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="rack" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="kgio" git="false" path="false" doRequire="true">
             <bound version="2.6" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="raindrops" git="false" path="false" doRequire="true">
-            <bound version="0.7" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/newrelic_rpm-3.16.0.318" name="newrelic_rpm" version="3.16.0.318" timestamp="1469805815944" parser_version="15" git="false">
@@ -1724,10 +1740,10 @@
           <dependency name="ansi" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="powerbar" git="false" path="false" doRequire="true">
+          <dependency name="builder" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="builder" git="false" path="false" doRequire="true">
+          <dependency name="powerbar" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
@@ -1744,6 +1760,14 @@
           <additional_info authors="Michael Granger, Lars Kanis" email="ged@FaerieMUD.org, lars@greiz-reinsdorf.de" homepage="https://bitbucket.org/ged/ruby-pg">
             <summary>Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]</summary>
           </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/intercom-rails-0.3.2" name="intercom-rails" version="0.3.2" timestamp="1475097379227" parser_version="15" git="false">
+          <additional_info authors="Ben McRedmond, Ciaran Lee, Darragh Curran" email="ben@intercom.io, ciaran@intercom.io, darragh@intercom.io" homepage="http://www.intercom.io">
+            <summary>Rails helper for emitting javascript script tags for Intercom</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.0" bound="GREATER" />
+          </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.15.0" name="raindrops" version="0.15.0" timestamp="1457931296000" parser_version="15" git="false">
           <additional_info authors="raindrops hackers" email="raindrops@bogomips.org" homepage="http://raindrops.bogomips.org/">
@@ -1791,11 +1815,11 @@
           <additional_info authors="Martin Emde, Sam Merritt" email="memde@engineyard.com, smerritt@engineyard.com&amp;gt;" homepage="http://github.com/engineyard/engineyard-serverside-adapter">
             <summary>Adapter for speaking to engineyard-serverside</summary>
           </additional_info>
-          <dependency name="escape" git="false" path="false" doRequire="true">
-            <bound version="0.0.4" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="escape" git="false" path="false" doRequire="true">
+            <bound version="0.0.4" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/htmldiff-0.0.1" name="htmldiff" version="0.0.1" timestamp="1442953788117" parser_version="15" git="false">
@@ -1874,10 +1898,19 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Full-stack web application framework.</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
           <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionmailer" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
           <dependency name="activerecord" git="false" path="false" doRequire="true">
@@ -1885,41 +1918,32 @@
           </dependency>
           <dependency name="activeresource" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
-          </dependency>
-          <dependency name="actionmailer" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.1" bound="EQUAL" />
-          </dependency>
-          <dependency name="railties" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.1" bound="EQUAL" />
-          </dependency>
-          <dependency name="bundler" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rails-3.2.22.2" name="rails" version="3.2.22.2" timestamp="1469805755728" parser_version="15" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Full-stack web application framework.</summary>
           </additional_info>
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activerecord" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionmailer" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
+          </dependency>
           <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
           <dependency name="actionpack" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
-          <dependency name="activerecord" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
           <dependency name="activeresource" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
-          <dependency name="actionmailer" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
           <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
-          <dependency name="bundler" git="false" path="false" doRequire="true">
-            <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/aws-sdk-resources-2.3.12" name="aws-sdk-resources" version="2.3.12" timestamp="1465855162545" parser_version="15" git="false">
@@ -1996,11 +2020,11 @@
           <additional_info authors="Bartosz Blimke" email="bartosz.blimke@gmail.com" homepage="http://github.com/bblimke/webmock">
             <summary>Library for stubbing HTTP requests in Ruby.</summary>
           </additional_info>
-          <dependency name="addressable" git="false" path="false" doRequire="true">
-            <bound version="2.3.6" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="crack" git="false" path="false" doRequire="true">
             <bound version="0.3.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3.6" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="hashdiff" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
@@ -2010,11 +2034,11 @@
           <additional_info authors="unicorn hackers" email="unicorn-public@bogomips.org" homepage="http://unicorn.bogomips.org/">
             <summary>Rack HTTP server for fast clients and Unix</summary>
           </additional_info>
-          <dependency name="kgio" git="false" path="false" doRequire="true">
-            <bound version="2.6" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="raindrops" git="false" path="false" doRequire="true">
             <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="kgio" git="false" path="false" doRequire="true">
+            <bound version="2.6" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pry-0.10.4" name="pry" version="0.10.4" timestamp="1469805818600" parser_version="15" git="false">
@@ -2024,11 +2048,11 @@
           <dependency name="coderay" git="false" path="false" doRequire="true">
             <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="slop" git="false" path="false" doRequire="true">
-            <bound version="3.4" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="method_source" git="false" path="false" doRequire="true">
             <bound version="0.8.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="slop" git="false" path="false" doRequire="true">
+            <bound version="3.4" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/jwt-1.5.1" name="jwt" version="1.5.1" timestamp="1457931271728" parser_version="15" git="false">
@@ -2043,23 +2067,23 @@
           <dependency name="coderay" git="false" path="false" doRequire="true">
             <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="slop" git="false" path="false" doRequire="true">
-            <bound version="3.4" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="method_source" git="false" path="false" doRequire="true">
             <bound version="0.8.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="slop" git="false" path="false" doRequire="true">
+            <bound version="3.4" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/sinatra-1.4.6" name="sinatra" version="1.4.6" timestamp="1466595290343" parser_version="15" git="false">
           <additional_info authors="Blake Mizerany, Ryan Tomayko, Simon Rozet, Konstantin Haase" email="sinatrarb@googlegroups.com" homepage="http://www.sinatrarb.com/">
             <summary>Classy web-development dressed in a DSL</summary>
           </additional_info>
-          <dependency name="rack" git="false" path="false" doRequire="true">
-            <bound version="1.4" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="tilt" git="false" path="false" doRequire="true">
             <bound version="1.3" bound="GREATER_OR_EQUAL" />
             <bound version="3" bound="LESS" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.4" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="rack-protection" git="false" path="false" doRequire="true">
             <bound version="1.4" bound="LATEST_IN_BRANCH" />
@@ -2082,14 +2106,14 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Object-relational mapper framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.1" bound="EQUAL" />
+          <dependency name="arel" git="false" path="false" doRequire="true">
+            <bound version="3.0.2" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="activemodel" git="false" path="false" doRequire="true">
             <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
-          <dependency name="arel" git="false" path="false" doRequire="true">
-            <bound version="3.0.2" bound="LATEST_IN_BRANCH" />
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.1" bound="EQUAL" />
           </dependency>
           <dependency name="tzinfo" git="false" path="false" doRequire="true">
             <bound version="0.3.29" bound="LATEST_IN_BRANCH" />
@@ -2104,14 +2128,14 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Object-relational mapper framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activesupport" git="false" path="false" doRequire="true">
-            <bound version="3.2.22.2" bound="EQUAL" />
-          </dependency>
           <dependency name="activemodel" git="false" path="false" doRequire="true">
             <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
           <dependency name="arel" git="false" path="false" doRequire="true">
             <bound version="3.0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.22.2" bound="EQUAL" />
           </dependency>
           <dependency name="tzinfo" git="false" path="false" doRequire="true">
             <bound version="0.3.29" bound="LATEST_IN_BRANCH" />
@@ -2129,11 +2153,11 @@
           <dependency name="actionpack" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="railties" git="false" path="false" doRequire="true">
-            <bound version="3.0" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="uber" git="false" path="false" doRequire="true">
             <bound version="0.0.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/hoe-3.15.1" name="hoe" version="3.15.1" timestamp="1471474521918" parser_version="15" git="false">
@@ -2152,34 +2176,34 @@
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="pusher-signature" git="false" path="false" doRequire="true">
-            <bound version="0.1.8" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="httpclient" git="false" path="false" doRequire="true">
             <bound version="2.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="pusher-signature" git="false" path="false" doRequire="true">
+            <bound version="0.1.8" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/capybara-2.6.2" name="capybara" version="2.6.2" timestamp="1457931237471" parser_version="15" git="false">
           <additional_info authors="Thomas Walpole, Jonas Nicklas" email="twalpole@gmail.com, jonas.nicklas@gmail.com" homepage="https://github.com/jnicklas/capybara">
             <summary>Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb</summary>
           </additional_info>
-          <dependency name="nokogiri" git="false" path="false" doRequire="true">
-            <bound version="1.3.3" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="mime-types" git="false" path="false" doRequire="true">
             <bound version="1.16" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="rack" git="false" path="false" doRequire="true">
-            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="rack-test" git="false" path="false" doRequire="true">
-            <bound version="0.5.4" bound="GREATER_OR_EQUAL" />
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="xpath" git="false" path="false" doRequire="true">
             <bound version="2.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="addressable" git="false" path="false" doRequire="true">
-            <bound version="0" bound="GREATER_OR_EQUAL" />
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="nokogiri" git="false" path="false" doRequire="true">
+            <bound version="1.3.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rack-test" git="false" path="false" doRequire="true">
+            <bound version="0.5.4" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/faraday-0.9.2" name="faraday" version="0.9.2" timestamp="1453930690649" parser_version="15" git="false">
@@ -2218,18 +2242,18 @@
           <additional_info authors="Les Hill" email="leshill@gmail.com" homepage="https://github.com/leshill/handlebars_assets">
             <summary>Compile Handlebars templates in the Rails asset pipeline.</summary>
           </additional_info>
-          <dependency name="execjs" git="false" path="false" doRequire="true">
-            <bound version="2.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="tilt" git="false" path="false" doRequire="true">
-            <bound version="1.2" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="multi_json" git="false" path="false" doRequire="true">
             <bound version="1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="sprockets" git="false" path="false" doRequire="true">
             <bound version="2.0.0" bound="GREATER_OR_EQUAL" />
             <bound version="4.0" bound="LESS" />
+          </dependency>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/crass-1.0.2" name="crass" version="1.0.2" timestamp="1471474520934" parser_version="15" git="false">
@@ -2293,14 +2317,14 @@
           <additional_info authors="Christoph Olszowka" email="christoph at olszowka de" homepage="http://github.com/colszowka/simplecov">
             <summary>Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites</summary>
           </additional_info>
+          <dependency name="docile" git="false" path="false" doRequire="true">
+            <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="json" git="false" path="false" doRequire="true">
             <bound version="1.8" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="simplecov-html" git="false" path="false" doRequire="true">
             <bound version="0.10.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="docile" git="false" path="false" doRequire="true">
-            <bound version="1.1.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/bcrypt-ruby-3.1.5" name="bcrypt-ruby" version="3.1.5" timestamp="1457931236263" parser_version="15" git="false">
@@ -2326,13 +2350,13 @@
           <dependency name="activesupport" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="LATEST_IN_BRANCH" />
           </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="actionpack" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="LATEST_IN_BRANCH" />
           </dependency>
           <dependency name="activemodel" git="false" path="false" doRequire="true">
-            <bound version="3.0" bound="LATEST_IN_BRANCH" />
-          </dependency>
-          <dependency name="railties" git="false" path="false" doRequire="true">
             <bound version="3.0" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
@@ -2361,23 +2385,23 @@
           <additional_info authors="Paul O\u{2019}Shannessy" email="paul@oshannessy.com" homepage="https://github.com/reactjs/react-rails">
             <summary>React/JSX adapter for the Ruby on Rails asset pipeline.</summary>
           </additional_info>
-          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
-            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          <dependency name="babel-transpiler" git="false" path="false" doRequire="true">
+            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="connection_pool" git="false" path="false" doRequire="true">
-            <bound version="0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="execjs" git="false" path="false" doRequire="true">
+          <dependency name="tilt" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="rails" git="false" path="false" doRequire="true">
             <bound version="3.2" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="tilt" git="false" path="false" doRequire="true">
+          <dependency name="connection_pool" git="false" path="false" doRequire="true">
             <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="babel-transpiler" git="false" path="false" doRequire="true">
-            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
+          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/jsonapi-serializers-0.14.0" name="jsonapi-serializers" version="0.14.0" timestamp="1470152064895" parser_version="15" git="false">
@@ -2430,14 +2454,22 @@
           <additional_info authors="Ryan Grove" email="ryan@wonko.com" homepage="https://github.com/rgrove/sanitize/">
             <summary>Whitelist-based HTML and CSS sanitizer.</summary>
           </additional_info>
-          <dependency name="crass" git="false" path="false" doRequire="true">
-            <bound version="1.0.2" bound="LATEST_IN_BRANCH" />
-          </dependency>
           <dependency name="nokogiri" git="false" path="false" doRequire="true">
             <bound version="1.4.4" bound="GREATER_OR_EQUAL" />
           </dependency>
+          <dependency name="crass" git="false" path="false" doRequire="true">
+            <bound version="1.0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="nokogumbo" git="false" path="false" doRequire="true">
             <bound version="1.4.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/autoprefixer-rails-6.3.7" name="autoprefixer-rails" version="6.3.7" timestamp="1473261518048" parser_version="15" git="false">
+          <additional_info authors="Andrey Sitnik" email="andrey@sitnik.ru" homepage="https://github.com/ai/autoprefixer-rails">
+            <summary>Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/metaclass-0.0.4" name="metaclass" version="0.0.4" timestamp="1442953805069" parser_version="15" git="false">
@@ -2449,6 +2481,9 @@
           <additional_info authors="Pat Allan" email="pat@freelancing-gods.com" homepage="http://pat.github.io/thinking-sphinx/">
             <summary>ActiveRecord/Rails Sphinx library</summary>
           </additional_info>
+          <dependency name="innertube" git="false" path="false" doRequire="true">
+            <bound version="1.0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="activerecord" git="false" path="false" doRequire="true">
             <bound version="3.0.3" bound="GREATER_OR_EQUAL" />
           </dependency>
@@ -2457,9 +2492,6 @@
           </dependency>
           <dependency name="builder" git="false" path="false" doRequire="true">
             <bound version="2.1.2" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="innertube" git="false" path="false" doRequire="true">
-            <bound version="1.0.2" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0" name="kgio" version="2.10.0" timestamp="1457931276627" parser_version="15" git="false">
@@ -2479,23 +2511,23 @@
           <additional_info authors="Thomas Walpole, Jonas Nicklas" email="twalpole@gmail.com, jonas.nicklas@gmail.com" homepage="https://github.com/jnicklas/capybara">
             <summary>Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb</summary>
           </additional_info>
-          <dependency name="nokogiri" git="false" path="false" doRequire="true">
-            <bound version="1.3.3" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="mime-types" git="false" path="false" doRequire="true">
             <bound version="1.16" bound="GREATER_OR_EQUAL" />
           </dependency>
-          <dependency name="rack" git="false" path="false" doRequire="true">
-            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
-          </dependency>
-          <dependency name="rack-test" git="false" path="false" doRequire="true">
-            <bound version="0.5.4" bound="GREATER_OR_EQUAL" />
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
           </dependency>
           <dependency name="xpath" git="false" path="false" doRequire="true">
             <bound version="2.0" bound="LATEST_IN_BRANCH" />
           </dependency>
-          <dependency name="addressable" git="false" path="false" doRequire="true">
-            <bound version="0" bound="GREATER_OR_EQUAL" />
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="nokogiri" git="false" path="false" doRequire="true">
+            <bound version="1.3.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rack-test" git="false" path="false" doRequire="true">
+            <bound version="0.5.4" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/launchy-2.4.3" name="launchy" version="2.4.3" timestamp="1442939110764" parser_version="15" git="false">
@@ -2510,6 +2542,9 @@
           <additional_info authors="REST Client Team" email="rest.client@librelist.com" homepage="https://github.com/rest-client/rest-client">
             <summary>Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.</summary>
           </additional_info>
+          <dependency name="netrc" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
           <dependency name="http-cookie" git="false" path="false" doRequire="true">
             <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
             <bound version="2.0" bound="LESS" />
@@ -2517,9 +2552,6 @@
           <dependency name="mime-types" git="false" path="false" doRequire="true">
             <bound version="1.16" bound="GREATER_OR_EQUAL" />
             <bound version="3.0" bound="LESS" />
-          </dependency>
-          <dependency name="netrc" git="false" path="false" doRequire="true">
-            <bound version="0.7" bound="LATEST_IN_BRANCH" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rack-1.4.7" name="rack" version="1.4.7" timestamp="1453930684816" parser_version="15" git="false">
@@ -2546,11 +2578,11 @@
           <additional_info authors="Kouhei Sutou, Masao Mutoh" email="kou@clear-code.com, mutomasa at gmail.com" homepage="http://ruby-gettext.github.com/">
             <summary>Gettext is a pure Ruby libary and tools to localize messages.</summary>
           </additional_info>
-          <dependency name="locale" git="false" path="false" doRequire="true">
-            <bound version="2.0.5" bound="GREATER_OR_EQUAL" />
-          </dependency>
           <dependency name="text" git="false" path="false" doRequire="true">
             <bound version="1.3.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="locale" git="false" path="false" doRequire="true">
+            <bound version="2.0.5" bound="GREATER_OR_EQUAL" />
           </dependency>
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/crack-0.4.3" name="crack" version="0.4.3" timestamp="1454517725580" parser_version="15" git="false">
@@ -2761,6 +2793,7 @@
       <entry key="foundation-rails, 6.1.2.0" value="no" />
       <entry key="gettext, 3.1.7" value="no" />
       <entry key="gettext, 3.2.2" value="no" />
+      <entry key="gibbon, 2.2.4" value="no" />
       <entry key="gravtastic, 3.2.6" value="no" />
       <entry key="guard, 2.13.0" value="no" />
       <entry key="guard-compat, 1.2.1" value="no" />
@@ -2793,6 +2826,7 @@
       <entry key="i18n-js, 3.0.0.rc13" value="no" />
       <entry key="innertube, 1.0.2" value="no" />
       <entry key="innertube, 1.1.0" value="no" />
+      <entry key="intercom-rails, 0.3.2" value="no" />
       <entry key="jasmine, 2.0.2" value="no" />
       <entry key="jasmine, 2.4.0" value="no" />
       <entry key="jasmine-core, 2.0.2" value="no" />
@@ -3008,6 +3042,7 @@
       <entry key="sinatra, 1.4.6" value="no" />
       <entry key="skinny, 0.2.3" value="no" />
       <entry key="skinny, 0.2.4" value="no" />
+      <entry key="slack-notifier, 1.5.1" value="no" />
       <entry key="slop, 3.6.0" value="no" />
       <entry key="spreadsheet, 0.6.5.9" value="no" />
       <entry key="spreadsheet, 1.1.1" value="no" />

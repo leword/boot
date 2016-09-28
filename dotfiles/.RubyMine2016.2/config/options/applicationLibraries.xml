@@ -718,6 +718,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@glassfrog/gems/auto_complete-0.0.1/lib" />
       </SOURCES>
     </library>
+    <library name="autoprefixer-rails (v6.3.7, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/autoprefixer-rails-6.3.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/autoprefixer-rails-6.3.7/vendor" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/autoprefixer-rails-6.3.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/autoprefixer-rails-6.3.7/vendor" />
+      </SOURCES>
+    </library>
     <library name="autoprefixer-rails (v6.3.7, RVM: ruby-2.0.0-p648 [glassfrog]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p648@glassfrog/gems/autoprefixer-rails-6.3.7/lib" />
@@ -894,10 +904,12 @@
     </library>
     <library name="bcrypt (v3.1.11, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/bcrypt/3.1.11" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/bcrypt-3.1.11/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/bcrypt-3.1.11/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/bcrypt/3.1.11" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/bcrypt-3.1.11/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/bcrypt-3.1.11/lib" />
       </SOURCES>
@@ -1262,10 +1274,12 @@
     </library>
     <library name="binding_of_caller (v0.7.2, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/binding_of_caller/0.7.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/binding_of_caller-0.7.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/binding_of_caller-0.7.2/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/binding_of_caller/0.7.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/binding_of_caller-0.7.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/binding_of_caller-0.7.2/lib" />
       </SOURCES>
@@ -2228,10 +2242,12 @@
     </library>
     <library name="debug_inspector (v0.0.2, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/debug_inspector/0.0.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/debug_inspector-0.0.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/debug_inspector-0.0.2/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/debug_inspector/0.0.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/debug_inspector-0.0.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/debug_inspector-0.0.2/lib" />
       </SOURCES>
@@ -3106,6 +3122,7 @@
     </library>
     <library name="eventmachine (v1.2.0.1, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/eventmachine/1.2.0.1" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/java" />
@@ -3113,6 +3130,7 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/rakelib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/eventmachine/1.2.0.1" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/eventmachine-1.2.0.1/java" />
@@ -3424,12 +3442,14 @@
     </library>
     <library name="ffi (v1.9.14, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/ffi/1.9.14" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/gen" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/libtest" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/ffi/1.9.14" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/gen" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/ffi-1.9.14/lib" />
@@ -3774,6 +3794,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@glassfrog/gems/gettext-3.2.2/src" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@glassfrog/gems/gettext-3.2.2/locale" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@glassfrog/gems/gettext-3.2.2/samples" />
+      </SOURCES>
+    </library>
+    <library name="gibbon (v2.2.4, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/gibbon-2.2.4/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/gibbon-2.2.4/lib" />
       </SOURCES>
     </library>
     <library name="gravtastic (v3.2.6, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
@@ -4418,6 +4446,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@glassfrog/gems/innertube-1.0.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="intercom-rails (v0.3.2, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/intercom-rails-0.3.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/intercom-rails-0.3.2/lib" />
       </SOURCES>
     </library>
     <library name="io-console (v0.4.2, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
@@ -5262,6 +5298,7 @@
     </library>
     <library name="json (v1.8.3, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/json/1.8.3" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/data" />
@@ -5271,6 +5308,7 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/diagrams" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/json/1.8.3" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/json-1.8.3/data" />
@@ -5520,11 +5558,13 @@
     </library>
     <library name="kgio (v2.10.0, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/kgio/2.10.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0/archive" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/kgio/2.10.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/kgio-2.10.0/archive" />
@@ -6578,6 +6618,7 @@
     </library>
     <library name="nokogiri (v1.6.7, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/nokogiri/1.6.7" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/lib" />
@@ -6586,6 +6627,7 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/suppressions" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/nokogiri/1.6.7" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/nokogiri-1.6.7/lib" />
@@ -7118,11 +7160,13 @@
     </library>
     <library name="pg (v0.18.4, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/pg/0.18.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pg-0.18.4/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pg-0.18.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pg-0.18.4/sample" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/pg/0.18.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pg-0.18.4/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pg-0.18.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/pg-0.18.4/sample" />
@@ -8626,11 +8670,13 @@
     </library>
     <library name="raindrops (v0.17.0, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/raindrops/0.17.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.17.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.17.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.17.0/archive" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/raindrops/0.17.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.17.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.17.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/raindrops-0.17.0/archive" />
@@ -9552,10 +9598,12 @@
     </library>
     <library name="rinku (v2.0.0, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/rinku/2.0.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rinku-2.0.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rinku-2.0.0/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/rinku/2.0.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rinku-2.0.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/rinku-2.0.0/lib" />
       </SOURCES>
@@ -10288,6 +10336,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/skinny-0.2.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="slack-notifier (v1.5.1, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/slack-notifier-1.5.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/slack-notifier-1.5.1/lib" />
       </SOURCES>
     </library>
     <library name="slop (v3.6.0, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
@@ -11800,6 +11856,7 @@
     </library>
     <library name="unicorn (v5.1.0, RVM: ruby-2.0.0-p481 [glassfrog]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/unicorn/5.1.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/t" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/ext" />
@@ -11809,6 +11866,7 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/Documentation" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs20/unicorn/5.1.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/t" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/unicorn-5.1.0/ext" />
