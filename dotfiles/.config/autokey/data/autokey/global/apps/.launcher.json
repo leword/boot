@@ -7,7 +7,7 @@
         "wordChars": "[\\w]",
         "abbreviations": []
     },
-    "description": "rubymine",
+    "description": "launcher",
     "modes": [
         3
     ],
@@ -20,11 +20,11 @@
     },
     "hotkey": {
         "modifiers": [
-            "<super>"
+            "<alt>"
         ],
-        "hotKey": "r"
+        "hotKey": " "
     },
-    "usageCount": 1,
+    "usageCount": 5,
     "type": "script",
     "store": {}
 }

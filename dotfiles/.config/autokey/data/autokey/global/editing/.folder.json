@@ -1,0 +1,23 @@
+{
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "title": "editing",
+    "modes": [],
+    "abbreviation": {
+        "immediate": false,
+        "backspace": true,
+        "triggerInside": false,
+        "ignoreCase": false,
+        "wordChars": "[\\w]",
+        "abbreviations": []
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "usageCount": 25,
+    "type": "folder",
+    "showInTrayMenu": false
+}

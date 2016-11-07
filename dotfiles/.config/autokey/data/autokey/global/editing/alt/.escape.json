@@ -7,24 +7,25 @@
         "wordChars": "[\\w]",
         "abbreviations": []
     },
-    "description": "rubymine",
-    "modes": [
-        3
-    ],
+    "description": "escape",
+    "sendMode": "kb",
+    "matchCase": false,
     "prompt": false,
-    "omitTrigger": false,
     "showInTrayMenu": false,
     "filter": {
         "regex": null,
         "isRecursive": false
     },
+    "modes": [
+        3
+    ],
+    "omitTrigger": false,
     "hotkey": {
         "modifiers": [
-            "<super>"
+            "<alt>"
         ],
-        "hotKey": "r"
+        "hotKey": "h"
     },
-    "usageCount": 1,
-    "type": "script",
-    "store": {}
+    "usageCount": 3,
+    "type": "phrase"
 }
