@@ -1,0 +1,31 @@
+{
+    "prompt": false,
+    "type": "phrase",
+    "hotkey": {
+        "hotKey": "l",
+        "modifiers": [
+            "<super>"
+        ]
+    },
+    "omitTrigger": false,
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": false,
+    "matchCase": false,
+    "usageCount": 0,
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "abbreviations": [],
+        "triggerInside": false,
+        "ignoreCase": false,
+        "immediate": false
+    },
+    "description": "<alt>+l",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "sendMode": "kb"
+}

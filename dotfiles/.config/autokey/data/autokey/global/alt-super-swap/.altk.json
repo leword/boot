@@ -1,0 +1,31 @@
+{
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "prompt": false,
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": false,
+    "description": "<alt>+k",
+    "omitTrigger": false,
+    "sendMode": "kb",
+    "matchCase": false,
+    "abbreviation": {
+        "backspace": true,
+        "abbreviations": [],
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "hotKey": "k",
+        "modifiers": [
+            "<super>"
+        ]
+    },
+    "usageCount": 0,
+    "type": "phrase"
+}
