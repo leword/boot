@@ -1,0 +1,47 @@
+<keymap version="1" name="Lew-gnome-based-custom" parent="Default for GNOME">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="EditorDeleteLine" />
+  <action id="EditorDuplicate" />
+  <action id="EditorMatchBrace" />
+  <action id="EditorPasteSimple" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="GotoClass" />
+  <action id="GotoCustomRegion" />
+  <action id="GotoFile" />
+  <action id="GotoLine" />
+  <action id="GotoSymbol" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="SaveAll" />
+  <action id="SelectNextOccurrence" />
+  <action id="ShowSettings" />
+  <action id="Synchronize" />
+  <action id="UnselectPreviousOccurrence" />
+  <action id="linessorter.sort" />
+</keymap>
