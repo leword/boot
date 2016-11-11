@@ -1,0 +1,27 @@
+{
+    "prompt": false,
+    "type": "phrase",
+    "abbreviation": {
+        "immediate": false,
+        "abbreviations": [],
+        "ignoreCase": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "triggerInside": false
+    },
+    "omitTrigger": false,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "description": "<ctrl>+v                      paste",
+    "usageCount": 0,
+    "sendMode": "kb",
+    "modes": [],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "matchCase": false
+}

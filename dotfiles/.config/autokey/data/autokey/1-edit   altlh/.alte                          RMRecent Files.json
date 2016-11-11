@@ -1,0 +1,27 @@
+{
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "type": "phrase",
+    "modes": [],
+    "omitTrigger": false,
+    "sendMode": "kb",
+    "usageCount": 0,
+    "description": "<alt>+e                          RM:Recent Files",
+    "prompt": false,
+    "matchCase": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "triggerInside": false,
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [],
+        "backspace": true,
+        "wordChars": "[\\w]"
+    }
+}
