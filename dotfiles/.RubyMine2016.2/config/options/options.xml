@@ -40,7 +40,7 @@
     <property name="evlsprt3.162" value="19" />
     <property name="RubyMine.dumbRunEnabled" value="true" />
     <property name="RubyTestUnitSupport.openFailureLine" value="false" />
-    <property name="PLUGIN_FILTER" value="" />
+    <property name="PLUGIN_FILTER" value="main" />
     <property name="settings.code.style.selected.tab.JavaScript" value="Spaces" />
     <property name="js.rename.search.in.comments" value="true" />
     <property name="js.rename.search.for.text.occurrences" value="false" />

@@ -75,7 +75,7 @@
     <location key="#Plugins.0.0.3840.2160@144dpi" x="1873" y="567" />
     <location key="findTextDialog.0.0.3840.2160@144dpi" x="1986" y="378" />
     <location key="#Browse_JetBrains_Plugins_.0.0.3840.2160@144dpi" x="2113" y="874" />
-    <location key="SettingsEditor.0.0.3840.2160@144dpi" x="1077" y="303" />
+    <location key="SettingsEditor.0.0.3840.2160@144dpi" x="906" y="352" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3840.2160@144dpi" x="1460" y="578" />
     <location key="findTextDialog.0.0.2560.1440@144dpi" x="1250" y="340" />
     <location key="DiffContextDialog.0.0.2560.1440@144dpi" x="178" y="132" />
@@ -120,6 +120,7 @@
     <location key="CommitChangelistDialog2.0.744.2560.1440" x="124" y="1121" />
     <location key="findTextDialog.0.744.2560.1440" x="459" y="1161" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.744.2560.1440" x="404" y="1073" />
+    <location key="SettingsEditor.0.0.3840.2160@168dpi" x="906" y="352" />
     <size key="FileChooserDialogImpl.0.0.2560.1440" width="426" height="490" />
     <size key="SettingsEditor.0.0.2560.1440" width="1514" height="1415" />
     <size key="CommitChangelistDialog2.0.0.2560.1440" width="2283" height="1415" />
