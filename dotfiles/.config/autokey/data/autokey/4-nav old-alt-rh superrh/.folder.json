@@ -1,0 +1,23 @@
+{
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "type": "folder",
+    "modes": [],
+    "abbreviation": {
+        "backspace": true,
+        "abbreviations": [],
+        "triggerInside": false,
+        "ignoreCase": false,
+        "immediate": false,
+        "wordChars": "[\\w]"
+    },
+    "showInTrayMenu": false,
+    "title": "4-nav [old-alt-rh] (<super>+{rh})",
+    "usageCount": 0,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    }
+}

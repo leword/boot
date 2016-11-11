@@ -1,0 +1,23 @@
+{
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "type": "folder",
+    "modes": [],
+    "abbreviation": {
+        "backspace": true,
+        "abbreviations": [],
+        "triggerInside": false,
+        "ignoreCase": false,
+        "immediate": false,
+        "wordChars": "[\\w]"
+    },
+    "showInTrayMenu": false,
+    "title": "0-sym [+legacy nav] (<ctrl>+{rh})",
+    "usageCount": 1,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    }
+}
