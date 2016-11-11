@@ -1,0 +1,30 @@
+{
+    "usageCount": 16,
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "c"
+    },
+    "abbreviation": {
+        "abbreviations": [],
+        "triggerInside": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false
+    },
+    "modes": [
+        3
+    ],
+    "omitTrigger": false,
+    "store": {},
+    "showInTrayMenu": true,
+    "prompt": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "type": "script",
+    "description": "<ctrl>+c                            copy"
+}

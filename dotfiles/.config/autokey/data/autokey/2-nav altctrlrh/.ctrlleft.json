@@ -1,0 +1,32 @@
+{
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "matchCase": false,
+    "type": "phrase",
+    "sendMode": "kb",
+    "omitTrigger": false,
+    "prompt": false,
+    "description": "<ctrl>+<left>",
+    "modes": [
+        3
+    ],
+    "hotkey": {
+        "hotKey": "j",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>"
+        ]
+    },
+    "usageCount": 292,
+    "abbreviation": {
+        "ignoreCase": false,
+        "abbreviations": [],
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "immediate": false
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "usageCount": 0,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "description": "<shift>+<home>",
+    "type": "phrase",
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<shift>"
+        ],
+        "hotKey": "u"
+    },
+    "prompt": false,
+    "modes": [
+        3
+    ],
+    "matchCase": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "triggerInside": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false
+    },
+    "sendMode": "kb"
+}

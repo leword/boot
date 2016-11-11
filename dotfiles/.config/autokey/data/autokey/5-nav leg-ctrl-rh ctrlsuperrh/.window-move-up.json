@@ -1,0 +1,29 @@
+{
+    "modes": [],
+    "omitTrigger": false,
+    "store": {},
+    "hotkey": {
+        "modifiers": [
+            "<ctrl>",
+            "<super>"
+        ],
+        "hotKey": "i"
+    },
+    "abbreviation": {
+        "backspace": true,
+        "triggerInside": false,
+        "ignoreCase": false,
+        "abbreviations": [],
+        "wordChars": "[\\w]",
+        "immediate": false
+    },
+    "prompt": false,
+    "description": "window-move-up",
+    "showInTrayMenu": false,
+    "usageCount": 161,
+    "type": "script",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

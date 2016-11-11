@@ -1,0 +1,23 @@
+{
+    "type": "folder",
+    "modes": [],
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "abbreviation": {
+        "triggerInside": false,
+        "ignoreCase": false,
+        "backspace": true,
+        "abbreviations": [],
+        "immediate": false,
+        "wordChars": "[\\w]"
+    },
+    "usageCount": 0,
+    "showInTrayMenu": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "title": "1-edit [+leg] (<alt>+{lh})"
+}

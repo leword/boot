@@ -1,0 +1,30 @@
+{
+    "usageCount": 19,
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "v"
+    },
+    "abbreviation": {
+        "abbreviations": [],
+        "triggerInside": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false
+    },
+    "modes": [
+        3
+    ],
+    "omitTrigger": false,
+    "store": {},
+    "showInTrayMenu": false,
+    "prompt": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "type": "script",
+    "description": "<ctrl>+v                            paste"
+}

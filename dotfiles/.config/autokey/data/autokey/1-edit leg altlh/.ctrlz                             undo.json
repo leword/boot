@@ -1,0 +1,31 @@
+{
+    "usageCount": 57,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "description": "<ctrl>+z                             undo",
+    "type": "phrase",
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "z"
+    },
+    "prompt": false,
+    "modes": [
+        3
+    ],
+    "matchCase": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "triggerInside": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false
+    },
+    "sendMode": "kb"
+}

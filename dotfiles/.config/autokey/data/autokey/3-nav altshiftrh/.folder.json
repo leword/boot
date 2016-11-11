@@ -1,5 +1,5 @@
 {
-    "title": "1-nav (<alt>+{rh})",
+    "title": "3-nav (<alt>+<shift>+{rh})",
     "modes": [],
     "filter": {
         "regex": null,
@@ -19,5 +19,5 @@
     },
     "showInTrayMenu": false,
     "type": "folder",
-    "usageCount": 8
+    "usageCount": 0
 }
