@@ -4,7 +4,7 @@
     ],
     "matchCase": false,
     "hotkey": {
-        "hotKey": ".",
+        "hotKey": ",",
         "modifiers": [
             "<ctrl>"
         ]
@@ -19,9 +19,9 @@
     },
     "omitTrigger": false,
     "sendMode": "kb",
-    "usageCount": 7,
+    "usageCount": 8,
     "showInTrayMenu": false,
-    "description": "|",
+    "description": "&",
     "filter": {
         "regex": null,
         "isRecursive": false
