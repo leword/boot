@@ -1,14 +1,16 @@
 {
-    "description": "<ctrl>+<backspace>        back word",
+    "description": "<delete> ",
     "type": "phrase",
-    "modes": [],
+    "modes": [
+        3
+    ],
     "sendMode": "kb",
     "matchCase": false,
     "omitTrigger": false,
     "hotkey": {
-        "hotKey": "f",
+        "hotKey": "d",
         "modifiers": [
-            "<alt>"
+            "<ctrl>"
         ]
     },
     "showInTrayMenu": false,
@@ -17,7 +19,7 @@
         "regex": null
     },
     "prompt": false,
-    "usageCount": 2,
+    "usageCount": 29,
     "abbreviation": {
         "wordChars": "[\\w]",
         "triggerInside": false,

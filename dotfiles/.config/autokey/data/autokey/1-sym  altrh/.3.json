@@ -1,0 +1,31 @@
+{
+    "hotkey": {
+        "hotKey": "u",
+        "modifiers": [
+            "<alt>"
+        ]
+    },
+    "usageCount": 0,
+    "type": "phrase",
+    "matchCase": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "description": "[",
+    "omitTrigger": false,
+    "abbreviation": {
+        "backspace": true,
+        "triggerInside": false,
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "ignoreCase": false,
+        "abbreviations": []
+    },
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": false,
+    "prompt": false,
+    "sendMode": "kb"
+}

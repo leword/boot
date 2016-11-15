@@ -1,0 +1,31 @@
+{
+    "type": "phrase",
+    "modes": [
+        3
+    ],
+    "usageCount": 0,
+    "prompt": false,
+    "omitTrigger": false,
+    "hotkey": {
+        "hotKey": "'",
+        "modifiers": [
+            "<alt>"
+        ]
+    },
+    "matchCase": false,
+    "description": "=",
+    "sendMode": "kb",
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "ignoreCase": false,
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "abbreviations": [],
+        "triggerInside": false
+    },
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}

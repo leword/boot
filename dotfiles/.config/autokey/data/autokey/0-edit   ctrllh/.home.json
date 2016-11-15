@@ -1,0 +1,31 @@
+{
+    "type": "phrase",
+    "matchCase": false,
+    "description": "<home>",
+    "hotkey": {
+        "hotKey": "a",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "abbreviation": {
+        "triggerInside": false,
+        "backspace": true,
+        "immediate": false,
+        "abbreviations": [],
+        "ignoreCase": false,
+        "wordChars": "[\\w]"
+    },
+    "modes": [
+        3
+    ],
+    "omitTrigger": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "showInTrayMenu": false,
+    "prompt": false,
+    "sendMode": "kb",
+    "usageCount": 0
+}

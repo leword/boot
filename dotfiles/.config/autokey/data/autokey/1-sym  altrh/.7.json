@@ -1,12 +1,14 @@
 {
-    "description": "<ctrl>+<backspace>        back word",
+    "description": "]",
     "type": "phrase",
-    "modes": [],
+    "modes": [
+        3
+    ],
     "sendMode": "kb",
     "matchCase": false,
     "omitTrigger": false,
     "hotkey": {
-        "hotKey": "f",
+        "hotKey": "p",
         "modifiers": [
             "<alt>"
         ]
@@ -17,7 +19,7 @@
         "regex": null
     },
     "prompt": false,
-    "usageCount": 2,
+    "usageCount": 7,
     "abbreviation": {
         "wordChars": "[\\w]",
         "triggerInside": false,
