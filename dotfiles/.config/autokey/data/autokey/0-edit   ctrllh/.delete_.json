@@ -1,31 +1,29 @@
 {
-    "description": "<delete> ",
-    "type": "phrase",
-    "modes": [
-        3
-    ],
-    "sendMode": "kb",
-    "matchCase": false,
-    "omitTrigger": false,
+    "usageCount": 29, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "<delete> ", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [], 
+        "immediate": false, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
     "hotkey": {
-        "hotKey": "d",
+        "hotKey": "d", 
         "modifiers": [
             "<ctrl>"
         ]
-    },
-    "showInTrayMenu": false,
+    }, 
+    "modes": [], 
+    "showInTrayMenu": false, 
+    "matchCase": false, 
     "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "prompt": false,
-    "usageCount": 29,
-    "abbreviation": {
-        "wordChars": "[\\w]",
-        "triggerInside": false,
-        "abbreviations": [],
-        "immediate": false,
-        "backspace": true,
-        "ignoreCase": false
-    }
+        "regex": null, 
+        "isRecursive": false
+    }, 
+    "type": "phrase", 
+    "sendMode": "kb"
 }
