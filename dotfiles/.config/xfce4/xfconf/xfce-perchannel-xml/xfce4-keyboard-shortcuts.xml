@@ -164,9 +164,9 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;b" type="string" value="move_window_left_workspace_key"/>
       <property name="&lt;Alt&gt;grave" type="string" value="switch_window_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;w" type="string" value="tile_up_key"/>
-      <property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="tile_down_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;a" type="string" value="tile_left_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;d" type="string" value="tile_right_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="stick_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
