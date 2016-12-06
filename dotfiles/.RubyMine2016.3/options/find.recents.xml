@@ -1,0 +1,93 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>ProposalView</find>
+      <find>debugger</find>
+      <find>getBacklinkedModel</find>
+      <find>UPDATE</find>
+      <find>circles</find>
+      <find>tension you have selected could not be found</find>
+      <find>the_tension_you_have_selected</find>
+      <find>Waiting for Secretary to capture</find>
+      <find>waiting_for_secretary</find>
+      <find>gf.useNewGups</find>
+      <find>allowMissingIds</find>
+      <find>proposeNow</find>
+      <find>escalated</find>
+      <find>response</find>
+      <find>responses</find>
+      <find>received_response_count</find>
+      <find>expected</find>
+      <find>each_serializer</find>
+      <find>currentAgendaItemId</find>
+      <find>agendaItem</find>
+      <find>GovMtg</find>
+      <find>carrier</find>
+      <find>aws_access_key_id</find>
+      <find>point</find>
+      <find>cu</find>
+      <find>Requested role</find>
+      <find>currency</find>
+      <find>point: 'impact_points'</find>
+      <find>point_accounts</find>
+      <find>invalid para</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>handleErrorWith</replace>
+      <replace>this.derivedState.instructionBuckets</replace>
+      <replace>this.instructionBuckets</replace>
+      <replace>store</replace>
+      <replace>getData($1, { fetch:true })</replace>
+      <replace>reversLookup</replace>
+      <replace>reverseLookup</replace>
+      <replace>this.isHost</replace>
+      <replace>this.maxDepth</replace>
+      <replace>classesForNode</replace>
+      <replace>;</replace>
+      <replace>,</replace>
+      <replace>this</replace>
+      <replace>this.</replace>
+      <replace>zoomFactor</replace>
+      <replace>OrgTree</replace>
+      <replace>this.viz</replace>
+      <replace>this.viz.</replace>
+      <replace>_.matches</replace>
+      <replace>ActionController::IntegrationTest</replace>
+      <replace>&lt; ActionController::IntegrationTest</replace>
+      <replace>Time.now.utc</replace>
+      <replace>current_agenda_item_id</replace>
+      <replace>apiAdapter.apiPatch</replace>
+      <replace>handleResponseWith({ type: $1 })</replace>
+      <replace>gf.app.isHost()</replace>
+      <replace>()</replace>
+      <replace>require 'test_helper'</replace>
+      <replace>point</replace>
+      <replace>point_type: 'impact_points'</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/components/ReactDAL</dir>
+      <dir>$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/stripe-ruby-mock-2.2.0/lib/stripe_mock</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/spec/javascripts/glassfrog/views</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/controllers/api/v3</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/test/unit</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/test</dir>
+      <dir>$USER_HOME$/workspace/glassfrog</dir>
+      <dir>$USER_HOME$/workspace/glassfrog2</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/test/functional/api/v3</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/test/functional</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/third_party/jquery</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/foundation/data_layer/models</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/foundation/data_layer</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/foundation/models</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/stylesheets/components</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/components/d3/org_chart</dir>
+      <dir>$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/flying-sphinx-1.2.0/lib</dir>
+      <dir>$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/thinking-sphinx-2.1.0/lib</dir>
+      <dir>$USER_HOME$/.rvm/gems/ruby-2.0.0-p481@glassfrog/gems/thinking-sphinx-2.1.0/lib/thinking_sphinx</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/app/assets/javascripts/components/d3</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/spec/javascripts/helpers</dir>
+      <dir>$USER_HOME$/workspace/glassfrog/spec/javascripts/fixtures</dir>
+    </dirStrings>
+  </component>
+</application>

@@ -1,0 +1,47 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/glassfrog" />
+        <option value="$USER_HOME$/workspace/glassfrog2" />
+        <option value="/tmp/service.py0.tmp" />
+        <option value="$USER_HOME$/workspace/webpack-test" />
+        <option value="$USER_HOME$/workspace/game-of-life" />
+        <option value="$USER_HOME$/boot/scripts" />
+        <option value="$USER_HOME$/boot" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/glassfrog" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/workspace/glassfrog" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/workspace/glassfrog">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-163.7743.60" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1480656289734" />
+              <option name="buildTimestamp" value="1480328326667" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/glassfrog2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-163.7743.60" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1480623615090" />
+              <option name="buildTimestamp" value="1480328324286" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
