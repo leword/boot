@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 87, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<alt>+}", 
+    "description": "<ctrl>+<backspace>", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,12 +12,14 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "'", 
+        "hotKey": "h", 
         "modifiers": [
-            "<super>"
+            "<alt>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

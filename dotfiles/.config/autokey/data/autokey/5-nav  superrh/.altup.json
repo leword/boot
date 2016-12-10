@@ -1,31 +1,29 @@
 {
+    "usageCount": 2, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "<alt>+<up>", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [], 
+        "immediate": false, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
     "hotkey": {
-        "hotKey": "l",
+        "hotKey": "l", 
         "modifiers": [
             "<super>"
         ]
-    },
-    "type": "phrase",
-    "modes": [
-        3
-    ],
-    "omitTrigger": false,
-    "sendMode": "kb",
-    "usageCount": 1,
-    "description": "<alt>+<up>",
-    "prompt": false,
-    "matchCase": false,
+    }, 
+    "modes": [], 
+    "showInTrayMenu": false, 
+    "matchCase": false, 
     "filter": {
-        "regex": null,
+        "regex": null, 
         "isRecursive": false
-    },
-    "showInTrayMenu": false,
-    "abbreviation": {
-        "triggerInside": false,
-        "ignoreCase": false,
-        "immediate": false,
-        "abbreviations": [],
-        "backspace": true,
-        "wordChars": "[\\w]"
-    }
+    }, 
+    "type": "phrase", 
+    "sendMode": "kb"
 }

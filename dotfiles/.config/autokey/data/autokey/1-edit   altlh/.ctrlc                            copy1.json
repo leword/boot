@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 23, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<alt>+}", 
+    "description": "*<ctrl>+c                            copy", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,18 +12,19 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "'", 
+        "hotKey": "c", 
         "modifiers": [
-            "<super>"
+            "<alt>"
         ]
     }, 
-    "modes": [], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
+    "modes": [
+        3
+    ], 
+    "showInTrayMenu": true, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "script", 
+    "store": {}
 }
