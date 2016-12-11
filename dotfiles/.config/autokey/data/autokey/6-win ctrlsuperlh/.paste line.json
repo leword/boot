@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 1, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "paste line", 
@@ -12,13 +12,15 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "x", 
+        "hotKey": "v", 
         "modifiers": [
             "<ctrl>", 
             "<super>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
     "filter": {
         "regex": null, 
