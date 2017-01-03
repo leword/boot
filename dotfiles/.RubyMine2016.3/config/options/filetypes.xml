@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="14">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="git-merge-dev" type="Bash" />
+      <mapping pattern="prepare-commit-msg" type="Bash" />
+      <mapping pattern="git-merge-master" type="Bash" />
+      <mapping pattern="commit-msg" type="Bash" />
+    </extensionMap>
+  </component>
+</application>
