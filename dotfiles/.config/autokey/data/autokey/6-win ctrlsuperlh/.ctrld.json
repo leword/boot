@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 1, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<delete>", 
+    "description": "<ctrl>+d", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -14,7 +14,8 @@
     "hotkey": {
         "hotKey": "d", 
         "modifiers": [
-            "<ctrl>"
+            "<ctrl>", 
+            "<super>"
         ]
     }, 
     "modes": [

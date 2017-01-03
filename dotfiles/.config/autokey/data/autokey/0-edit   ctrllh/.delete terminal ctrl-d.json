@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 1, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<alt>+<delete>", 
+    "description": "<delete> (terminal ctrl-d)", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -14,13 +14,10 @@
     "hotkey": {
         "hotKey": "d", 
         "modifiers": [
-            "<ctrl>", 
-            "<super>"
+            "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

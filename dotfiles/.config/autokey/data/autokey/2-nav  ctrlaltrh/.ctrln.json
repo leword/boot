@@ -1,8 +1,8 @@
 {
-    "usageCount": 49, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "*<ctrl>+t                     new tab", 
+    "description": "<ctrl>+n", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,12 +12,15 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "t", 
+        "hotKey": "m", 
         "modifiers": [
+            "<alt>", 
             "<ctrl>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
     "filter": {
         "regex": null, 

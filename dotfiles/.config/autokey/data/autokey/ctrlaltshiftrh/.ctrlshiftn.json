@@ -1,8 +1,8 @@
 {
-    "usageCount": 49, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "*<ctrl>+t                     new tab", 
+    "description": "<ctrl>+<shift>+n", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,17 +12,22 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "t", 
+        "hotKey": "m", 
         "modifiers": [
-            "<ctrl>"
+            "<alt>", 
+            "<ctrl>", 
+            "<shift>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
+    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "script", 
-    "store": {}
+    "type": "phrase", 
+    "sendMode": "kb"
 }

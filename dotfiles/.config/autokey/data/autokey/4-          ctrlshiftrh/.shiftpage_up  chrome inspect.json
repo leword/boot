@@ -1,8 +1,8 @@
 {
-    "usageCount": 87, 
+    "usageCount": 8, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<backspace>", 
+    "description": "<shift>+<page_up>  (chrome inspect)", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,14 +12,13 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "h", 
+        "hotKey": "i", 
         "modifiers": [
-            "<alt>"
+            "<ctrl>", 
+            "<shift>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {
