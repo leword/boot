@@ -17,7 +17,7 @@ function link_dir {
 
 ## RUBYMINE
 
-RUBYMINE="RubyMine70"
+RUBYMINE="RubyMine2016.3"
 for DIR in codestyles colors keymaps options inspection quicklists tasks
 do
     ORIG_DIR=~/.$RUBYMINE/config/$DIR
