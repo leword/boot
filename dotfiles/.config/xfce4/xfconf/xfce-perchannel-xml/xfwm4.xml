@@ -47,12 +47,12 @@
     <property name="title_vertical_offset_inactive" type="int" value="0"/>
     <property name="urgent_blink" type="bool" value="false"/>
     <property name="use_compositing" type="bool" value="false"/>
-    <property name="workspace_count" type="int" value="3"/>
+    <property name="workspace_count" type="int" value="4"/>
     <property name="workspace_names" type="array">
-      <value type="string" value="Communications / Context"/>
-      <value type="string" value="Project Space 1"/>
-      <value type="string" value="Project Space 2"/>
-      <value type="string" value="Workspace 4"/>
+      <value type="string" value="Personal Context &amp; Comm."/>
+      <value type="string" value="H1 Context &amp; Comm."/>
+      <value type="string" value="Main Project/Code space"/>
+      <value type="string" value="Supporting Project/Code space"/>
     </property>
     <property name="wrap_resistance" type="int" value="10"/>
     <property name="wrap_windows" type="bool" value="true"/>
