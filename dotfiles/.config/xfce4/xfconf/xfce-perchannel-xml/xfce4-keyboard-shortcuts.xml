@@ -183,6 +183,7 @@
       <property name="&lt;Super&gt;o" type="string" value="tile_up_right_key"/>
       <property name="&lt;Super&gt;m" type="string" value="tile_down_left_key"/>
       <property name="&lt;Super&gt;period" type="string" value="tile_down_right_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="stick_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
