@@ -143,9 +143,7 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorChooseLookupItemDot" />
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="ctrl end" />
-  </action>
+  <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="ctrl home" />
   </action>
@@ -329,6 +327,7 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
@@ -419,7 +418,6 @@
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="alt e" />
     <keyboard-shortcut first-keystroke="ctrl s" />
-    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
