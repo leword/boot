@@ -1,8 +1,8 @@
 {
-    "usageCount": 3, 
+    "usageCount": 37, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "chrome", 
+    "description": "<home>/<ctrl>+a", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,14 +12,12 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "g", 
+        "hotKey": "a", 
         "modifiers": [
-            "<super>"
+            "<alt>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "filter": {
         "regex": null, 

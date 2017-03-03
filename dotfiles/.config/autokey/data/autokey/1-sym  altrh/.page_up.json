@@ -1,8 +1,8 @@
 {
-    "usageCount": 3, 
+    "usageCount": 38, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "chrome", 
+    "description": "<page_up>", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,19 +12,20 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "g", 
+        "hotKey": "i", 
         "modifiers": [
-            "<super>"
+            "<alt>"
         ]
     }, 
     "modes": [
         3
     ], 
     "showInTrayMenu": false, 
+    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "script", 
-    "store": {}
+    "type": "phrase", 
+    "sendMode": "kb"
 }

@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 1, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "<alt>+<down>", 
@@ -18,9 +18,7 @@
             "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

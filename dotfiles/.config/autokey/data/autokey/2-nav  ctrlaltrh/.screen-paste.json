@@ -1,8 +1,8 @@
 {
-    "usageCount": 3, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "chrome", 
+    "description": "screen-paste", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "g", 
+        "hotKey": "n", 
         "modifiers": [
-            "<super>"
+            "<alt>", 
+            "<ctrl>"
         ]
     }, 
     "modes": [
