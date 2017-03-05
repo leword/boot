@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<insert>", 
+    "description": "*screen-enter-copy-mode", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,20 +12,20 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "[", 
+        "hotKey": "c", 
         "modifiers": [
-            "<ctrl>"
+            "<ctrl>", 
+            "<super>"
         ]
     }, 
     "modes": [
         3
     ], 
     "showInTrayMenu": false, 
-    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "script", 
+    "store": {}
 }

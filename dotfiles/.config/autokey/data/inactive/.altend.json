@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 1, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<insert>", 
+    "description": "<alt>+<end>", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,14 +12,13 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "[", 
+        "hotKey": "e", 
         "modifiers": [
+            "<alt>", 
             "<ctrl>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

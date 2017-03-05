@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 10, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<insert>", 
+    "description": "*screen-paste-word", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,20 +12,20 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "[", 
+        "hotKey": "v", 
         "modifiers": [
-            "<ctrl>"
+            "<ctrl>", 
+            "<super>"
         ]
     }, 
     "modes": [
         3
     ], 
     "showInTrayMenu": false, 
-    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "script", 
+    "store": {}
 }

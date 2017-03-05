@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<insert>", 
+    "description": "<shift>+<insert>", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "[", 
+        "hotKey": "i", 
         "modifiers": [
-            "<ctrl>"
+            "<ctrl>", 
+            "<shift>"
         ]
     }, 
     "modes": [
