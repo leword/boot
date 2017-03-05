@@ -6,10 +6,10 @@
     <property name="RubyMine.full.reindex.required" value="1" />
     <property name="installation.uid" value="b2a2c4b2-5ae5-48e3-b145-07455654bcfb" />
     <property name="Ruby.initialConfigurationShown" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/workspace/glassfrog2&#10;/home/lewis/boot&#10;/home/lewis/workspace/glassfrog" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/.rubies/ruby-2.2.5/bin/ruby&#10;/home/lewis/workspace/glassfrog2&#10;/home/lewis/boot&#10;/home/lewis/workspace/glassfrog" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
-    <property name="KEYMAP" value="opposit&#10;recent files&#10;jump to&#10;move caret&#10;rerun" />
+    <property name="KEYMAP" value="back&#10;forward&#10;next tab&#10;Select  Tab&#10;Select Next Tab" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.6898734" />
     <property name="MoveFile.OpenInEditor" value="true" />
     <property name="favorites.view.settings.show.members" value="false" />
@@ -26,7 +26,7 @@
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p481/bin/ruby:IDE" value="0.6.1.beta2" />
     <property name="debug.configuration.alternate.action.ad" value="true" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="rake.run.task.popup.search.mask" value="ja" />
+    <property name="rake.run.task.popup.search.mask" value="db:migrate" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="RubyTestUnit.Splitter.Proportion" value="0.23270777" />
     <property name="sm_test_statistics_table_columnsWidth0" value="75" />
@@ -47,7 +47,7 @@
     <property name="RubyTestUnitSupport.sortTestsByDuration" value="false" />
     <property name="RubyTestUnitSupport.hideIgnoredTests" value="false" />
     <property name="ruby.sdk.configurable.main.splitter" value="0.45379415" />
-    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
     <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
@@ -58,7 +58,7 @@
     <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
-    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
     <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
     <property name="HbAutocompleteMustaches" value="enabled" />
     <property name="HbFormatter" value="enabled" />
@@ -81,7 +81,7 @@
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p648/bin/ruby:IDE" value="0.6.1.beta3" />
     <property name="rails.run.generators.popup.search.mask" value="migration" />
     <property name="evlsprt3.163" value="19" />
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6038319" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.43421054" />
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p647/bin/ruby:BASE_20" value="0.2.2.beta9" />
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p647/bin/ruby:IDE" value="0.6.1.beta3" />
     <property name="ActionMacroConfigurationPanel.SPLITTER_PROPORTION" value="0.5" />
@@ -89,5 +89,9 @@
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.2.5/bin/ruby:IDE" value="0.6.1.beta3" />
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="LayoutCode.rearrangeEntriesYAML" value="false" />
+    <property name="$USER_HOME$/.rubies/ruby-2.2.5/bin/ruby:BASE_20" value="0.2.2.beta9" />
+    <property name="$USER_HOME$/.rubies/ruby-2.2.5/bin/ruby:IDE" value="0.6.1.beta3" />
+    <property name="LAST_INJECTED_LANGUAGE" value="ruby" />
+    <property name="fileTypeChangedCounter" value="1" />
   </component>
 </application>
