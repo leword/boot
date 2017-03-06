@@ -1,8 +1,8 @@
 {
-    "usageCount": 8, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<shift>+<page_up>", 
+    "description": "<ctrl>-a", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,13 +12,14 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": " ", 
         "modifiers": [
-            "<ctrl>", 
-            "<shift>"
+            "<super>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

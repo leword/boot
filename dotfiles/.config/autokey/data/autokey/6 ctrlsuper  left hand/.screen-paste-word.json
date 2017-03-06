@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "v", 
+        "hotKey": "w", 
         "modifiers": [
             "<ctrl>", 
             "<super>"

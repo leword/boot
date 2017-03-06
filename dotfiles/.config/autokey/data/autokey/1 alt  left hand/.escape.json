@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 21, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<shift>+<home>", 
+    "description": "<escape>", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,10 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "a", 
+        "hotKey": "s", 
         "modifiers": [
-            "<alt>", 
-            "<shift>"
+            "<alt>"
         ]
     }, 
     "modes": [

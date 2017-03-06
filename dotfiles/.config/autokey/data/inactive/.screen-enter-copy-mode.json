@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<shift>+<delete>", 
+    "description": "*screen-enter-copy-mode", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,21 +12,18 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "d", 
+        "hotKey": "c", 
         "modifiers": [
-            "<alt>", 
-            "<shift>"
+            "<ctrl>", 
+            "<super>"
         ]
     }, 
-    "modes": [
-        3
-    ], 
+    "modes": [], 
     "showInTrayMenu": false, 
-    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "script", 
+    "store": {}
 }

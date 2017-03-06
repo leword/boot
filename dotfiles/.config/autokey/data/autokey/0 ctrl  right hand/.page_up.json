@@ -1,5 +1,5 @@
 {
-    "usageCount": 33, 
+    "usageCount": 35, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "<page_up>", 
@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "o", 
+        "hotKey": "i", 
         "modifiers": [
             "<ctrl>"
         ]
