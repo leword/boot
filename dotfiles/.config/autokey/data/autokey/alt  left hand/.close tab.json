@@ -1,0 +1,30 @@
+{
+    "usageCount": 4,
+    "store": {},
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "ignoreCase": false,
+        "abbreviations": [],
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "backspace": true
+    },
+    "description": "*close tab",
+    "prompt": false,
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "w"
+    },
+    "omitTrigger": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "type": "script",
+    "modes": [
+        3
+    ]
+}
