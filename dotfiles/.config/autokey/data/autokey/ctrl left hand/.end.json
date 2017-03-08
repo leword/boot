@@ -1,0 +1,31 @@
+{
+    "hotkey": {
+        "hotKey": "e",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "usageCount": 0,
+    "showInTrayMenu": false,
+    "description": "<end>",
+    "abbreviation": {
+        "abbreviations": [],
+        "immediate": false,
+        "backspace": true,
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "ignoreCase": false
+    },
+    "matchCase": false,
+    "sendMode": "kb",
+    "prompt": false,
+    "omitTrigger": false,
+    "type": "phrase",
+    "modes": [
+        3
+    ],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "script",
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "store": {},
+    "abbreviation": {
+        "abbreviations": [],
+        "ignoreCase": false,
+        "backspace": true,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "usageCount": 10,
+    "description": "*screen-paste-word",
+    "omitTrigger": false,
+    "prompt": false,
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<ctrl>"
+        ],
+        "hotKey": "v"
+    }
+}

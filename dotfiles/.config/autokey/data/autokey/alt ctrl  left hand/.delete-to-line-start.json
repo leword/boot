@@ -1,0 +1,31 @@
+{
+    "prompt": false,
+    "hotkey": {
+        "hotKey": "f",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>"
+        ]
+    },
+    "modes": [
+        3
+    ],
+    "description": "*delete-to-line-start",
+    "type": "script",
+    "abbreviation": {
+        "immediate": false,
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "showInTrayMenu": false,
+    "usageCount": 77,
+    "store": {},
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "omitTrigger": false
+}

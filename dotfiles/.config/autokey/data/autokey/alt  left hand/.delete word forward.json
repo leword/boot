@@ -1,0 +1,30 @@
+{
+    "showInTrayMenu": false,
+    "prompt": false,
+    "usageCount": 10,
+    "omitTrigger": false,
+    "description": "*delete word forward",
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "d"
+    },
+    "type": "script",
+    "store": {},
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "abbreviation": {
+        "immediate": false,
+        "triggerInside": false,
+        "ignoreCase": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "abbreviations": []
+    },
+    "modes": [
+        3
+    ]
+}

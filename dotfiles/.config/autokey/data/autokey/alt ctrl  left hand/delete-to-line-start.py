@@ -1,5 +1,5 @@
 if re.match('.*Proxy.*',window.get_active_class()):
-    keyboard.send_keys("<ctrl>+<alt>+d")
+    keyboard.send_keys("<alt>+<backspace>")
 elif re.match('.*terminal.*', window.get_active_class()):
     keyboard.send_keys("<ctrl>+u") 
 else:
