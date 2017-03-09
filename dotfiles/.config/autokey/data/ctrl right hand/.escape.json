@@ -1,4 +1,16 @@
 {
+    "prompt": false,
+    "usageCount": 0,
+    "sendMode": "kb",
+    "description": "<escape>",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "omitTrigger": false,
+    "modes": [
+        3
+    ],
     "abbreviation": {
         "ignoreCase": false,
         "abbreviations": [],
@@ -7,24 +19,13 @@
         "triggerInside": false,
         "immediate": false
     },
-    "prompt": false,
-    "usageCount": 15,
-    "store": {},
-    "description": "*delete-to-line-end",
     "hotkey": {
-        "hotKey": "k",
+        "hotKey": "[",
         "modifiers": [
             "<ctrl>"
         ]
     },
-    "filter": {
-        "regex": null,
-        "isRecursive": false
-    },
+    "type": "phrase",
     "showInTrayMenu": false,
-    "modes": [
-        3
-    ],
-    "omitTrigger": false,
-    "type": "script"
+    "matchCase": false
 }

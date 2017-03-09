@@ -8,11 +8,11 @@
         "immediate": false
     },
     "prompt": false,
-    "usageCount": 15,
+    "usageCount": 16,
     "store": {},
-    "description": "*delete-to-line-end",
+    "description": "*delete-line",
     "hotkey": {
-        "hotKey": "k",
+        "hotKey": "y",
         "modifiers": [
             "<ctrl>"
         ]

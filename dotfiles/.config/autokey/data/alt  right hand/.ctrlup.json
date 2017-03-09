@@ -1,0 +1,29 @@
+{
+    "type": "phrase",
+    "usageCount": 0,
+    "prompt": false,
+    "modes": [ 3 ],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "sendMode": "kb",
+    "matchCase": false,
+    "hotkey": {
+        "hotKey": "p",
+        "modifiers": [
+            "<alt>"
+        ]
+    },
+    "abbreviation": {
+        "ignoreCase": false,
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "abbreviations": [],
+        "backspace": true,
+        "immediate": false
+    },
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "description": "<ctrl>+<up>"
+}

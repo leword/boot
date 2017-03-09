@@ -1,0 +1,30 @@
+{
+    "usageCount": 20,
+    "hotkey": {
+        "hotKey": " ",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "store": {},
+    "modes": [
+        3
+    ],
+    "description": "*launcher",
+    "abbreviation": {
+        "immediate": false,
+        "ignoreCase": false,
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "abbreviations": []
+    },
+    "type": "script",
+    "prompt": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}
