@@ -1,0 +1,59 @@
+[_] ctrl-`
+[_] ctrl-1
+[_] ctrl-2
+[_] ctrl-3
+[_] ctrl-4
+[_] ctrl-5
+[_] ctrl-6
+
+[_] ctrl-<tab> br:next-tab  ?rm:next-tab
+[_] ctrl-q  rm:grow-selection
+[_] ctrl-w  rm:grow-selection cl:kill-word-back
+[_] ctrl-e  ak:<end>
+[_] ctrl-r  rm:replace cl:reverse-search
+[_] ctrl-t  br:new-tab
+
+[_] ctrl-a  ak:<home>   (cl:line-start)
+[_] ctrl-s  rm:search
+[_] ctrl-d !ak:*<del>   (via cl:ctrl-D for cl:eof)
+[_] ctrl-f  ak:<right>  (cl:next-char, br:find)
+[_] ctrl-g  br:find-next
+
+[_] ctrl-z  os:undo
+[_] ctrl-x  os:cut
+[_] ctrl-c  os:copy / cl:sig-int
+[_] ctrl-v  os:paste
+[_] ctrl-b  ak:<left>   (cl:prev-char)
+
+[_] ctrl-<space> ak:*launch-app-finder
+
+[_] ctrl-y  rm:delete-line cl:yank
+[_] ctrl-u
+[_] ctrl-i
+[_] ctrl-o
+[_] ctrl-p  ak:<up>      (cl:prev-command)
+[_] ctrl-[ !ak:<escape>  (cl:esc)
+[_] ctrl-]
+[_] ctrl-\  cl:sig-term
+
+[_] ctrl-h  ak:<backspace>    (cl:backspace)
+[_] ctrl-j  ak:<enter> cl:line-feed
+[_] ctrl-k  ak:*delete-to-line-end   (cl:kill-to-line-end)
+[_] ctrl-l !cl:reset / br:location-bar
+[_] ctrl-;
+[_] ctrl-'
+[_] ctrl-<enter>
+
+[_] ctrl-n  ak:<down>  (cl:next-command)
+[_] ctrl-m  cl:return
+[_] ctrl-,
+[_] ctrl-.
+[_] ctrl-/
+
+[_] ctrl-7  ak:<ctrl>+<shift>+<tab>  (br,rm:prev-tab)
+[_] ctrl-8  ak:<page_up>
+[_] ctrl-9  ak:<page_down>
+[_] ctrl-0  ak:<ctrl>+<tab>       (br,rm:next-tab)
+[_] ctrl--  br:reduce-font
+[_] ctrl-=  br:increase-font
+

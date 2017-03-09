@@ -1,0 +1,58 @@
+[_] alt-`
+[_] alt-1  br:tab-1 rm:tool-1
+[_] alt-2  br:tab-2 rm:tool-2
+[_] alt-3  br:tab-3 rm:tool-3
+[_] alt-4  br:tab-4 rm:tool-4
+[_] alt-5  br:tab-5 rm:tool-5
+[_] alt-6  br:tab-6 rm:tool-6
+
+[_] alt-<tab>  wm:next-app
+[_] alt-q  wm:close-window
+[_] alt-w  ak:*close-tab
+[_] alt-e  rm:recent-files
+[_] alt-r
+[_] alt-t
+
+[_] alt-a !ak:<ctrl>-a  rm:select-all
+[_] alt-s
+[_] alt-d  cl:kill-word-forward
+[_] alt-f  cl:forward-word
+[_] alt-g
+
+[_] alt-z  ak:<ctrl>-z
+[_] alt-x  ak:<ctrl>-x
+[_] alt-c  ak:*copy
+[_] alt-v  ak:*paste
+[_] alt-b !ak:*back-word        (cl:back-word)
+
+[_] alt-<space>
+
+[_] alt-y
+[_] alt-u
+[_] alt-i  ak:[
+[_] alt-o  ak:]
+[_] alt-p !ak:<ctrl>+<up>     (up-paragraph)
+[_] alt-[
+[_] alt-]
+[_] alt-\
+
+[_] alt-h
+[_] alt-j ak:(
+[_] alt-k ak:{
+[_] alt-l ak:}
+[_] alt-; ak:)
+[_] alt-' ak:=
+[_] alt-<enter>
+
+[_] alt-n !ak:<ctrl>+<down>   (down-paragraph)
+[_] alt-m  ak:_
+[_] alt-,  ak:&
+[_] alt-.  ak:|
+[_] alt-/  rm:complete-word
+
+[_] alt-7  br:tab-7 rm:tool-7
+[_] alt-8  br:tab-8 rm:tool-8
+[_] alt-9  br:tab-9 rm:tool-9
+[_] alt-0  br:tab-0 rm:tool-0
+[_] alt--
+[_] alt-=

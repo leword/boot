@@ -1,0 +1,10 @@
+?    ak:<alt>+<left>    (br:back, !rm:back)
+?    ak:<alt>+<right>   (br:forward, !rm:forward)
+?    ak:<alt>+<down>
+?    ak:<alt>+<up>
+
+ rm:fold-*
+
+ctrl-shift-j    rm:join-lines
+ctrl-shift-n    down-with-selection
+ctrl-shift-p    up-with-selection
