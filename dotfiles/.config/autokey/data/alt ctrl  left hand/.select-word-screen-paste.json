@@ -1,0 +1,31 @@
+{
+    "modes": [
+        3
+    ],
+    "prompt": false,
+    "hotkey": {
+        "hotKey": "w",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>"
+        ]
+    },
+    "store": {},
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "usageCount": 3,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "triggerInside": false,
+        "backspace": true,
+        "immediate": false,
+        "abbreviations": [],
+        "ignoreCase": false,
+        "wordChars": "[\\w]"
+    },
+    "description": "*select-word-screen-paste",
+    "omitTrigger": false,
+    "type": "script"
+}
