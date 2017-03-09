@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 38, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "<ctrl>+<alt>+}", 
+    "description": "<ctrl>+a", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,12 +12,14 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "'", 
+        "hotKey": "[", 
         "modifiers": [
-            "<super>"
+            "<alt>"
         ]
     }, 
-    "modes": [], 
+    "modes": [
+        3
+    ], 
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {

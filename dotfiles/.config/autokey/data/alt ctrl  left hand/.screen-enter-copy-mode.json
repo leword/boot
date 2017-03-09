@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 13, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "*screen-enter-copy-mode", 
@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "c", 
+        "hotKey": "[", 
         "modifiers": [
             "<alt>", 
             "<ctrl>"
