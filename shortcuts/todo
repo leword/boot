@@ -5,6 +5,8 @@
 
  rm:fold-*
 
+?ak:&
+
 ctrl-shift-j    rm:join-lines
 ctrl-shift-n    down-with-selection
 ctrl-shift-p    up-with-selection

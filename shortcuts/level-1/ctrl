@@ -15,7 +15,7 @@
 
 [_] ctrl-a  ak:<home>   (cl:line-start)
 [_] ctrl-s  rm:search
-[_] ctrl-d !ak:*<del>   (via cl:ctrl-D for cl:eof)
+[_] ctrl-d  ak:*<del>   (via cl:ctrl-D for cl:eof)
 [_] ctrl-f  ak:<right>  (cl:next-char, br:find)
 [_] ctrl-g  br:find-next
 
@@ -27,12 +27,12 @@
 
 [_] ctrl-<space> ak:*launch-app-finder
 
-[_] ctrl-y  rm:delete-line cl:yank
+[_] ctrl-y  ak:delete-line  (rm:delete-line cl:yank)
 [_] ctrl-u
 [_] ctrl-i
 [_] ctrl-o
 [_] ctrl-p  ak:<up>      (cl:prev-command)
-[_] ctrl-[ !ak:<escape>  (cl:esc)
+[_] ctrl-[  ak:<escape>  (cl:esc)
 [_] ctrl-]
 [_] ctrl-\  cl:sig-term
 

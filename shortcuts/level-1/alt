@@ -13,30 +13,30 @@
 [_] alt-r
 [_] alt-t
 
-[_] alt-a !ak:<ctrl>-a  rm:select-all
+[_] alt-a  ak:<ctrl>-a  rm:select-all
 [_] alt-s
-[_] alt-d  cl:kill-word-forward
-[_] alt-f  cl:forward-word
+[_] alt-d  ak:*delete-word-forward    (cl:kill-word-forward)
+[_] alt-f  ak:<ctrl>+<right>          (cl:forward-word)
 [_] alt-g
 
 [_] alt-z  ak:<ctrl>-z
 [_] alt-x  ak:<ctrl>-x
 [_] alt-c  ak:*copy
 [_] alt-v  ak:*paste
-[_] alt-b !ak:*back-word        (cl:back-word)
+[_] alt-b  ak:<ctrl>+<left>           (cl:back-word)
 
-[_] alt-<space>
+[_] alt-<space>  ak:<space>
 
 [_] alt-y
 [_] alt-u
 [_] alt-i  ak:[
 [_] alt-o  ak:]
-[_] alt-p !ak:<ctrl>+<up>     (up-paragraph)
+[_] alt-p  ak:<ctrl>+<up>         (!rm:up-paragraph)
 [_] alt-[
 [_] alt-]
 [_] alt-\
 
-[_] alt-h
+[_] alt-h ak:*delete-word-back   (seems to work as esc in terminal/vi)
 [_] alt-j ak:(
 [_] alt-k ak:{
 [_] alt-l ak:}
@@ -44,9 +44,9 @@
 [_] alt-' ak:=
 [_] alt-<enter>
 
-[_] alt-n !ak:<ctrl>+<down>   (down-paragraph)
+[_] alt-n  ak:<ctrl>+<down>    (!rm:down-paragraph)
 [_] alt-m  ak:_
-[_] alt-,  ak:&
+[_] alt-,
 [_] alt-.  ak:|
 [_] alt-/  rm:complete-word
 
