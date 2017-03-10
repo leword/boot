@@ -1,0 +1,23 @@
+{
+    "title": "<super> + [left hand]",
+    "type": "folder",
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "ignoreCase": false,
+        "immediate": false
+    },
+    "showInTrayMenu": false,
+    "usageCount": 0,
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "modes": [],
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    }
+}

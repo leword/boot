@@ -1,8 +1,7 @@
 {
     "hotkey": {
-        "hotKey": "o",
+        "hotKey": "p",
         "modifiers": [
-            "<alt>",
             "<ctrl>"
         ]
     },
@@ -13,7 +12,7 @@
         "isRecursive": false,
         "regex": null
     },
-    "usageCount": 229,
+    "usageCount": 192,
     "abbreviation": {
         "triggerInside": false,
         "backspace": true,
@@ -28,5 +27,5 @@
     "matchCase": false,
     "showInTrayMenu": false,
     "omitTrigger": false,
-    "description": "<page_down>"
+    "description": "<up>"
 }

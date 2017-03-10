@@ -1,31 +1,32 @@
 {
-    "usageCount": 0, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "<ctrl>+<shift>+<tab>", 
-    "abbreviation": {
-        "wordChars": "[\\w]", 
-        "abbreviations": [], 
-        "immediate": false, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
     "hotkey": {
-        "hotKey": "7", 
+        "hotKey": "u",
         "modifiers": [
+            "<alt>",
             "<ctrl>"
         ]
-    }, 
+    },
     "modes": [
         3
-    ], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
+    ],
     "filter": {
-        "regex": null, 
-        "isRecursive": false
-    }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+        "isRecursive": false,
+        "regex": null
+    },
+    "usageCount": 7,
+    "abbreviation": {
+        "triggerInside": false,
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "abbreviations": [],
+        "wordChars": "[\\w]"
+    },
+    "sendMode": "kb",
+    "type": "phrase",
+    "prompt": false,
+    "matchCase": false,
+    "showInTrayMenu": false,
+    "omitTrigger": false,
+    "description": "<ctrl>+<shift>+<tab>"
 }

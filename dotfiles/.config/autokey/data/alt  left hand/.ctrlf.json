@@ -1,9 +1,8 @@
 {
     "hotkey": {
-        "hotKey": "o",
+        "hotKey": "s",
         "modifiers": [
-            "<alt>",
-            "<ctrl>"
+            "<alt>"
         ]
     },
     "modes": [
@@ -13,7 +12,7 @@
         "isRecursive": false,
         "regex": null
     },
-    "usageCount": 229,
+    "usageCount": 6,
     "abbreviation": {
         "triggerInside": false,
         "backspace": true,
@@ -28,5 +27,5 @@
     "matchCase": false,
     "showInTrayMenu": false,
     "omitTrigger": false,
-    "description": "<page_down>"
+    "description": "<ctrl>+f"
 }

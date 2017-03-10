@@ -1,0 +1,30 @@
+{
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "y"
+    },
+    "modes": [
+        3
+    ],
+    "abbreviation": {
+        "ignoreCase": false,
+        "triggerInside": false,
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "abbreviations": [],
+        "backspace": true
+    },
+    "showInTrayMenu": false,
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "type": "script",
+    "omitTrigger": false,
+    "usageCount": 21,
+    "prompt": false,
+    "store": {},
+    "description": "*delete-line"
+}
