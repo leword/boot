@@ -6,17 +6,16 @@
     },
     "type": "phrase",
     "omitTrigger": false,
-    "usageCount": 8,
+    "usageCount": 0,
     "hotkey": {
-        "hotKey": "p",
+        "hotKey": "u",
         "modifiers": [
-            "<alt>",
             "<ctrl>"
         ]
     },
     "prompt": false,
     "showInTrayMenu": false,
-    "description": "<ctrl>+<tab>",
+    "description": "<down>",
     "sendMode": "kb",
     "modes": [
         3

@@ -1,31 +1,31 @@
 {
-    "usageCount": 0, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "*tmux-paste", 
-    "abbreviation": {
-        "wordChars": "[\\w]", 
-        "abbreviations": [], 
-        "immediate": false, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
-    "hotkey": {
-        "hotKey": "v", 
-        "modifiers": [
-            "<alt>", 
-            "<ctrl>"
-        ]
-    }, 
+    "type": "script",
+    "omitTrigger": false,
+    "usageCount": 1,
+    "prompt": false,
+    "description": "*tmux-paste",
+    "showInTrayMenu": false,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
     "modes": [
         3
-    ], 
-    "showInTrayMenu": false, 
-    "filter": {
-        "regex": null, 
-        "isRecursive": false
-    }, 
-    "type": "script", 
-    "store": {}
+    ],
+    "hotkey": {
+        "hotKey": "v",
+        "modifiers": [
+            "<alt>",
+            "<ctrl>"
+        ]
+    },
+    "store": {},
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "abbreviations": [],
+        "triggerInside": false,
+        "ignoreCase": false,
+        "immediate": false
+    }
 }

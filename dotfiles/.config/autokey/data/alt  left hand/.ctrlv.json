@@ -6,17 +6,16 @@
     },
     "type": "phrase",
     "omitTrigger": false,
-    "usageCount": 8,
+    "usageCount": 0,
     "hotkey": {
-        "hotKey": "p",
+        "hotKey": "v",
         "modifiers": [
-            "<alt>",
-            "<ctrl>"
+            "<alt>"
         ]
     },
     "prompt": false,
     "showInTrayMenu": false,
-    "description": "<ctrl>+<tab>",
+    "description": "<ctrl>+v",
     "sendMode": "kb",
     "modes": [
         3

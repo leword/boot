@@ -1,1 +1,1 @@
-<ctrl>+b
+<ctrl>+a
