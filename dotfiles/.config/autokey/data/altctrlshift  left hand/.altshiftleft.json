@@ -1,0 +1,33 @@
+{
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<ctrl>",
+            "<shift>"
+        ],
+        "hotKey": "b"
+    },
+    "usageCount": 0,
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "sendMode": "kb",
+    "omitTrigger": false,
+    "modes": [
+        3
+    ],
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "abbreviations": [],
+        "ignoreCase": false,
+        "backspace": true,
+        "triggerInside": false,
+        "immediate": false
+    },
+    "description": "<alt>+<shift>+<left>",
+    "showInTrayMenu": false,
+    "type": "phrase",
+    "matchCase": false,
+    "prompt": false
+}

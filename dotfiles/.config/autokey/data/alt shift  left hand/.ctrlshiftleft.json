@@ -1,11 +1,12 @@
 {
-    "usageCount": 168,
+    "usageCount": 0,
     "omitTrigger": false,
     "type": "phrase",
     "hotkey": {
-        "hotKey": "i",
+        "hotKey": "b",
         "modifiers": [
-            "<ctrl>"
+            "<alt>",
+            "<shift>"
         ]
     },
     "filter": {
@@ -27,5 +28,5 @@
     ],
     "showInTrayMenu": false,
     "prompt": false,
-    "description": "<page_up>"
+    "description": "<ctrl>+<shift>+<left>"
 }

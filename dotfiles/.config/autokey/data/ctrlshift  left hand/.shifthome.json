@@ -1,18 +1,8 @@
 {
     "showInTrayMenu": false,
     "omitTrigger": false,
-    "prompt": false,
-    "usageCount": 15,
-    "description": "*select-word-screen-paste",
-    "modes": [],
-    "type": "script",
-    "hotkey": {
-        "modifiers": [
-            "<alt>",
-            "<ctrl>"
-        ],
-        "hotKey": "c"
-    },
+    "sendMode": "kb",
+    "usageCount": 0,
     "abbreviation": {
         "backspace": true,
         "abbreviations": [],
@@ -21,9 +11,22 @@
         "immediate": false,
         "ignoreCase": false
     },
+    "modes": [
+        3
+    ],
+    "type": "phrase",
+    "hotkey": {
+        "modifiers": [
+            "<ctrl>",
+            "<shift>"
+        ],
+        "hotKey": "a"
+    },
+    "prompt": false,
+    "description": "<shift>+<home>",
     "filter": {
         "isRecursive": false,
         "regex": null
     },
-    "store": {}
+    "matchCase": false
 }

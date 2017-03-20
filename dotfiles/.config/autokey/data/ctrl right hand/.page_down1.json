@@ -1,9 +1,9 @@
 {
-    "usageCount": 168,
+    "usageCount": 0,
     "omitTrigger": false,
     "type": "phrase",
     "hotkey": {
-        "hotKey": "i",
+        "hotKey": "o",
         "modifiers": [
             "<ctrl>"
         ]
@@ -27,5 +27,5 @@
     ],
     "showInTrayMenu": false,
     "prompt": false,
-    "description": "<page_up>"
+    "description": "<page_down>"
 }

@@ -1,31 +1,29 @@
 {
-    "type": "script",
-    "omitTrigger": false,
-    "usageCount": 19,
-    "prompt": false,
-    "description": "*screen-enter-copy-mode",
     "showInTrayMenu": false,
-    "filter": {
-        "regex": null,
-        "isRecursive": false
-    },
-    "modes": [
-        3
-    ],
+    "omitTrigger": false,
+    "prompt": false,
+    "usageCount": 21,
+    "description": "*screen-enter-copy-mode",
+    "modes": [],
+    "type": "script",
     "hotkey": {
-        "hotKey": "x",
         "modifiers": [
             "<alt>",
             "<ctrl>"
-        ]
+        ],
+        "hotKey": "x"
     },
-    "store": {},
     "abbreviation": {
-        "wordChars": "[\\w]",
         "backspace": true,
         "abbreviations": [],
         "triggerInside": false,
-        "ignoreCase": false,
-        "immediate": false
-    }
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false
+    },
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "store": {}
 }

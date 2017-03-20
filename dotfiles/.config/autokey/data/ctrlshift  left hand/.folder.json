@@ -1,18 +1,7 @@
 {
+    "title": "<ctrl>+<shift> + [left hand]",
     "showInTrayMenu": false,
-    "omitTrigger": false,
-    "prompt": false,
-    "usageCount": 15,
-    "description": "*select-word-screen-paste",
-    "modes": [],
-    "type": "script",
-    "hotkey": {
-        "modifiers": [
-            "<alt>",
-            "<ctrl>"
-        ],
-        "hotKey": "c"
-    },
+    "usageCount": 0,
     "abbreviation": {
         "backspace": true,
         "abbreviations": [],
@@ -21,9 +10,14 @@
         "immediate": false,
         "ignoreCase": false
     },
+    "modes": [],
+    "type": "folder",
     "filter": {
         "isRecursive": false,
         "regex": null
     },
-    "store": {}
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    }
 }

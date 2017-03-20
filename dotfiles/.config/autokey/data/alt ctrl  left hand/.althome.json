@@ -1,32 +1,32 @@
 {
+    "usageCount": 0,
+    "omitTrigger": false,
+    "type": "phrase",
     "hotkey": {
-        "hotKey": "o",
+        "hotKey": "a",
         "modifiers": [
             "<alt>",
             "<ctrl>"
         ]
     },
-    "modes": [
-        3
-    ],
     "filter": {
         "isRecursive": false,
         "regex": null
     },
-    "usageCount": 229,
+    "sendMode": "kb",
     "abbreviation": {
         "triggerInside": false,
-        "backspace": true,
-        "ignoreCase": false,
-        "immediate": false,
         "abbreviations": [],
-        "wordChars": "[\\w]"
+        "wordChars": "[\\w]",
+        "immediate": false,
+        "ignoreCase": false,
+        "backspace": true
     },
-    "sendMode": "kb",
-    "type": "phrase",
-    "prompt": false,
     "matchCase": false,
+    "modes": [
+        3
+    ],
     "showInTrayMenu": false,
-    "omitTrigger": false,
-    "description": "<page_down>"
+    "prompt": false,
+    "description": "<alt>+<home>"
 }

@@ -1,10 +1,11 @@
 {
-    "usageCount": 168,
+    "usageCount": 0,
     "omitTrigger": false,
     "type": "phrase",
     "hotkey": {
-        "hotKey": "i",
+        "hotKey": "d",
         "modifiers": [
+            "<alt>",
             "<ctrl>"
         ]
     },
@@ -27,5 +28,5 @@
     ],
     "showInTrayMenu": false,
     "prompt": false,
-    "description": "<page_up>"
+    "description": "<alt>+<delete>"
 }
