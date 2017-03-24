@@ -1,6 +1,8 @@
 {
-    "usageCount": 165,
+    "usageCount": 0,
+    "store": {},
     "showInTrayMenu": false,
+    "description": "*right-word",
     "abbreviation": {
         "triggerInside": false,
         "backspace": true,
@@ -9,8 +11,6 @@
         "wordChars": "[\\w]",
         "immediate": false
     },
-    "matchCase": false,
-    "prompt": false,
     "hotkey": {
         "modifiers": [
             "<alt>"
@@ -21,9 +21,10 @@
         "isRecursive": false,
         "regex": null
     },
-    "modes": [],
-    "description": "<ctrl>+<right>",
-    "sendMode": "kb",
-    "type": "phrase",
-    "omitTrigger": false
+    "omitTrigger": false,
+    "type": "script",
+    "prompt": false,
+    "modes": [
+        3
+    ]
 }
