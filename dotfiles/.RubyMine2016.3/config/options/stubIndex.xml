@@ -2,8 +2,11 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="erlang.behaviour.module" />
+        <option value="erlang.all.name" />
         <option value="bash.includers" />
         <option value="bash.var" />
+        <option value="jade.mixin" />
         <option value="bash.scriptCommandReference" />
         <option value="bash.function.name" />
         <option value="bash.included" />

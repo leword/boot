@@ -3,6 +3,7 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/workspace/glassfrog" />
+        <option value="$USER_HOME$" />
         <option value="$USER_HOME$/workspace/glassfrog2" />
         <option value="/tmp/service.py0.tmp" />
         <option value="$USER_HOME$/workspace/webpack-test" />
@@ -19,25 +20,36 @@
     <option name="lastPath" value="$USER_HOME$/workspace/glassfrog" />
     <option name="additionalInfo">
       <map>
+        <entry key="$USER_HOME$">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-163.10154.57" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1501687671221" />
+              <option name="buildTimestamp" value="1484835468942" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/workspace/glassfrog">
           <value>
             <RecentProjectMetaInfo>
               <option name="build" value="RM-163.10154.57" />
               <option name="productionCode" value="RM" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1488667491675" />
-              <option name="buildTimestamp" value="1484835468529" />
+              <option name="projectOpenTimestamp" value="1501688922209" />
+              <option name="buildTimestamp" value="1484835459485" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/workspace/glassfrog2">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="RM-163.7743.60" />
+              <option name="build" value="RM-163.10154.57" />
               <option name="productionCode" value="RM" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1480623615090" />
-              <option name="buildTimestamp" value="1480328324286" />
+              <option name="projectOpenTimestamp" value="1499817793948" />
+              <option name="buildTimestamp" value="1484835467129" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

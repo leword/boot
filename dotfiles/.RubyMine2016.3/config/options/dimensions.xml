@@ -120,7 +120,7 @@
     <location key="CommitChangelistDialog2.0.744.2560.1440" x="124" y="1121" />
     <location key="findTextDialog.0.744.2560.1440" x="459" y="1161" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.744.2560.1440" x="404" y="1073" />
-    <location key="SettingsEditor.0.0.3840.2160@168dpi" x="1077" y="303" />
+    <location key="SettingsEditor.0.0.3840.2160@168dpi" x="493" y="217" />
     <location key="SettingsEditor.0.0.2560.1440@144dpi" x="372" y="129" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.2560.1440" x="1339" y="597" />
     <location key="RollbackChangesDialog.0.0.1920.1080" x="911" y="268" />
@@ -177,6 +177,15 @@
     <location key="RollbackChangesDialog.0.0.3840.2160@192dpi" x="1177" y="533" />
     <location key="#Intentions.0.0.3840.2160@192dpi" x="1256" y="234" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.3840.2160@192dpi" x="1251" y="785" />
+    <location key="findTextDialog.0.0.3840.2160@168dpi" x="1333" y="622" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.3840.2160@168dpi" x="1640" y="430" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3840.2160@168dpi" x="1338" y="621" />
+    <location key="#xdebugger.evaluate.0.0.3840.2160@168dpi" x="1855" y="797" />
+    <location key="findTextDialog.0.0.5280.2560@168dpi" x="1895" y="853" />
+    <location key="SettingsEditor.0.0.5280.2560@168dpi" x="265" y="689" />
+    <location key="findTextDialog.0.176.3840.2160@168dpi" x="2290" y="780" />
+    <location key="SettingsEditor.0.176.3840.2160@168dpi" x="52" y="665" />
+    <location key="CommitChangelistDialog2.0.176.3840.2160@168dpi" x="94" y="262" />
     <size key="FileChooserDialogImpl.0.0.2560.1440" width="426" height="490" />
     <size key="SettingsEditor.0.0.2560.1440" width="1514" height="1415" />
     <size key="CommitChangelistDialog2.0.0.2560.1440" width="2283" height="1415" />
@@ -594,6 +603,48 @@
     <size key="RollbackChangesDialog.0.0.3840.2160@192dpi" width="1043" height="1181" />
     <size key="#Intentions.0.0.3840.2160@192dpi" width="1921" height="1895" />
     <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.3840.2160@192dpi" width="1343" height="633" />
+    <size key="findTextDialog.0.0.3840.2160@168dpi" width="815" height="936" />
+    <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.3840.2160@168dpi" width="551" height="1298" />
+    <size key="GridCell.Tab.0.left.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.0.center.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.0.right.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.0.bottom.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="SettingsEditor.0.0.3840.2160@168dpi" width="1808" height="1179" />
+    <size key="GridCell.Tab.1.left.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.1.center.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.1.right.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.1.bottom.0.0.3840.2160@168dpi" width="2166" height="744" />
+    <size key="GridCell.Tab.4.left.0.0.3840.2160@168dpi" width="2910" height="877" />
+    <size key="GridCell.Tab.4.center.0.0.3840.2160@168dpi" width="2910" height="877" />
+    <size key="GridCell.Tab.4.right.0.0.3840.2160@168dpi" width="2910" height="877" />
+    <size key="GridCell.Tab.4.bottom.0.0.3840.2160@168dpi" width="2910" height="877" />
+    <size key="GridCell.Tab.2.left.0.0.3840.2160@168dpi" width="2964" height="878" />
+    <size key="GridCell.Tab.2.center.0.0.3840.2160@168dpi" width="2964" height="878" />
+    <size key="GridCell.Tab.2.right.0.0.3840.2160@168dpi" width="2964" height="878" />
+    <size key="GridCell.Tab.2.bottom.0.0.3840.2160@168dpi" width="2964" height="878" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3840.2160@168dpi" width="1702" height="1162" />
+    <size key="#xdebugger.evaluate.0.0.3840.2160@168dpi" width="909" height="556" />
+    <size key="GridCell.Tab.0.left.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.0.center.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.0.right.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.0.bottom.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.1.left.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.1.center.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.1.right.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="GridCell.Tab.1.bottom.0.0.5280.2560@168dpi" width="2367" height="670" />
+    <size key="findTextDialog.0.0.5280.2560@168dpi" width="815" height="931" />
+    <size key="SettingsEditor.0.0.5280.2560@168dpi" width="1808" height="1179" />
+    <size key="GridCell.Tab.0.left.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.0.center.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.0.right.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.0.bottom.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.1.left.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.1.center.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.1.right.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="GridCell.Tab.1.bottom.0.176.3840.2160@168dpi" width="1918" height="689" />
+    <size key="findTextDialog.0.176.3840.2160@168dpi" width="815" height="931" />
+    <size key="SettingsEditor.0.176.3840.2160@168dpi" width="1808" height="1179" />
+    <size key="CommitChangelistDialog2.0.176.3840.2160@168dpi" width="2951" height="2074" />
     <extendedState key="dock-window-1" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
     <extendedState key="DiffContextDialog" state="0" />

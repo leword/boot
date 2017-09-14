@@ -18,8 +18,6 @@
     <property name="favorites.view.settings.autoscroll.from.source" value="true" />
     <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
     <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
-    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
-    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="OpenOrAttachDialog.OpenMode" value="replace" />
     <property name="run.configuration.alternate.action.ad" value="true" />
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p481/bin/ruby:BASE_20" value="0.2.2.beta8" />
@@ -81,7 +79,7 @@
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p648/bin/ruby:IDE" value="0.6.1.beta3" />
     <property name="rails.run.generators.popup.search.mask" value="migration" />
     <property name="evlsprt3.163" value="19" />
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.43421054" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.2753547" />
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p647/bin/ruby:BASE_20" value="0.2.2.beta9" />
     <property name="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p647/bin/ruby:IDE" value="0.6.1.beta3" />
     <property name="ActionMacroConfigurationPanel.SPLITTER_PROPORTION" value="0.5" />
@@ -90,8 +88,9 @@
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="LayoutCode.rearrangeEntriesYAML" value="false" />
     <property name="$USER_HOME$/.rubies/ruby-2.2.5/bin/ruby:BASE_20" value="0.2.2.beta9" />
-    <property name="$USER_HOME$/.rubies/ruby-2.2.5/bin/ruby:IDE" value="0.6.1.beta3" />
+    <property name="$USER_HOME$/.rubies/ruby-2.2.5/bin/ruby:IDE" value="0.6.1.beta4" />
     <property name="LAST_INJECTED_LANGUAGE" value="ruby" />
     <property name="fileTypeChangedCounter" value="1" />
+    <property name="LOG_FILTER_HISTORY" value="Event" />
   </component>
 </application>
