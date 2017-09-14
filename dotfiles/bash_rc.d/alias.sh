@@ -3,4 +3,5 @@ alias nocaps='/usr/bin/setxkbmap -option "ctrl:nocaps"'
 alias togglecaps='xdotool key Caps_Lock'
 alias gl="git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(refname:short)'"
 alias s="spring"
+alias k="./node_modules/.bin/karma"
 
