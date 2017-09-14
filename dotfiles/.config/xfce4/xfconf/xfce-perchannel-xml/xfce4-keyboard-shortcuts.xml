@@ -172,6 +172,10 @@
       <property name="&lt;Primary&gt;n" type="string" value="down_key"/>
       <property name="&lt;Primary&gt;b" type="string" value="left_key"/>
       <property name="&lt;Primary&gt;f" type="string" value="right_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;h" type="string" value="fill_horiz_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;i" type="string" value="fill_vert_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;h" type="string" value="maximize_horiz_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;i" type="string" value="maximize_vert_key"/>
     </property>
   </property>
   <property name="providers" type="array">
