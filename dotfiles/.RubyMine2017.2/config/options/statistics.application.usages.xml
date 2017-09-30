@@ -1,0 +1,189 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="file-type">
+      <project id="glassfrog2" values="Images,HTML,YAML,PLAIN_TEXT,Docker file,HAML,SCSS,RXML,XML,Native,Handlebars/Mustache,CSS,RbenvGemsets,JSON,JavaScript,EB Extensions config,Bash,UNKNOWN,Git file,Ruby,Markdown,JSX Harmony,RHTML,htaccess" collectionTime="1499820505234" />
+      <project id="game-of-life" values="Git file,PLAIN_TEXT,RbenvGemsets,Ruby" collectionTime="1502828935246" />
+      <project id="glassfrog" values="htaccess,Git file,Handlebars/Mustache,Ruby,Native,Bash,JavaScript,Dockerfile,Haml,RXML,HTML,SourceMap,CSS,ESLint file,RbenvGemsets,XML,PLAIN_TEXT,Erlang Terms,JSON,JSX Harmony,UNKNOWN,Markdown,RHTML,YAML,Docker file,SCSS,Images" collectionTime="1506723211642" />
+      <project id="boot" values="XML,PLAIN_TEXT,Git file,Markdown,JSON,UNKNOWN,ARCHIVE,Bash" collectionTime="1446781048793" />
+      <project id="github-graphql-relay-example" values="Markdown,JavaScript,PLAIN_TEXT,JSON,Images,Git file,HTML,XML,UNKNOWN,GraphQL Schema,CSS" collectionTime="1502415289851" />
+      <project id="webpack-test" values="UNKNOWN,JavaScript,XML,HTML,PLAIN_TEXT" collectionTime="1456367377592" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="glassfrog2" values="rails 4.1" collectionTime="1499820505248" />
+      <project id="game-of-life" values="plain ruby" collectionTime="1502828935255" />
+      <project id="glassfrog" values="rails 4.2" collectionTime="1506723211651" />
+      <project id="boot" values="plain ruby" collectionTime="1446781048797" />
+      <project id="github-graphql-relay-example" values="plain ruby" collectionTime="1502415289853" />
+      <project id="webpack-test" values="plain ruby" collectionTime="1456367377593" />
+    </group>
+    <group name="images.ide.background">
+      <project id="glassfrog" values="frame=0,editor=0" collectionTime="1506723211652" />
+      <project id="github-graphql-relay-example" values="editor 0,frame 0" collectionTime="1502415289854" />
+      <project id="game-of-life" values="frame 0,editor 0" collectionTime="1502828935267" />
+      <project id="glassfrog2" values="editor 0,frame 0" collectionTime="1499820505258" />
+    </group>
+    <group name="ruby-not-empty-gemsets">
+      <project id="glassfrog" values="rbenv 0.0,rvm 0.0" collectionTime="1506723211652" />
+      <project id="github-graphql-relay-example" values="rbenv 0.0,rvm 0.0" collectionTime="1502415289854" />
+      <project id="game-of-life" values="rvm 0.0,rbenv 0.0" collectionTime="1502828935267" />
+      <project id="glassfrog2" values="rbenv 0.0,rvm 0.0" collectionTime="1499820505258" />
+    </group>
+    <group name="frameworks">
+      <project id="glassfrog" values="RailsFacetType" collectionTime="1506723211614" />
+      <project id="glassfrog2" values="RailsFacetType" collectionTime="1499820505202" />
+    </group>
+    <group name="vcs">
+      <project id="boot" values="Git" collectionTime="1446781048786" />
+      <project id="github-graphql-relay-example" values="Git" collectionTime="1502415289843" />
+      <project id="glassfrog" values="Git" collectionTime="1506723211614" />
+      <project id="glassfrog2" values="Git" collectionTime="1499820505201" />
+      <project id="game-of-life" values="Git" collectionTime="1502828935226" />
+    </group>
+    <group name="ruby-gemsets-7/8-percentile">
+      <project id="glassfrog" values="rvm 2" collectionTime="1506723211652" />
+      <project id="github-graphql-relay-example" values="rvm 2" collectionTime="1502415289853" />
+      <project id="game-of-life" values="rvm 2" collectionTime="1502828935258" />
+      <project id="glassfrog2" values="rvm 2" collectionTime="1499820505252" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="glassfrog" values="JavaScriptTestRunnerJest,TestUnitRunConfigurationType" collectionTime="1506723211615" />
+      <project id="game-of-life" values="TestUnitRunConfigurationType" collectionTime="1502828935228" />
+      <project id="glassfrog2" values="TestUnitRunConfigurationType,RakeRunConfigurationType" collectionTime="1499820505203" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="glassfrog2" values="ruby-2.2.5-p319" collectionTime="1499820505248" />
+      <project id="game-of-life" values="ruby-2.2.5-p319" collectionTime="1502828935254" />
+      <project id="glassfrog" values="ruby-2.2.5-p319" collectionTime="1506723211651" />
+      <project id="boot" values="ruby-2.0.0-p481" collectionTime="1446781048796" />
+      <project id="github-graphql-relay-example" values="ruby-2.3.0 [2.3]" collectionTime="1502415289853" />
+      <project id="webpack-test" values="ruby-2.0.0-p481" collectionTime="1456367377593" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="glassfrog" values="data.commit.count.1K+,data.git.root.count.1,data.users.count.100+,data.branches.count.500+" collectionTime="1506723211651" />
+      <project id="github-graphql-relay-example" values="data.branches.count.1+,data.commit.count.1+,data.git.root.count.1,data.users.count.1+" collectionTime="1502415289852" />
+      <project id="game-of-life" values="data.branches.count.10+,data.users.count.1+,data.commit.count.1+,data.git.root.count.1" collectionTime="1502828935250" />
+      <project id="glassfrog2" values="data.commit.count.10K+,data.git.root.count.1" collectionTime="1499820505246" />
+    </group>
+    <group name="ruby-all-sdks">
+      <project id="glassfrog" values="4" collectionTime="1506723211651" />
+      <project id="github-graphql-relay-example" values="4" collectionTime="1502415289853" />
+      <project id="game-of-life" values="4" collectionTime="1502828935256" />
+      <project id="glassfrog2" values="4" collectionTime="1499820505250" />
+    </group>
+    <group name="vcs-options">
+      <project id="glassfrog" values="include.text.into.shelf.enabled,offer.move.failed.committed.do_nothing_silently,offer.move.partially.committed.disabled,show.changes.preview.disabled,perform.add_remove.in.background.enabled,commit.before.reformat.file.disabled,changelist.make.new.active.disabled,commit.before.check.files.up.to.date.disabled,commit.show.unversioned.enabled,perform.rollback.in.background.disabled,commit.before.check.non.empty.comment.disabled,check.conflicts.in.background.disabled,perform.update.in.background.enabled,perform.checkout.in.background.enabled,commit.before.check.code.smell.disabled,commit.before.check.todo.enabled,commit.before.reformat.project.disabled,commit.before.check.code.cleanup.disabled,commit.use.right.margin.enabled,offer.remove.empty.changelist.show_confirmation,changelist.preselect.existing.disabled,commit.before.rearrange.disabled,perform.commit.in.background.enabled,commit.clear.initial.comment.disabled,perform.edit.in.background.enabled,commit.before.optimize.imports.disabled" collectionTime="1506723211614" />
+      <project id="github-graphql-relay-example" values="check.conflicts.in.background.disabled,perform.update.in.background.enabled,commit.before.check.code.cleanup.disabled,perform.checkout.in.background.enabled,changelist.preselect.existing.disabled,perform.commit.in.background.enabled,perform.rollback.in.background.disabled,commit.before.check.code.smell.disabled,commit.before.check.files.up.to.date.disabled,show.changes.preview.disabled,commit.clear.initial.comment.disabled,offer.move.failed.committed.do_nothing_silently,commit.before.rearrange.disabled,commit.before.reformat.project.disabled,commit.show.unversioned.enabled,perform.edit.in.background.enabled,offer.move.partially.committed.disabled,offer.remove.empty.changelist.show_confirmation,commit.use.right.margin.enabled,include.text.into.shelf.enabled,commit.before.optimize.imports.disabled,commit.before.check.todo.enabled,changelist.make.new.active.disabled,perform.add_remove.in.background.enabled,commit.before.check.non.empty.comment.disabled,commit.before.reformat.file.disabled" collectionTime="1502415289843" />
+      <project id="game-of-life" values="commit.before.check.code.smell.disabled,perform.add_remove.in.background.enabled,include.text.into.shelf.enabled,changelist.preselect.existing.disabled,perform.checkout.in.background.enabled,check.conflicts.in.background.disabled,offer.move.partially.committed.disabled,perform.update.in.background.enabled,offer.remove.empty.changelist.show_confirmation,commit.before.reformat.file.disabled,commit.before.rearrange.disabled,commit.before.check.files.up.to.date.disabled,commit.before.check.code.cleanup.disabled,commit.use.right.margin.enabled,commit.before.optimize.imports.disabled,commit.show.unversioned.enabled,commit.clear.initial.comment.disabled,commit.before.check.todo.enabled,offer.move.failed.committed.do_nothing_silently,commit.before.check.non.empty.comment.disabled,perform.edit.in.background.enabled,show.changes.preview.disabled,perform.commit.in.background.enabled,commit.before.reformat.project.disabled,changelist.make.new.active.disabled,perform.rollback.in.background.disabled" collectionTime="1502828935227" />
+    </group>
+    <group name="Git">
+      <project id="glassfrog" values="config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,data.remote.branches.count.100+,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,data.local.branches.count.30+,data.remotes.in.project.1" collectionTime="1506723211653" />
+      <project id="github-graphql-relay-example" values="config.warn.about.detached.enabled,data.local.branches.count.1,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.save.policy.STASH,data.remote.branches.count.1" collectionTime="1502415289854" />
+      <project id="game-of-life" values="config.push.autoupdate.disabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,data.local.branches.count.5+,data.remote.branches.count.2+,config.force.push.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1502828935267" />
+      <project id="glassfrog2" values="data.local.branches.count.50+,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.100+,config.save.policy.STASH" collectionTime="1499820505258" />
+    </group>
+    <group name="Docker Integration">
+      <project id="glassfrog" values="docker.runConfigs.jsonFile=0,docker.accounts.total.1-0,docker.runConfigs.dockerfile=0,docker.runConfigs.image=0,docker.accounts.total=0,docker.fileType.dockerfile.patterns,docker.runConfigs.debug=0,docker.runConfigs.total=0,docker.accounts.machines=0,docker.runConfigs.publishAllPorts=0,docker.accounts.registry.1-0,docker.fileType.dockerfile.patterns.1,docker.runConfigs.command=0,docker.runConfigs.entrypoint=0,docker.runConfigs.total.1-0,docker.accounts.registry=0,docker.view.not-registered,docker.runConfigs.compose=0" collectionTime="1506723211653" />
+      <project id="github-graphql-relay-example" values="docker.runConfigs.entrypoint 0,docker.accounts.registry 0,docker.fileType.dockerfile.patterns,docker.fileType.dockerfile.patterns.1,docker.runConfigs.total.1-0,docker.runConfigs.total 0,docker.runConfigs.compose 0,docker.accounts.total 0,docker.accounts.machines 0,docker.runConfigs.command 0,docker.accounts.registry.1-0,docker.runConfigs.jsonFile 0,docker.runConfigs.publishAllPorts 0,docker.runConfigs.debug 0,docker.accounts.total.1-0,docker.view.not-registered,docker.runConfigs.image 0,docker.runConfigs.dockerfile 0" collectionTime="1502415289857" />
+      <project id="game-of-life" values="docker.runConfigs.total 0,docker.accounts.total 0,docker.runConfigs.jsonFile 0,docker.accounts.registry.1-0,docker.fileType.dockerfile.patterns,docker.accounts.registry 0,docker.runConfigs.dockerfile 0,docker.runConfigs.compose 0,docker.runConfigs.entrypoint 0,docker.runConfigs.image 0,docker.accounts.total.1-0,docker.runConfigs.command 0,docker.runConfigs.total.1-0,docker.runConfigs.publishAllPorts 0,docker.accounts.machines 0,docker.fileType.dockerfile.patterns.1,docker.view.not-registered,docker.runConfigs.debug 0" collectionTime="1502828935410" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="glassfrog" values="webpacker,schema_plus_indexes,activejob,globalid,capybara-webkit,spring-commands-testunit,pusher,CFPropertyList,bullet,innertube,delayed_job,bcrypt,fog-rackspace,schema_plus_compatibility,minitest-ci,slop,actionmailer,launchy,ast,formatador,ref,axlsx,oauth2,multi_xml,pry,fog-riakcs,mysql2,active_model_serializers,spreadsheet,rbvmomi,daemons,fog-ecloud,crass,devise-i18n,fog-cloudatcost,descendants_tracker,htmlentities,autoprefixer-rails,metaclass,secure_headers,knapsack,activemodel,i18n-js,ruby-saml,fog-terremark,htmldiff,ffi,numbers_and_words,disposable,schema_plus_foreign_keys,httparty,fission,jsonapi-serializers,translation,eventmachine,rest-client,jasmine-core,jwt,key_struct,net-ssh,connection_pool,declarative-builder,lograge,execjs,railties,fog-powerdns,fog-vsphere,non-stupid-digest-assets,slack-notifier,byebug,dynamic_form,babel-transpiler,thor,trollop,browser,cdnjs-rails,erubis,sprockets_uglifier_with_source_maps,rails,graphql,rinku,stripe,fog-softlayer,modware,parallel_tests,fog-openstack,gettext,fog-voxel,graphql-batch,dogstatsd-ruby,schema_plus_db_default,promise.rb,sass-rails,pry-byebug,hoe,ts-delayed-delta,carrierwave-i18n,devise-encryptable,rainbow,unf,css_parser,inflecto,pusher-client,declarative,kgio,newrelic_rpm,concurrent-ruby,text,actionpack,schema_plus_columns,capybara,minitest-reporters,schema_plus_views,riddle,activesupport,react-rails,fog-xenserver,thread_safe,uniform_notifier,coercible,parser,request_store,reform,declarative-option,jquery-validation-rails,jasmine,pry-rails,sprockets-rails,rack-attack,flying-sphinx,binding_of_caller,schema_plus_tables,faraday,stripe-ruby-mock,sass,globalize,pusher-signature,font-awesome-rails,omniauth-oauth2,engineyard-cloud-client,reform-rails,faker,mime-types,method_source,rubocop,ansi,dante,delayed_job_active_record,sprockets,storext,useragent,auto_complete,locale,fog-brightbox,schema_plus_enums,fog-json,spring,unicorn,acts_as_votable,multipart-post,minitest-stub-const,bundler,omniauth-google-oauth2,coderay,mail,schema_plus,fog-serverlove,fog-dynect,schema_auto_foreign_keys,jsondiff,unf_ext,schema_plus_core,ice_nine,require_all,sanitize,aasm,arel,fog-sakuracloud,fog-storm_on_demand,fog-profitbricks,uglifier,selenium-webdriver,axiom-types,capybara-slow_finder_errors,libv8,i18n,middleware,capybara-screenshot,minitest-spec-rails,dalli,its-it,engineyard,acts_as_list,domain_name,valuable,raindrops,escape,hashie,activerecord-import,pundit,rack-test,fog-aliyun,fog-local,rollbar,premailer,netrc,schema_plus_default_expr,unicode-display_width,active_record_union,rabl,thinking-sphinx,enumerize,json,minitest,fog-aws,omniauth,rake,childprocess,puma,hashdiff,mini_magick,pg,devise,squeel,actionview,carrierwave,rack-ssl,schema_monkey,excon,orm_adapter,rack,xml-simple,ruby-ole,addressable,nokogiri,acts_as_archival,fog,paper_trail,loofah,rails-deprecated_sanitizer,responders,nokogumbo,builder,multi_json,fog-xml,rails-html-sanitizer,schema_plus_pg_indexes,representable,httpclient,babel-source,ruby-progressbar,quiet_assets,tilt,equalizer,premailer-rails,debug_inspector,better_errors,powerpack,foreman,safe_yaml,websocket,dotenv,therubyracer,xpath,fog-radosgw,ey_config,fog-google,tzinfo,intercom-rails,mini_portile2,polyamorous,fog-atmos,virtus,http-cookie,pretender,uber,will_paginate,graphiql-rails,haml,rubyzip,scientist,crack,warden,fog-core,parallel,ipaddress,dotenv-rails,handlebars_assets,fog-vmfusion,rails-dom-testing,timecop,activerecord,pry-remote,engineyard-serverside-adapter,joiner,json-patch,webmock,mocha,highline,phantomjs,pivotal_git_scripts" collectionTime="1506723211651" />
+      <project id="game-of-life" values="minitest,bundler" collectionTime="1502828935255" />
+      <project id="glassfrog2" values="autoprefixer-rails,engineyard,raindrops,polyamorous,jwt,omniauth,non-stupid-digest-assets,delayed_job,mysql2,responders,escape,multi_json,devise-i18n,browser,ey_config,thor,websocket,netrc,domain_name,railties,slack-notifier,acts_as_list,jquery-rails,pry-rails,dotenv,useragent,binding_of_caller,minitest-spec-rails,ruby-progressbar,rake,faraday,websocket-extensions,orm_adapter,daemons,devise,babel-source,unf,intercom-rails,highline,capybara-screenshot,cliver,hoe,mime-types,json,haml,rinku,valuable,font-awesome-rails,sass,slop,jasmine-core,unicorn,stripe,carrierwave,actionpack,actionview,pusher,poltergeist,rubyzip,pusher-signature,thread_safe,mini_magick,rest-client,ipaddress,gettext,dante,fog-core,jquery-validation-rails,rack,webmock,active_model_serializers,pg,spring-commands-testunit,nokogiri,babel-transpiler,acts_as_votable,aasm,pivotal_git_scripts,execjs,capybara,quiet_assets,oauth2,websocket-driver,coderay,connection_pool,handlebars_assets,jsondiff,axlsx,bundler,activemodel,equalizer,rack-test,omniauth-oauth2,will_paginate,auto_complete,safe_yaml,sprockets,better_errors,activerecord,squeel,knapsack,innertube,translation,jsonapi-serializers,eventmachine,formatador,i18n-js,crass,unf_ext,http-cookie,webpack-rails,capybara-slow_finder_errors,phantomjs,crack,mocha,carrierwave-i18n,actionmailer,metaclass,coffee-script-source,newrelic_rpm,jquery-ui-rails,pry,multi_xml,bcrypt,middleware,devise-encryptable,secure_headers,concurrent-ruby,activerecord-import,hashie,pry-remote,premailer-rails,ansi,childprocess,minitest-reporters,stripe-ruby-mock,warden,multipart-post,i18n,fog-json,react-rails,rails,dalli,lograge,foreman,xpath,foundation-rails,sass-rails,httparty,erubis,excon,minitest,tzinfo,ffi,minitest-ci,fog-aws,dynamic_form,riddle,mini_portile2,mail,request_store,thinking-sphinx,htmlentities,locale,kgio,parallel,cdnjs-rails,css_parser,schema_plus,spreadsheet,rails-dom-testing,parallel_tests,spring,puma,pusher-client,joiner,uglifier,ts-delayed-delta,builder,httpclient,paper_trail,capybara-webkit,engineyard-serverside-adapter,acts_as_archival,timecop,fog-xml,engineyard-cloud-client,method_source,rack-attack,addressable,launchy,rack-ssl,public_suffix,premailer,pretender,tilt,json-patch,delayed_job_active_record,htmldiff,pundit,jasmine,sanitize,debug_inspector,rabl,omniauth-google-oauth2,text,flying-sphinx,activesupport,nokogumbo,arel,hashdiff,mimemagic,sprockets-es6,ruby-ole,net-ssh,sprockets-rails,selenium-webdriver,dotenv-rails,minitest-spec" collectionTime="1499820505249" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="glassfrog2" values="Project,Project,Project" collectionTime="1499820505383" />
+      <project id="game-of-life" values="Project" collectionTime="1502828935400" />
+      <project id="glassfrog" values="Directory,Project" collectionTime="1506723211653" />
+      <project id="boot" values="Project,Project" collectionTime="1446781048872" />
+      <project id="github-graphql-relay-example" values="Directory,Project" collectionTime="1502415289856" />
+      <project id="webpack-test" values="Project,Project" collectionTime="1456367377595" />
+    </group>
+    <group name="ruby-version-managers">
+      <project id="glassfrog" values="rvm,other" collectionTime="1506723211651" />
+      <project id="github-graphql-relay-example" values="other,rvm" collectionTime="1502415289853" />
+      <project id="game-of-life" values="rvm,other" collectionTime="1502828935257" />
+      <project id="glassfrog2" values="other,rvm" collectionTime="1499820505251" />
+    </group>
+    <group name="module type">
+      <project id="glassfrog2" values="RUBY_MODULE" collectionTime="1499820505202" />
+      <project id="game-of-life" values="RUBY_MODULE" collectionTime="1502828935227" />
+      <project id="glassfrog" values="RUBY_MODULE" collectionTime="1506723211614" />
+      <project id="boot" values="RUBY_MODULE" collectionTime="1446781048787" />
+      <project id="github-graphql-relay-example" values="RUBY_MODULE" collectionTime="1502415289843" />
+      <project id="webpack-test" values="RUBY_MODULE" collectionTime="1456367377545" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="glassfrog" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1506723211653" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="glassfrog2" values="React JSX" collectionTime="1499820505383" />
+      <project id="game-of-life" values="ECMAScript 5.1" collectionTime="1502828935401" />
+      <project id="glassfrog" values="React JSX" collectionTime="1506723211653" />
+      <project id="boot" values="DEFAULT" collectionTime="1446781048872" />
+      <project id="github-graphql-relay-example" values="React JSX" collectionTime="1502415289856" />
+      <project id="webpack-test" values="DEFAULT" collectionTime="1456367377595" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="glassfrog" values="RailsRunConfigurationType" collectionTime="1506723211615" />
+      <project id="glassfrog2" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="1499820505203" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="275" />
+      <entry feature="StripeButton[Version_Control].shown" count="2" />
+      <entry feature="execute.JavaScriptTestRunnerJest.Debug" count="3" />
+      <entry feature="execute.JavaScriptTestRunnerJest.Run" count="186" />
+      <entry feature="execute.NodeJSConfigurationType.Debug" count="1" />
+      <entry feature="execute.NodeJSConfigurationType.Run" count="4" />
+      <entry feature="execute.RSpecRunConfigurationType.Run" count="2" />
+      <entry feature="execute.RailsRunConfigurationType.Debug" count="79" />
+      <entry feature="execute.RailsRunConfigurationType.Run" count="317" />
+      <entry feature="execute.RakeRunConfigurationType.Debug" count="2" />
+      <entry feature="execute.RakeRunConfigurationType.Run" count="669" />
+      <entry feature="execute.RubyRunConfigurationType.Debug" count="1" />
+      <entry feature="execute.RubyRunConfigurationType.Run" count="21" />
+      <entry feature="execute.TestUnitRunConfigurationType.Debug" count="269" />
+      <entry feature="execute.TestUnitRunConfigurationType.Run" count="2723" />
+      <entry feature="ide.help.debugging.DebugWindow" count="4" />
+      <entry feature="ide.help.ideaInterface.editor" count="5" />
+      <entry feature="ide.help.ideaInterface.run" count="1" />
+      <entry feature="ide.help.top" count="1" />
+      <entry feature="ide.settings.Appearance" count="49" />
+      <entry feature="ide.settings.CSS" count="1" />
+      <entry feature="ide.settings.CodeGlance" count="11" />
+      <entry feature="ide.settings.Code_Style" count="16" />
+      <entry feature="ide.settings.Color_Scheme_Font" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="13" />
+      <entry feature="ide.settings.Console_Font" count="45" />
+      <entry feature="ide.settings.ESLint" count="6" />
+      <entry feature="ide.settings.Font" count="94" />
+      <entry feature="ide.settings.General" count="3" />
+      <entry feature="ide.settings.GraphQL" count="1" />
+      <entry feature="ide.settings.HAML" count="1" />
+      <entry feature="ide.settings.HTML" count="1" />
+      <entry feature="ide.settings.JSON" count="1" />
+      <entry feature="ide.settings.JavaScript" count="17" />
+      <entry feature="ide.settings.Keymap" count="130" />
+      <entry feature="ide.settings.Live_Templates" count="11" />
+      <entry feature="ide.settings.Plugins" count="4" />
+      <entry feature="ide.settings.Project_Structure" count="6" />
+      <entry feature="ide.settings.Ruby" count="3" />
+      <entry feature="ide.settings.Ruby_SDK_and_Gems" count="7" />
+      <entry feature="ide.settings.SCSS" count="1" />
+      <entry feature="ide.settings.Webpack" count="1" />
+      <entry feature="idea.caches.invalidated" count="1" />
+      <entry feature="ideaapp.started" count="353" />
+      <entry feature="json.schema.builtin.completion" count="117" />
+      <entry feature="project.view.pane.ProjectPane" count="1" />
+      <entry feature="terminal.linux" count="20" />
+      <entry feature="uml.ShowDiagram.GemDependency" count="1" />
+      <entry feature="uml.ShowDiagram.RailsDependency" count="1" />
+      <entry feature="vcs.log.GoToHash/Branch/Tag" count="4" />
+      <entry feature="vcs.log.Refresh" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="2" />
+    </counts>
+  </component>
+</application>

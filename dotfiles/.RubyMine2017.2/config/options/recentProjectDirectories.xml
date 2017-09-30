@@ -1,0 +1,94 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/glassfrog" />
+        <option value="$USER_HOME$" />
+        <option value="$USER_HOME$/workspace/game-of-life" />
+        <option value="$USER_HOME$/workspace/ba31acf93f07f8007d99ba365a662d8f" />
+        <option value="$USER_HOME$/workspace/github-graphql-relay-example" />
+        <option value="$USER_HOME$/workspace/glassfrog2" />
+        <option value="/tmp/service.py0.tmp" />
+        <option value="$USER_HOME$/workspace/webpack-test" />
+        <option value="$USER_HOME$/boot/scripts" />
+        <option value="$USER_HOME$/boot" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/glassfrog" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/workspace/glassfrog" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-172.3544.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505947550384" />
+              <option name="buildTimestamp" value="1501238028547" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/ba31acf93f07f8007d99ba365a662d8f">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-172.3544.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1503702973640" />
+              <option name="buildTimestamp" value="1501237992099" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/game-of-life">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-172.3544.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505947530026" />
+              <option name="buildTimestamp" value="1501238007718" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/github-graphql-relay-example">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-172.3544.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1502413489842" />
+              <option name="buildTimestamp" value="1501237989407" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/glassfrog">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-172.3544.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1506550414899" />
+              <option name="buildTimestamp" value="1501238011657" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/glassfrog2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RM-172.3544.29" />
+              <option name="productionCode" value="RM" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1502150694640" />
+              <option name="buildTimestamp" value="1501238032622" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

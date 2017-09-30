@@ -1,0 +1,36 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="EvaluateExpression@DebuggerToolbar" count="1" />
+      <entry action="PinToolwindowTab@RunnerToolbar" count="2" />
+      <entry action="Rerun@DebuggerToolbar" count="3" />
+      <entry action="Rerun@RunnerToolbar" count="55" />
+      <entry action="Resume@DebuggerToolbar" count="5" />
+      <entry action="StepOut@DebuggerToolbar" count="2" />
+      <entry action="StepOver@DebuggerToolbar" count="2" />
+      <entry action="Stop@DebuggerToolbar" count="4" />
+      <entry action="Stop@RunnerToolbar" count="1" />
+      <entry action="UsageView.Rerun@UsageViewToolbar" count="1" />
+      <entry action="XDebugger.NewWatch@DebuggerToolbar" count="2" />
+      <entry action="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction@NavBarToolbar" count="1" />
+      <entry action="com.intellij.execution.ui.actions.CloseAction@DebuggerToolbar" count="6" />
+      <entry action="com.intellij.execution.ui.actions.CloseAction@RunnerToolbar" count="1" />
+      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="17" />
+      <entry action="com.intellij.find.editorHeaderActions.PrevOccurrenceAction@EditorToolbar" count="3" />
+      <entry action="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction@EditorToolbar" count="31" />
+      <entry action="com.intellij.javascript.debugger.actions.ToggleExceptionBreakpointAction@DebuggerToolbar" count="2" />
+      <entry action="com.intellij.lang.jsgraphql.ide.actions.JSGraphQLEditEndpointsAction@EditorToolbar" count="1" />
+      <entry action="com.intellij.lang.jsgraphql.ide.actions.JSGraphQLRestartLanguageServiceAction@CompilerMessagesToolbar" count="1" />
+      <entry action="com.intellij.lang.jsgraphql.ide.actions.JSGraphQLToggleVariablesAction@EditorToolbar" count="4" />
+      <entry action="com.intellij.openapi.actionSystem.DefaultActionGroup@DebuggerToolbar" count="2" />
+      <entry action="com.intellij.openapi.keymap.impl.ui.KeymapPanel$9@Keymap" count="2" />
+      <entry action="com.intellij.openapi.roots.ui.configuration.actions.ToggleExcludedStateAction@ProjectStructureContentEntries" count="13" />
+      <entry action="com.intellij.openapi.roots.ui.configuration.actions.ToggleSourcesStateAction@ProjectStructureContentEntries" count="1" />
+      <entry action="com.intellij.openapi.vcs.ex.CopyLineStatusRangeAction@toolbar" count="2" />
+      <entry action="com.intellij.openapi.vcs.ex.RollbackLineStatusRangeAction@toolbar" count="45" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="3" />
+      <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorOnlyLayoutChangeAction@EditorToolbar" count="1" />
+      <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction@EditorToolbar" count="1" />
+    </counts>
+  </component>
+</application>
