@@ -1,0 +1,14 @@
+[user]
+	email = lewis.hoffman@gmail.com
+	name = Lewis Hoffman
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+[push]
+	default = current
+[core]
+	editor = vi
+	autocrlf = input
