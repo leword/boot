@@ -17,7 +17,7 @@ function link_dir {
 
 ## RUBYMINE
 
-RUBYMINE="RubyMine2016.3"
+RUBYMINE="RubyMine2017.2"
 for DIR in codestyles colors keymaps options inspection quicklists tasks
 do
     ORIG_DIR=~/.$RUBYMINE/config/$DIR
@@ -27,16 +27,6 @@ done
 
 link_dir ~/boot/dotfiles/.$RUBYMINE/glassfrogRunConfigurations ~/workspace/glassfrog/.idea/runConfigurations
 
-
-RUBYMINE="RubyMine2016.2"
-for DIR in codestyles colors keymaps options inspection quicklists tasks
-do
-    ORIG_DIR=~/.$RUBYMINE/config/$DIR
-    BOOT_DIR=~/boot/dotfiles/.$RUBYMINE/config/$DIR
-    link_dir $BOOT_DIR $ORIG_DIR
-done
-
-link_dir ~/boot/dotfiles/.$RUBYMINE/glassfrogRunConfigurations ~/workspace/glassfrog/.idea/runConfigurations
 
 
 ## AUTOKEY
