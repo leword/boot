@@ -1,30 +1,30 @@
 {
-    "usageCount": 20,
-    "hotkey": {
-        "hotKey": " ",
-        "modifiers": [
-            "<ctrl>"
-        ]
-    },
-    "omitTrigger": false,
+    "usageCount": 21,
     "showInTrayMenu": false,
-    "store": {},
-    "modes": [
-        3
-    ],
-    "description": "*launcher",
-    "abbreviation": {
-        "immediate": false,
-        "ignoreCase": false,
-        "backspace": true,
-        "wordChars": "[\\w]",
-        "triggerInside": false,
-        "abbreviations": []
-    },
     "type": "script",
     "prompt": false,
+    "store": {},
+    "omitTrigger": false,
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": " "
+    },
+    "abbreviation": {
+        "triggerInside": false,
+        "wordChars": "[\\w]",
+        "backspace": true,
+        "immediate": false,
+        "abbreviations": [],
+        "ignoreCase": false
+    },
+    "description": "*launcher",
     "filter": {
         "isRecursive": false,
         "regex": null
-    }
+    },
+    "modes": [
+        3
+    ]
 }
