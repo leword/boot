@@ -8,5 +8,4 @@ do
 done
 
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 alias db='psql r3_holacracy_tool_dev'
