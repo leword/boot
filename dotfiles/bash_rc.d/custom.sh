@@ -6,9 +6,10 @@ export SPHINX_PATH="/usr/bin"
 
 
 export PATH="$PATH:$HOME/.local/bin"
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
 
 export PAPERTRAIL_API_TOKEN=W1p3Xwe4N9uffOaqO7J
 export PARALLEL_TEST_FIRST_IS_1=true
-
+export GOPATH=${HOME}/workspace/go
+export PATH="$GOPATH/bin:$PATH"
+export PATH="/usr/local/opt/gettext/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
