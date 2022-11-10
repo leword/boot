@@ -1,30 +1,28 @@
 {
-    "store": {},
-    "modes": [
-        3
-    ],
-    "prompt": false,
+    "type": "script",
     "description": "*select-word",
-    "hotkey": {
-        "hotKey": "w",
-        "modifiers": [
-            "<alt>"
-        ]
-    },
+    "store": {},
+    "modes": [],
+    "usageCount": 40,
+    "prompt": false,
+    "omitTrigger": false,
     "showInTrayMenu": false,
-    "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "usageCount": 32,
     "abbreviation": {
-        "triggerInside": false,
+        "abbreviations": [],
         "backspace": true,
         "ignoreCase": false,
         "immediate": false,
-        "abbreviations": [],
+        "triggerInside": false,
         "wordChars": "[\\w]"
     },
-    "omitTrigger": false,
-    "type": "script"
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "w"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
 }

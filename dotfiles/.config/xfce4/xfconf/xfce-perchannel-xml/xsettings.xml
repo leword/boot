@@ -12,9 +12,10 @@
     <property name="SoundThemeName" type="empty"/>
     <property name="EnableEventSounds" type="empty"/>
     <property name="EnableInputFeedbackSounds" type="empty"/>
+    <property name="FallbackIconTheme" type="empty"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="156"/>
+    <property name="DPI" type="int" value="-1"/>
     <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="empty"/>
     <property name="HintStyle" type="string" value="hintfull"/>
@@ -25,6 +26,7 @@
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
     <property name="FontName" type="string" value="Noto Sans 10"/>
+    <property name="MonospaceFontName" type="empty"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
     <property name="ToolbarStyle" type="empty"/>
@@ -35,8 +37,13 @@
     <property name="CursorThemeName" type="empty"/>
     <property name="CursorThemeSize" type="empty"/>
     <property name="DecorationLayout" type="empty"/>
+    <property name="DialogsUseHeader" type="empty"/>
+    <property name="TitlebarMiddleClick" type="empty"/>
+  </property>
+  <property name="Gdk" type="empty">
+    <property name="WindowScalingFactor" type="empty"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="LastCustomDPI" type="int" value="156"/>
+    <property name="LastCustomDPI" type="int" value="152"/>
   </property>
 </channel>

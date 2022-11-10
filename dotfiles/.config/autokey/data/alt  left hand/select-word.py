@@ -1,3 +1,5 @@
+import re
+
 if re.match('.*Proxy.*', window.get_active_class()):
     keyboard.send_keys("<alt>+w")
 else:

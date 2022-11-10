@@ -1,1 +1,1 @@
-<alt>+<down>
+<ctrl>+<down>

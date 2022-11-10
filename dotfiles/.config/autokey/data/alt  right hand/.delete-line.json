@@ -1,30 +1,30 @@
 {
+    "type": "script",
+    "description": "*delete-line",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 21,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
     "hotkey": {
         "modifiers": [
             "<alt>"
         ],
         "hotKey": "y"
     },
-    "modes": [
-        3
-    ],
-    "abbreviation": {
-        "ignoreCase": false,
-        "triggerInside": false,
-        "immediate": false,
-        "wordChars": "[\\w]",
-        "abbreviations": [],
-        "backspace": true
-    },
-    "showInTrayMenu": false,
     "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "type": "script",
-    "omitTrigger": false,
-    "usageCount": 21,
-    "prompt": false,
-    "store": {},
-    "description": "*delete-line"
+        "regex": null,
+        "isRecursive": false
+    }
 }

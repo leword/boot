@@ -11,6 +11,7 @@
     <property name="click_to_focus" type="bool" value="true"/>
     <property name="cycle_apps_only" type="bool" value="false"/>
     <property name="cycle_draw_frame" type="bool" value="true"/>
+    <property name="cycle_preview" type="bool" value="true"/>
     <property name="double_click_distance" type="int" value="5"/>
     <property name="double_click_time" type="int" value="250"/>
     <property name="focus_delay" type="int" value="5"/>
@@ -48,15 +49,15 @@
     <property name="urgent_blink" type="bool" value="false"/>
     <property name="use_compositing" type="bool" value="false"/>
     <property name="workspace_count" type="int" value="4"/>
+    <property name="wrap_resistance" type="int" value="10"/>
+    <property name="wrap_windows" type="bool" value="true"/>
+    <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="workspace_names" type="array">
       <value type="string" value="Personal Context &amp; Comm."/>
       <value type="string" value="H1 Context &amp; Comm."/>
       <value type="string" value="Main Project/Code space"/>
       <value type="string" value="Supporting Project/Code space"/>
     </property>
-    <property name="wrap_resistance" type="int" value="10"/>
-    <property name="wrap_windows" type="bool" value="true"/>
-    <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="dbl_click_time" type="empty"/>
     <property name="borderless_maximize" type="bool" value="true"/>
     <property name="cycle_hidden" type="bool" value="true"/>
@@ -80,10 +81,14 @@
     <property name="unredirect_overlays" type="bool" value="true"/>
     <property name="wrap_cycle" type="bool" value="true"/>
     <property name="wrap_layout" type="bool" value="true"/>
-    <property name="cycle_preview" type="bool" value="true"/>
     <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="horiz_scroll_opacity" type="bool" value="false"/>
     <property name="titleless_maximize" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
+    <property name="cycle_raise" type="bool" value="false"/>
+    <property name="frame_border_top" type="int" value="0"/>
+    <property name="vblank_mode" type="string" value="auto"/>
+    <property name="cycle_minimized" type="bool" value="false"/>
+    <property name="zoom_pointer" type="bool" value="true"/>
   </property>
 </channel>

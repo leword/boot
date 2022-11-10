@@ -1,15 +1,21 @@
 {
-    "usageCount": 0,
-    "store": {},
-    "showInTrayMenu": false,
+    "type": "script",
     "description": "*left-word",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 2,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
     "abbreviation": {
-        "triggerInside": false,
+        "abbreviations": [],
         "backspace": true,
         "ignoreCase": false,
-        "abbreviations": [],
-        "wordChars": "[\\w]",
-        "immediate": false
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
     },
     "hotkey": {
         "modifiers": [
@@ -18,13 +24,7 @@
         "hotKey": "b"
     },
     "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "omitTrigger": false,
-    "type": "script",
-    "prompt": false,
-    "modes": [
-        3
-    ]
+        "regex": null,
+        "isRecursive": false
+    }
 }
