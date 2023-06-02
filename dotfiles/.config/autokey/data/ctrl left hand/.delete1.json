@@ -19,10 +19,7 @@
     },
     "hotkey": {
         "modifiers": [
-            "<alt>",
-            "<ctrl>",
-            "<shift>",
-            "<super>"
+            "<ctrl>"
         ],
         "hotKey": "d"
     },

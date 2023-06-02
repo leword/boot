@@ -1,10 +1,10 @@
 {
     "type": "phrase",
-    "description": "<ctrl>+f (search)",
+    "description": "<ctrl>+,",
     "modes": [
         3
     ],
-    "usageCount": 65,
+    "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
     "matchCase": false,
@@ -21,7 +21,7 @@
         "modifiers": [
             "<alt>"
         ],
-        "hotKey": "s"
+        "hotKey": ","
     },
     "filter": {
         "regex": null,
